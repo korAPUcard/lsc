@@ -73,9 +73,39 @@ namespace LifeSupportCalculator.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_dt_battery_alert {
+            get {
+                object obj = ResourceManager.GetObject("icon_dt_battery_alert", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_dt_battery_charging_full {
             get {
                 object obj = ResourceManager.GetObject("icon_dt_battery_charging_full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_dt_battery_full {
+            get {
+                object obj = ResourceManager.GetObject("icon_dt_battery_full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_dt_battery_unknown {
+            get {
+                object obj = ResourceManager.GetObject("icon_dt_battery_unknown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

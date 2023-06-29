@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="48"
+   viewBox="0 -960 960 960"
+   width="48"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="icon_dt_battery_unknown.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="17.708333"
+     inkscape:cx="16.997647"
+     inkscape:cy="24.028235"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="1071"
+     inkscape:window-y="422"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M322-84q-16.5 0-28-11.612t-11.5-27.777v-634.222q0-16.165 11.5-27.777Q305.5-797 322-797h80v-79.5h156.5v79.5h80q16 0 27.75 11.61T678-757.618V-123.5q0 16.5-11.628 28T638.556-84H322Zm151.381-164q13.619 0 23.869-9.949t10.25-24Q507.5-296 497.369-306q-10.132-10-24-10-13.869 0-23.869 9.949t-10 24q0 14.051 9.929 24.051 9.929 10 23.952 10ZM450-368h47.5q0-31.463 13.5-50.145 13.5-18.683 29-35.855 17.19-16.5 30.095-34.25Q583-506 583-532.942q0-47.638-29.664-74.348Q523.671-634 473.5-634q-37.374 0-66.687 20.5Q377.5-593 365-557.5l44.5 15.5q7.5-22 24.375-34.25T473.5-588.5q29 0 45.5 14t16.5 40q0 23-13 37T493-467.75q-16 15.75-29.5 37.629Q450-408.242 450-368Z"
+     id="path2"
+     style="fill:#ffffff" />
+</svg>

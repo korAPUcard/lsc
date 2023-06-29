@@ -34,7 +34,13 @@ namespace LifeSupportCalculator
             this.imgList = new System.Windows.Forms.ImageList(this.components);
             this.mTabC1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPg1 = new System.Windows.Forms.TabPage();
-            this.pbIcon_DTemp = new System.Windows.Forms.PictureBox();
+            this.tabPg2 = new System.Windows.Forms.TabPage();
+            this.tLayoutT2 = new System.Windows.Forms.TableLayoutPanel();
+            this.mTabS1 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.mTabC2 = new MaterialSkin.Controls.MaterialTabControl();
+            this.tabPgT2A = new System.Windows.Forms.TabPage();
+            this.tabPgT2B = new System.Windows.Forms.TabPage();
+            this.tabPgT2C = new System.Windows.Forms.TabPage();
             this.mCardT2_StatusStrip = new MaterialSkin.Controls.MaterialCard();
             this.fLayoutT1_1 = new System.Windows.Forms.FlowLayoutPanel();
             this.pbIcon_Proc = new System.Windows.Forms.PictureBox();
@@ -46,30 +52,24 @@ namespace LifeSupportCalculator
             this.pbIcon_Batt = new System.Windows.Forms.PictureBox();
             this.mPB_Batt = new MaterialSkin.Controls.MaterialProgressBar();
             this.mDivT2_SS3 = new MaterialSkin.Controls.MaterialDivider();
-            this.tabPg2 = new System.Windows.Forms.TabPage();
-            this.tLayoutT2 = new System.Windows.Forms.TableLayoutPanel();
-            this.mTabS1 = new MaterialSkin.Controls.MaterialTabSelector();
-            this.mTabC2 = new MaterialSkin.Controls.MaterialTabControl();
-            this.tabPgT2A = new System.Windows.Forms.TabPage();
-            this.tabPgT2B = new System.Windows.Forms.TabPage();
-            this.tabPgT2C = new System.Windows.Forms.TabPage();
+            this.pbIcon_DTemp = new System.Windows.Forms.PictureBox();
+            this.mPB_DTemp = new MaterialSkin.Controls.MaterialProgressBar();
             this.tabPgT2D = new System.Windows.Forms.TabPage();
             this.nIcon = new System.Windows.Forms.NotifyIcon(this.components);
-            this.mPB_DTemp = new MaterialSkin.Controls.MaterialProgressBar();
             this.pcTimer = new System.Windows.Forms.Timer(this.components);
             this.pcProc = new System.Diagnostics.PerformanceCounter();
             this.pcMem = new System.Diagnostics.PerformanceCounter();
             this.mTabC1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbIcon_DTemp)).BeginInit();
+            this.tabPg2.SuspendLayout();
+            this.tLayoutT2.SuspendLayout();
+            this.mTabC2.SuspendLayout();
+            this.tabPgT2C.SuspendLayout();
             this.mCardT2_StatusStrip.SuspendLayout();
             this.fLayoutT1_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon_Proc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon_Mem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon_Batt)).BeginInit();
-            this.tabPg2.SuspendLayout();
-            this.tLayoutT2.SuspendLayout();
-            this.mTabC2.SuspendLayout();
-            this.tabPgT2C.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbIcon_DTemp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcProc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcMem)).BeginInit();
             this.SuspendLayout();
@@ -111,15 +111,91 @@ namespace LifeSupportCalculator
             this.tabPg1.Text = "Calculator";
             this.tabPg1.UseVisualStyleBackColor = true;
             // 
-            // pbIcon_DTemp
+            // tabPg2
             // 
-            this.pbIcon_DTemp.Image = global::LifeSupportCalculator.Properties.Resources.icon_dt_device_temperature;
-            this.pbIcon_DTemp.Location = new System.Drawing.Point(447, 3);
-            this.pbIcon_DTemp.Name = "pbIcon_DTemp";
-            this.pbIcon_DTemp.Size = new System.Drawing.Size(20, 20);
-            this.pbIcon_DTemp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbIcon_DTemp.TabIndex = 3;
-            this.pbIcon_DTemp.TabStop = false;
+            this.tabPg2.Controls.Add(this.tLayoutT2);
+            this.tabPg2.ImageKey = "icon_settings.ico";
+            this.tabPg2.Location = new System.Drawing.Point(4, 39);
+            this.tabPg2.Name = "tabPg2";
+            this.tabPg2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPg2.Size = new System.Drawing.Size(786, 386);
+            this.tabPg2.TabIndex = 1;
+            this.tabPg2.Text = "Preferences";
+            this.tabPg2.UseVisualStyleBackColor = true;
+            // 
+            // tLayoutT2
+            // 
+            this.tLayoutT2.ColumnCount = 1;
+            this.tLayoutT2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tLayoutT2.Controls.Add(this.mTabS1, 0, 0);
+            this.tLayoutT2.Controls.Add(this.mTabC2, 0, 1);
+            this.tLayoutT2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tLayoutT2.Location = new System.Drawing.Point(3, 3);
+            this.tLayoutT2.Name = "tLayoutT2";
+            this.tLayoutT2.RowCount = 2;
+            this.tLayoutT2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.73684F));
+            this.tLayoutT2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.26316F));
+            this.tLayoutT2.Size = new System.Drawing.Size(780, 380);
+            this.tLayoutT2.TabIndex = 1;
+            // 
+            // mTabS1
+            // 
+            this.mTabS1.BaseTabControl = this.mTabC2;
+            this.mTabS1.CharacterCasing = MaterialSkin.Controls.MaterialTabSelector.CustomCharacterCasing.Normal;
+            this.mTabS1.Depth = 0;
+            this.mTabS1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.mTabS1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.mTabS1.Location = new System.Drawing.Point(3, 3);
+            this.mTabS1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mTabS1.Name = "mTabS1";
+            this.mTabS1.Size = new System.Drawing.Size(774, 48);
+            this.mTabS1.TabIndex = 0;
+            // 
+            // mTabC2
+            // 
+            this.mTabC2.Controls.Add(this.tabPgT2A);
+            this.mTabC2.Controls.Add(this.tabPgT2B);
+            this.mTabC2.Controls.Add(this.tabPgT2C);
+            this.mTabC2.Controls.Add(this.tabPgT2D);
+            this.mTabC2.Depth = 0;
+            this.mTabC2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mTabC2.Location = new System.Drawing.Point(3, 58);
+            this.mTabC2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mTabC2.Multiline = true;
+            this.mTabC2.Name = "mTabC2";
+            this.mTabC2.SelectedIndex = 0;
+            this.mTabC2.Size = new System.Drawing.Size(774, 319);
+            this.mTabC2.TabIndex = 1;
+            // 
+            // tabPgT2A
+            // 
+            this.tabPgT2A.Location = new System.Drawing.Point(4, 25);
+            this.tabPgT2A.Name = "tabPgT2A";
+            this.tabPgT2A.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPgT2A.Size = new System.Drawing.Size(766, 290);
+            this.tabPgT2A.TabIndex = 0;
+            this.tabPgT2A.Text = "General";
+            this.tabPgT2A.UseVisualStyleBackColor = true;
+            // 
+            // tabPgT2B
+            // 
+            this.tabPgT2B.Location = new System.Drawing.Point(4, 25);
+            this.tabPgT2B.Name = "tabPgT2B";
+            this.tabPgT2B.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPgT2B.Size = new System.Drawing.Size(766, 290);
+            this.tabPgT2B.TabIndex = 1;
+            this.tabPgT2B.Text = "Appearances";
+            this.tabPgT2B.UseVisualStyleBackColor = true;
+            // 
+            // tabPgT2C
+            // 
+            this.tabPgT2C.Controls.Add(this.mCardT2_StatusStrip);
+            this.tabPgT2C.Location = new System.Drawing.Point(4, 25);
+            this.tabPgT2C.Name = "tabPgT2C";
+            this.tabPgT2C.Size = new System.Drawing.Size(766, 290);
+            this.tabPgT2C.TabIndex = 2;
+            this.tabPgT2C.Text = "Management";
+            this.tabPgT2C.UseVisualStyleBackColor = true;
             // 
             // mCardT2_StatusStrip
             // 
@@ -217,7 +293,7 @@ namespace LifeSupportCalculator
             // 
             // pbIcon_Batt
             // 
-            this.pbIcon_Batt.Image = global::LifeSupportCalculator.Properties.Resources.icon_dt_battery_charging_full;
+            this.pbIcon_Batt.Image = global::LifeSupportCalculator.Properties.Resources.icon_dt_battery_full;
             this.pbIcon_Batt.Location = new System.Drawing.Point(299, 3);
             this.pbIcon_Batt.Name = "pbIcon_Batt";
             this.pbIcon_Batt.Size = new System.Drawing.Size(20, 20);
@@ -245,91 +321,25 @@ namespace LifeSupportCalculator
             this.mDivT2_SS3.Size = new System.Drawing.Size(10, 20);
             this.mDivT2_SS3.TabIndex = 7;
             // 
-            // tabPg2
+            // pbIcon_DTemp
             // 
-            this.tabPg2.Controls.Add(this.tLayoutT2);
-            this.tabPg2.ImageKey = "icon_settings.ico";
-            this.tabPg2.Location = new System.Drawing.Point(4, 39);
-            this.tabPg2.Name = "tabPg2";
-            this.tabPg2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPg2.Size = new System.Drawing.Size(786, 386);
-            this.tabPg2.TabIndex = 1;
-            this.tabPg2.Text = "Preferences";
-            this.tabPg2.UseVisualStyleBackColor = true;
+            this.pbIcon_DTemp.Image = global::LifeSupportCalculator.Properties.Resources.icon_dt_device_temperature;
+            this.pbIcon_DTemp.Location = new System.Drawing.Point(447, 3);
+            this.pbIcon_DTemp.Name = "pbIcon_DTemp";
+            this.pbIcon_DTemp.Size = new System.Drawing.Size(20, 20);
+            this.pbIcon_DTemp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbIcon_DTemp.TabIndex = 3;
+            this.pbIcon_DTemp.TabStop = false;
             // 
-            // tLayoutT2
+            // mPB_DTemp
             // 
-            this.tLayoutT2.ColumnCount = 1;
-            this.tLayoutT2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tLayoutT2.Controls.Add(this.mTabS1, 0, 0);
-            this.tLayoutT2.Controls.Add(this.mTabC2, 0, 1);
-            this.tLayoutT2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tLayoutT2.Location = new System.Drawing.Point(3, 3);
-            this.tLayoutT2.Name = "tLayoutT2";
-            this.tLayoutT2.RowCount = 2;
-            this.tLayoutT2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.73684F));
-            this.tLayoutT2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.26316F));
-            this.tLayoutT2.Size = new System.Drawing.Size(780, 380);
-            this.tLayoutT2.TabIndex = 1;
-            // 
-            // mTabS1
-            // 
-            this.mTabS1.BaseTabControl = this.mTabC2;
-            this.mTabS1.CharacterCasing = MaterialSkin.Controls.MaterialTabSelector.CustomCharacterCasing.Normal;
-            this.mTabS1.Depth = 0;
-            this.mTabS1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.mTabS1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.mTabS1.Location = new System.Drawing.Point(3, 3);
-            this.mTabS1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mTabS1.Name = "mTabS1";
-            this.mTabS1.Size = new System.Drawing.Size(774, 48);
-            this.mTabS1.TabIndex = 0;
-            // 
-            // mTabC2
-            // 
-            this.mTabC2.Controls.Add(this.tabPgT2A);
-            this.mTabC2.Controls.Add(this.tabPgT2B);
-            this.mTabC2.Controls.Add(this.tabPgT2C);
-            this.mTabC2.Controls.Add(this.tabPgT2D);
-            this.mTabC2.Depth = 0;
-            this.mTabC2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mTabC2.Location = new System.Drawing.Point(3, 58);
-            this.mTabC2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mTabC2.Multiline = true;
-            this.mTabC2.Name = "mTabC2";
-            this.mTabC2.SelectedIndex = 0;
-            this.mTabC2.Size = new System.Drawing.Size(774, 319);
-            this.mTabC2.TabIndex = 1;
-            // 
-            // tabPgT2A
-            // 
-            this.tabPgT2A.Location = new System.Drawing.Point(4, 25);
-            this.tabPgT2A.Name = "tabPgT2A";
-            this.tabPgT2A.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPgT2A.Size = new System.Drawing.Size(766, 290);
-            this.tabPgT2A.TabIndex = 0;
-            this.tabPgT2A.Text = "General";
-            this.tabPgT2A.UseVisualStyleBackColor = true;
-            // 
-            // tabPgT2B
-            // 
-            this.tabPgT2B.Location = new System.Drawing.Point(4, 25);
-            this.tabPgT2B.Name = "tabPgT2B";
-            this.tabPgT2B.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPgT2B.Size = new System.Drawing.Size(766, 290);
-            this.tabPgT2B.TabIndex = 1;
-            this.tabPgT2B.Text = "Appearances";
-            this.tabPgT2B.UseVisualStyleBackColor = true;
-            // 
-            // tabPgT2C
-            // 
-            this.tabPgT2C.Controls.Add(this.mCardT2_StatusStrip);
-            this.tabPgT2C.Location = new System.Drawing.Point(4, 25);
-            this.tabPgT2C.Name = "tabPgT2C";
-            this.tabPgT2C.Size = new System.Drawing.Size(766, 290);
-            this.tabPgT2C.TabIndex = 2;
-            this.tabPgT2C.Text = "Management";
-            this.tabPgT2C.UseVisualStyleBackColor = true;
+            this.mPB_DTemp.Depth = 0;
+            this.mPB_DTemp.Location = new System.Drawing.Point(473, 10);
+            this.mPB_DTemp.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.mPB_DTemp.MouseState = MaterialSkin.MouseState.HOVER;
+            this.mPB_DTemp.Name = "mPB_DTemp";
+            this.mPB_DTemp.Size = new System.Drawing.Size(100, 5);
+            this.mPB_DTemp.TabIndex = 7;
             // 
             // tabPgT2D
             // 
@@ -344,16 +354,6 @@ namespace LifeSupportCalculator
             // 
             this.nIcon.Text = "Life Support Calculator";
             this.nIcon.Visible = true;
-            // 
-            // mPB_DTemp
-            // 
-            this.mPB_DTemp.Depth = 0;
-            this.mPB_DTemp.Location = new System.Drawing.Point(473, 10);
-            this.mPB_DTemp.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
-            this.mPB_DTemp.MouseState = MaterialSkin.MouseState.HOVER;
-            this.mPB_DTemp.Name = "mPB_DTemp";
-            this.mPB_DTemp.Size = new System.Drawing.Size(100, 5);
-            this.mPB_DTemp.TabIndex = 7;
             // 
             // pcTimer
             // 
@@ -391,16 +391,16 @@ namespace LifeSupportCalculator
             this.Text = "Life Support Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.mTabC1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbIcon_DTemp)).EndInit();
+            this.tabPg2.ResumeLayout(false);
+            this.tLayoutT2.ResumeLayout(false);
+            this.mTabC2.ResumeLayout(false);
+            this.tabPgT2C.ResumeLayout(false);
             this.mCardT2_StatusStrip.ResumeLayout(false);
             this.fLayoutT1_1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon_Proc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon_Mem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon_Batt)).EndInit();
-            this.tabPg2.ResumeLayout(false);
-            this.tLayoutT2.ResumeLayout(false);
-            this.mTabC2.ResumeLayout(false);
-            this.tabPgT2C.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbIcon_DTemp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcProc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcMem)).EndInit();
             this.ResumeLayout(false);

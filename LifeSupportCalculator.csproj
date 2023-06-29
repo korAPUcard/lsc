@@ -121,5 +121,14 @@
   <ItemGroup>
     <None Include="Resources\icon_dt_device_temperature.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_dt_battery_full.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_dt_battery_alert.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_dt_battery_unknown.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

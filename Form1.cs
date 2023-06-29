@@ -14,6 +14,8 @@ namespace LifeSupportCalculator
 {
     public partial class Form1 : MaterialForm
     {
+        int _battCap = (int)SystemInformation.PowerStatus.BatteryLifePercent;
+
         public Form1()
         {
             InitializeComponent();
@@ -37,14 +39,41 @@ namespace LifeSupportCalculator
         private void Form1_Load(object sender, EventArgs e)
         {
             pcTimer.Start();
-            mPB_Proc.ForeColor = Color.Cyan;
-            mPB_Mem.ForeColor = Color.Cyan;
         }
 
         private void pcTimer_Tick(object sender, EventArgs e)
         {
             mPB_Proc.Value = (int)pcProc.NextValue();
             mPB_Mem.Value = (int)pcMem.NextValue();
+            if(!SystemInformation.PowerStatus.BatteryChargeStatus.HasFlag(BatteryChargeStatus.NoSystemBattery))
+            {
+                mPB_Batt.Value = 0;
+            }
+            else if(!SystemInformation.PowerStatus.BatteryChargeStatus.HasFlag(BatteryChargeStatus.Unknown))
+            {
+                mPB_Batt.Value = 100;
+            }
+            else
+            {
+                mPB_Batt.Value = _battCap;
+            }
+
+            if(!SystemInformation.PowerStatus.BatteryChargeStatus.HasFlag(BatteryChargeStatus.Charging))
+            {
+                pbIcon_Batt.Image = Properties.Resources.icon_dt_battery_charging_full;
+            }
+            else if(!SystemInformation.PowerStatus.BatteryChargeStatus.HasFlag(BatteryChargeStatus.Critical))
+            {
+                pbIcon_Batt.Image = Properties.Resources.icon_dt_battery_alert;
+            }
+            else if(!SystemInformation.PowerStatus.BatteryChargeStatus.HasFlag(BatteryChargeStatus.Unknown))
+            {
+                pbIcon_Batt.Image = Properties.Resources.icon_dt_battery_unknown;
+            }
+            else
+            {
+                pbIcon_Batt.Image = Properties.Resources.icon_dt_battery_full;
+            }
         }
     }
 }
