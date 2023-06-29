@@ -39,6 +39,12 @@ namespace LifeSupportCalculator
         private void Form1_Load(object sender, EventArgs e)
         {
             pcTimer.Start();
+
+            pT1A.AutoScroll = false;
+            pT1A.HorizontalScroll.Enabled = false;
+            pT1A.HorizontalScroll.Visible = false;
+            pT1A.HorizontalScroll.Maximum = 0;
+            pT1A.AutoScroll = true;
         }
 
         private void pcTimer_Tick(object sender, EventArgs e)
