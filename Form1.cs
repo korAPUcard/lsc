@@ -17,8 +17,9 @@ namespace LifeSupportCalculator
         public Form1()
         {
             InitializeComponent();
-
+            
             this.Icon = Properties.Resources.AppIcon;
+            nIcon.Icon = Properties.Resources.AppIcon;
 
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
@@ -35,7 +36,15 @@ namespace LifeSupportCalculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            pcTimer.Start();
+            mPB_Proc.ForeColor = Color.Cyan;
+            mPB_Mem.ForeColor = Color.Cyan;
+        }
 
+        private void pcTimer_Tick(object sender, EventArgs e)
+        {
+            mPB_Proc.Value = (int)pcProc.NextValue();
+            mPB_Mem.Value = (int)pcMem.NextValue();
         }
     }
 }

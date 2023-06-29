@@ -69,5 +69,105 @@ namespace LifeSupportCalculator.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_dt_battery_charging_full {
+            get {
+                object obj = ResourceManager.GetObject("icon_dt_battery_charging_full", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_dt_device_temperature {
+            get {
+                object obj = ResourceManager.GetObject("icon_dt_device_temperature", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_dt_memory {
+            get {
+                object obj = ResourceManager.GetObject("icon_dt_memory", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_dt_memory_alt {
+            get {
+                object obj = ResourceManager.GetObject("icon_dt_memory_alt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static byte[] Orbitron_Black {
+            get {
+                object obj = ResourceManager.GetObject("Orbitron_Black", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static byte[] Orbitron_Bold {
+            get {
+                object obj = ResourceManager.GetObject("Orbitron_Bold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static byte[] Orbitron_ExtraBold {
+            get {
+                object obj = ResourceManager.GetObject("Orbitron_ExtraBold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static byte[] Orbitron_Medium {
+            get {
+                object obj = ResourceManager.GetObject("Orbitron_Medium", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static byte[] Orbitron_Regular {
+            get {
+                object obj = ResourceManager.GetObject("Orbitron_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static byte[] Orbitron_SemiBold {
+            get {
+                object obj = ResourceManager.GetObject("Orbitron_SemiBold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="48"
+   viewBox="0 -960 960 960"
+   width="48"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="icon_memory_dt.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="17.708333"
+     inkscape:cx="16.8"
+     inkscape:cy="24.028235"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="1071"
+     inkscape:window-y="422"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M380-380v-199h199v199H380Zm-18 254.5V-204H261.5q-22.969 0-40.234-17.266Q204-238.531 204-261.5V-362h-78.5v-57.5H204v-125h-78.5V-602H204v-100.5q0-22.969 17.266-40.234Q238.531-760 261.5-760H362v-74.5h57.5v74.5h125v-74.5H602v74.5h100.5q22.969 0 40.234 17.266Q760-725.469 760-702.5V-602h74.5v57.5H760v125h74.5v57.5H760v100.5q0 22.969-17.266 40.234Q725.469-204 702.5-204H602v78.5h-57.5V-204h-125v78.5H362Zm340.5-136v-441h-441v441h441Z"
+     id="path2"
+     style="fill:#ffffff" />
+</svg>
