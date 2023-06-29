@@ -59,7 +59,22 @@ namespace LifeSupportCalculator
             this.pcTimer = new System.Windows.Forms.Timer(this.components);
             this.pcProc = new System.Diagnostics.PerformanceCounter();
             this.pcMem = new System.Diagnostics.PerformanceCounter();
+            this.tLayoutT1 = new System.Windows.Forms.TableLayoutPanel();
+            this.ctxMS = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.openApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.preferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openPreferenceTabToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.performanceCounterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.closeApplicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.manualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openOfflineManualToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.onlineWikiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mTabC1.SuspendLayout();
+            this.tabPg1.SuspendLayout();
             this.tabPg2.SuspendLayout();
             this.tLayoutT2.SuspendLayout();
             this.mTabC2.SuspendLayout();
@@ -72,6 +87,7 @@ namespace LifeSupportCalculator
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon_DTemp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcProc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcMem)).BeginInit();
+            this.ctxMS.SuspendLayout();
             this.SuspendLayout();
             // 
             // imgList
@@ -102,6 +118,7 @@ namespace LifeSupportCalculator
             // 
             // tabPg1
             // 
+            this.tabPg1.Controls.Add(this.tLayoutT1);
             this.tabPg1.ImageKey = "icon_calculate.ico";
             this.tabPg1.Location = new System.Drawing.Point(4, 39);
             this.tabPg1.Name = "tabPg1";
@@ -352,6 +369,7 @@ namespace LifeSupportCalculator
             // 
             // nIcon
             // 
+            this.nIcon.ContextMenuStrip = this.ctxMS;
             this.nIcon.Text = "Life Support Calculator";
             this.nIcon.Visible = true;
             // 
@@ -370,6 +388,110 @@ namespace LifeSupportCalculator
             // 
             this.pcMem.CategoryName = "Memory";
             this.pcMem.CounterName = "% Committed Bytes In Use";
+            // 
+            // tLayoutT1
+            // 
+            this.tLayoutT1.ColumnCount = 2;
+            this.tLayoutT1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tLayoutT1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tLayoutT1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tLayoutT1.Location = new System.Drawing.Point(3, 3);
+            this.tLayoutT1.Name = "tLayoutT1";
+            this.tLayoutT1.RowCount = 1;
+            this.tLayoutT1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tLayoutT1.Size = new System.Drawing.Size(780, 380);
+            this.tLayoutT1.TabIndex = 0;
+            // 
+            // ctxMS
+            // 
+            this.ctxMS.Font = new System.Drawing.Font("Noto Sans", 10.2F);
+            this.ctxMS.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.ctxMS.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.openApplicationToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.manualToolStripMenuItem,
+            this.preferencesToolStripMenuItem,
+            this.toolStripSeparator3,
+            this.closeApplicationToolStripMenuItem});
+            this.ctxMS.Name = "ctxMS";
+            this.ctxMS.Size = new System.Drawing.Size(253, 128);
+            // 
+            // openApplicationToolStripMenuItem
+            // 
+            this.openApplicationToolStripMenuItem.Name = "openApplicationToolStripMenuItem";
+            this.openApplicationToolStripMenuItem.Size = new System.Drawing.Size(252, 28);
+            this.openApplicationToolStripMenuItem.Text = "Open application";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(249, 6);
+            // 
+            // preferencesToolStripMenuItem
+            // 
+            this.preferencesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.openPreferenceTabToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.checkUpdatesToolStripMenuItem,
+            this.performanceCounterToolStripMenuItem});
+            this.preferencesToolStripMenuItem.Name = "preferencesToolStripMenuItem";
+            this.preferencesToolStripMenuItem.Size = new System.Drawing.Size(252, 28);
+            this.preferencesToolStripMenuItem.Text = "Preferences...";
+            // 
+            // openPreferenceTabToolStripMenuItem
+            // 
+            this.openPreferenceTabToolStripMenuItem.Name = "openPreferenceTabToolStripMenuItem";
+            this.openPreferenceTabToolStripMenuItem.Size = new System.Drawing.Size(266, 28);
+            this.openPreferenceTabToolStripMenuItem.Text = "Open preference tab";
+            // 
+            // checkUpdatesToolStripMenuItem
+            // 
+            this.checkUpdatesToolStripMenuItem.Name = "checkUpdatesToolStripMenuItem";
+            this.checkUpdatesToolStripMenuItem.Size = new System.Drawing.Size(266, 28);
+            this.checkUpdatesToolStripMenuItem.Text = "Check updates";
+            // 
+            // performanceCounterToolStripMenuItem
+            // 
+            this.performanceCounterToolStripMenuItem.Name = "performanceCounterToolStripMenuItem";
+            this.performanceCounterToolStripMenuItem.Size = new System.Drawing.Size(266, 28);
+            this.performanceCounterToolStripMenuItem.Text = "Performance counter";
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(263, 6);
+            // 
+            // closeApplicationToolStripMenuItem
+            // 
+            this.closeApplicationToolStripMenuItem.Name = "closeApplicationToolStripMenuItem";
+            this.closeApplicationToolStripMenuItem.Size = new System.Drawing.Size(252, 28);
+            this.closeApplicationToolStripMenuItem.Text = "Shutdown application";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(249, 6);
+            // 
+            // manualToolStripMenuItem
+            // 
+            this.manualToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.openOfflineManualToolStripMenuItem,
+            this.onlineWikiToolStripMenuItem});
+            this.manualToolStripMenuItem.Name = "manualToolStripMenuItem";
+            this.manualToolStripMenuItem.Size = new System.Drawing.Size(252, 28);
+            this.manualToolStripMenuItem.Text = "Help...";
+            // 
+            // openOfflineManualToolStripMenuItem
+            // 
+            this.openOfflineManualToolStripMenuItem.Name = "openOfflineManualToolStripMenuItem";
+            this.openOfflineManualToolStripMenuItem.Size = new System.Drawing.Size(259, 28);
+            this.openOfflineManualToolStripMenuItem.Text = "Open offline manual";
+            // 
+            // onlineWikiToolStripMenuItem
+            // 
+            this.onlineWikiToolStripMenuItem.Name = "onlineWikiToolStripMenuItem";
+            this.onlineWikiToolStripMenuItem.Size = new System.Drawing.Size(259, 28);
+            this.onlineWikiToolStripMenuItem.Text = "Open Online wiki";
             // 
             // Form1
             // 
@@ -391,6 +513,7 @@ namespace LifeSupportCalculator
             this.Text = "Life Support Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.mTabC1.ResumeLayout(false);
+            this.tabPg1.ResumeLayout(false);
             this.tabPg2.ResumeLayout(false);
             this.tLayoutT2.ResumeLayout(false);
             this.mTabC2.ResumeLayout(false);
@@ -403,6 +526,7 @@ namespace LifeSupportCalculator
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon_DTemp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcProc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcMem)).EndInit();
+            this.ctxMS.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -437,6 +561,20 @@ namespace LifeSupportCalculator
         private System.Windows.Forms.Timer pcTimer;
         private System.Diagnostics.PerformanceCounter pcProc;
         private System.Diagnostics.PerformanceCounter pcMem;
+        private System.Windows.Forms.TableLayoutPanel tLayoutT1;
+        private System.Windows.Forms.ContextMenuStrip ctxMS;
+        private System.Windows.Forms.ToolStripMenuItem openApplicationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem manualToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openOfflineManualToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem onlineWikiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem preferencesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openPreferenceTabToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem checkUpdatesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem performanceCounterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem closeApplicationToolStripMenuItem;
     }
 }
 
