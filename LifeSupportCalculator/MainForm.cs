@@ -19,7 +19,7 @@ namespace LifeSupportCalculator
 
             this.Icon = Properties.Resources.AppIcon;
 
-            //Properties.Settings.Default.Language = "en-US";
+            Properties.Settings.Default.Language = "en-US";
             Properties.Settings.Default.Theme = "Dark";
             Properties.Settings.Default.Save();
         }
