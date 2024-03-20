@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33027.164
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSupportCalculator", "LifeSupportCalculator.csproj", "{1EC74BF4-F49A-4DEA-8AA3-86B36406B9D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeSupportCalculator", "LifeSupportCalculator\LifeSupportCalculator.csproj", "{904C8A7F-FF13-47DE-8767-CB30F2709118}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1EC74BF4-F49A-4DEA-8AA3-86B36406B9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EC74BF4-F49A-4DEA-8AA3-86B36406B9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EC74BF4-F49A-4DEA-8AA3-86B36406B9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EC74BF4-F49A-4DEA-8AA3-86B36406B9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904C8A7F-FF13-47DE-8767-CB30F2709118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904C8A7F-FF13-47DE-8767-CB30F2709118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904C8A7F-FF13-47DE-8767-CB30F2709118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904C8A7F-FF13-47DE-8767-CB30F2709118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1F7D1C16-3431-4C28-99A4-FA9588ED439A}
+		SolutionGuid = {40386E38-5189-4696-AF56-159E095CD84B}
 	EndGlobalSection
 EndGlobal
