@@ -91,6 +91,11 @@ namespace LifeSupportCalculator
 
         }
 
+        private void TSMI_Help_About_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void TSMI_Help_Homepage_Click(object sender, EventArgs e)
         {
 

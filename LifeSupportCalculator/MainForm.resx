@@ -125,7 +125,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABu
-        EwAAAk1TRnQBSQFMAgEBAgEAAdQBAAHUAQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        EwAAAk1TRnQBSQFMAgEBAgEAAdwBAAHcAQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
         AwABIAMAAQEBAAEgBgABQP8A/wD/AP8AygADKgFAA0YBgANGAYADRgGAA0YBgANGAYADKgFA/wDlAANG
         AYADAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYD/AD0AAyoBQANHAYADRwGAA0YBgANGAYADRgGAA0YBgANG
         AYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANG
@@ -239,12 +239,6 @@
   <data name="&gt;&gt;stStrip.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="TSMI_App.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 26</value>
-  </data>
-  <data name="TSMI_App.Text" xml:space="preserve">
-    <value>App</value>
-  </data>
   <data name="TSMI_App_Diagnostics.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 26</value>
   </data>
@@ -281,17 +275,11 @@
   <data name="TSMI_App_AppClose.Text" xml:space="preserve">
     <value>App Close</value>
   </data>
-  <data name="TSMI_View.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 26</value>
+  <data name="TSMI_App.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 24</value>
   </data>
-  <data name="TSMI_View.Text" xml:space="preserve">
-    <value>View</value>
-  </data>
-  <data name="TSMI_View_Visuals.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 26</value>
-  </data>
-  <data name="TSMI_View_Visuals.Text" xml:space="preserve">
-    <value>Visuals...</value>
+  <data name="TSMI_App.Text" xml:space="preserve">
+    <value>App</value>
   </data>
   <data name="TSMI_View_Visuals_Simple.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 26</value>
@@ -305,29 +293,41 @@
   <data name="TSMI_View_Visuals_Detail.Text" xml:space="preserve">
     <value>Detailed</value>
   </data>
-  <data name="TSMI_Help.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 26</value>
+  <data name="TSMI_View_Visuals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 26</value>
   </data>
-  <data name="TSMI_Help.Text" xml:space="preserve">
-    <value>Help</value>
+  <data name="TSMI_View_Visuals.Text" xml:space="preserve">
+    <value>Visuals...</value>
+  </data>
+  <data name="TSMI_View.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 24</value>
+  </data>
+  <data name="TSMI_View.Text" xml:space="preserve">
+    <value>View</value>
   </data>
   <data name="TSMI_Help_About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 26</value>
+    <value>224, 26</value>
   </data>
   <data name="TSMI_Help_About.Text" xml:space="preserve">
     <value>About...</value>
   </data>
   <data name="TSMI_Help_Homepage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 26</value>
+    <value>224, 26</value>
   </data>
   <data name="TSMI_Help_Homepage.Text" xml:space="preserve">
     <value>Visit Homepage</value>
   </data>
   <data name="TSMI_Help_GitRepo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 26</value>
+    <value>224, 26</value>
   </data>
   <data name="TSMI_Help_GitRepo.Text" xml:space="preserve">
     <value>Github Repository</value>
+  </data>
+  <data name="TSMI_Help.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
+  </data>
+  <data name="TSMI_Help.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
   <metadata name="mnStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -339,7 +339,7 @@
     <value>3, 58</value>
   </data>
   <data name="mnStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 30</value>
+    <value>794, 28</value>
   </data>
   <data name="mnStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -367,7 +367,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabP1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 344</value>
+    <value>786, 346</value>
   </data>
   <data name="tabP1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -442,10 +442,10 @@
     <value>Fill</value>
   </data>
   <data name="matTabC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 88</value>
+    <value>3, 86</value>
   </data>
   <data name="matTabC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 387</value>
+    <value>794, 389</value>
   </data>
   <data name="matTabC.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>

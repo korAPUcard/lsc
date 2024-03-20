@@ -165,6 +165,7 @@
             // 
             this.TSMI_Help_About.Name = "TSMI_Help_About";
             resources.ApplyResources(this.TSMI_Help_About, "TSMI_Help_About");
+            this.TSMI_Help_About.Click += new System.EventHandler(this.TSMI_Help_About_Click);
             // 
             // TSMI_Help_Homepage
             // 
