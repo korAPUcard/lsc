@@ -3,6 +3,8 @@ using MaterialSkin.Controls;
 using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Imaging;
+using System.Reflection.Emit;
 using System.Text;
 using System.Windows.Forms;
 
@@ -14,6 +16,8 @@ namespace LifeSupportCalculator
         //DialogResult appCloseConfirmator;
 
         //bool isAppRestartConfirmatorEnabled = false;
+
+        bool isDarkTheme = false;
 
         public MainForm()
         {
@@ -44,7 +48,7 @@ namespace LifeSupportCalculator
                     Primary.LightBlue500,
                     Accent.Cyan200,
                     TextShade.WHITE
-                );
+                ); isDarkTheme = true;
             }
             else
             {
@@ -57,7 +61,7 @@ namespace LifeSupportCalculator
                     Primary.LightBlue500,
                     Accent.Cyan200,
                     TextShade.BLACK
-                );
+                ); isDarkTheme = false;
             }
         }
 
@@ -119,6 +123,18 @@ namespace LifeSupportCalculator
         private void lbl2_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawString("Supplies", new Font("Roboto", 14, FontStyle.Bold), new SolidBrush(Color.White), new Point(0, 0));
+        }
+
+        private void iconLbl1_Paint(object sender, PaintEventArgs e)
+        {
+            /*if (isDarkTheme)
+            {
+                e.Graphics.DrawImage(iconList2.Images[iconLbl1.ImageKey], Color.White);
+            }
+            else
+            {
+                e.Graphics.DrawImage(iconList2.Images[iconLbl1.ImageKey], 0, 0, iconLbl1.Width, iconLbl1.Height, Color.Black);
+            }*/
         }
     }
 }

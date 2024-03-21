@@ -429,157 +429,6 @@
   <data name="&gt;&gt;mnStrip.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="splC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="&gt;&gt;matCd2.Name" xml:space="preserve">
-    <value>matCd2</value>
-  </data>
-  <data name="&gt;&gt;matCd2.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matCd2.Parent" xml:space="preserve">
-    <value>tabP1</value>
-  </data>
-  <data name="&gt;&gt;matCd2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;matCd1.Name" xml:space="preserve">
-    <value>matCd1</value>
-  </data>
-  <data name="&gt;&gt;matCd1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matCd1.Parent" xml:space="preserve">
-    <value>tabP1</value>
-  </data>
-  <data name="&gt;&gt;matCd1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;splC.Name" xml:space="preserve">
-    <value>splC</value>
-  </data>
-  <data name="&gt;&gt;splC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splC.Parent" xml:space="preserve">
-    <value>tabP1</value>
-  </data>
-  <data name="&gt;&gt;splC.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabP1.ImageKey" xml:space="preserve">
-    <value>icon_calculate.ico</value>
-  </data>
-  <data name="tabP1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tabP1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabP1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>886, 348</value>
-  </data>
-  <data name="tabP1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabP1.Text" xml:space="preserve">
-    <value>Calculate</value>
-  </data>
-  <data name="&gt;&gt;tabP1.Name" xml:space="preserve">
-    <value>tabP1</value>
-  </data>
-  <data name="&gt;&gt;tabP1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabP1.Parent" xml:space="preserve">
-    <value>matTabC</value>
-  </data>
-  <data name="&gt;&gt;tabP1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tabP2.ImageKey" xml:space="preserve">
-    <value>icon_analytics.ico</value>
-  </data>
-  <data name="tabP2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="tabP2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabP2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>886, 344</value>
-  </data>
-  <data name="tabP2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabP2.Text" xml:space="preserve">
-    <value>Analytics</value>
-  </data>
-  <data name="&gt;&gt;tabP2.Name" xml:space="preserve">
-    <value>tabP2</value>
-  </data>
-  <data name="&gt;&gt;tabP2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabP2.Parent" xml:space="preserve">
-    <value>matTabC</value>
-  </data>
-  <data name="&gt;&gt;tabP2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabP3.ImageKey" xml:space="preserve">
-    <value>icon_export.ico</value>
-  </data>
-  <data name="tabP3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 39</value>
-  </data>
-  <data name="tabP3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>886, 344</value>
-  </data>
-  <data name="tabP3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tabP3.Text" xml:space="preserve">
-    <value>Import/Export</value>
-  </data>
-  <data name="&gt;&gt;tabP3.Name" xml:space="preserve">
-    <value>tabP3</value>
-  </data>
-  <data name="&gt;&gt;tabP3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabP3.Parent" xml:space="preserve">
-    <value>matTabC</value>
-  </data>
-  <data name="&gt;&gt;tabP3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="matTabC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="matTabC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 84</value>
-  </data>
-  <data name="matTabC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>894, 391</value>
-  </data>
-  <data name="matTabC.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;matTabC.Name" xml:space="preserve">
-    <value>matTabC</value>
-  </data>
-  <data name="&gt;&gt;matTabC.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matTabC.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;matTabC.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="matCd2.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -598,6 +447,7 @@
   <data name="matCd2.Location" type="System.Drawing.Point, System.Drawing">
     <value>408, 3</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="matCd2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>14, 14, 14, 14</value>
   </data>
@@ -622,281 +472,14 @@
   <data name="&gt;&gt;matCd2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lbl2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="lbl2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lbl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 14</value>
-  </data>
-  <data name="lbl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 40</value>
-  </data>
-  <data name="lbl2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lbl2.Name" xml:space="preserve">
-    <value>lbl2</value>
-  </data>
-  <data name="&gt;&gt;lbl2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl2.Parent" xml:space="preserve">
-    <value>matCd2</value>
-  </data>
-  <data name="&gt;&gt;lbl2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="matCd1.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Name" xml:space="preserve">
-    <value>gBox1</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Parent" xml:space="preserve">
-    <value>matCd1</value>
-  </data>
-  <data name="&gt;&gt;gBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Name" xml:space="preserve">
-    <value>lbl1</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Parent" xml:space="preserve">
-    <value>matCd1</value>
-  </data>
-  <data name="&gt;&gt;lbl1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="matCd1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="matCd1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>14, 14, 14, 14</value>
-  </data>
-  <data name="matCd1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>14, 14, 14, 14</value>
-  </data>
-  <data name="matCd1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 338</value>
-  </data>
-  <data name="matCd1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;matCd1.Name" xml:space="preserve">
-    <value>matCd1</value>
-  </data>
-  <data name="&gt;&gt;matCd1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matCd1.Parent" xml:space="preserve">
-    <value>tabP1</value>
-  </data>
-  <data name="&gt;&gt;matCd1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Name" xml:space="preserve">
-    <value>tblLayout1</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Parent" xml:space="preserve">
-    <value>gBox1</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tblLayout1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="matLbl1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,24,Percent,100,Absolute,50" /&gt;&lt;Rows Styles="Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="gBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 57</value>
-  </data>
-  <data name="gBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 166</value>
-  </data>
-  <data name="gBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gBox1.Text" xml:space="preserve">
-    <value>Personal Status</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Name" xml:space="preserve">
-    <value>gBox1</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Parent" xml:space="preserve">
-    <value>matCd1</value>
-  </data>
-  <data name="&gt;&gt;gBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="lbl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 14</value>
-  </data>
-  <data name="lbl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 40</value>
-  </data>
-  <data name="lbl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Name" xml:space="preserve">
-    <value>lbl1</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Parent" xml:space="preserve">
-    <value>matCd1</value>
-  </data>
-  <data name="&gt;&gt;lbl1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="splC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="splC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="splC.IsSplitterFixed" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="splC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel1.Name" xml:space="preserve">
-    <value>splC.Panel1</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel1.Parent" xml:space="preserve">
-    <value>splC</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel2.Name" xml:space="preserve">
-    <value>splC.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel2.Parent" xml:space="preserve">
-    <value>splC</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="splC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 342</value>
-  </data>
-  <data name="splC.SplitterDistance" type="System.Int32, mscorlib">
-    <value>400</value>
-  </data>
-  <data name="splC.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;splC.Name" xml:space="preserve">
-    <value>splC</value>
-  </data>
-  <data name="&gt;&gt;splC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splC.Parent" xml:space="preserve">
-    <value>tabP1</value>
-  </data>
-  <data name="&gt;&gt;splC.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="tblLayout1.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;matLbl1.Name" xml:space="preserve">
-    <value>matLbl1</value>
-  </data>
-  <data name="&gt;&gt;matLbl1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matLbl1.Parent" xml:space="preserve">
-    <value>tblLayout1</value>
-  </data>
-  <data name="&gt;&gt;matLbl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tblLayout1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tblLayout1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 20</value>
-  </data>
-  <data name="tblLayout1.RowCount" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="tblLayout1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>360, 143</value>
-  </data>
-  <data name="tblLayout1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Name" xml:space="preserve">
-    <value>tblLayout1</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Parent" xml:space="preserve">
-    <value>gBox1</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tblLayout1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="matLbl1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,24,Percent,100,Absolute,50" /&gt;&lt;Rows Styles="Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="matLbl1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="matLbl1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 14px</value>
-  </data>
-  <data name="matLbl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="matLbl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 19</value>
-  </data>
-  <data name="matLbl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="matLbl1.Text" xml:space="preserve">
-    <value>materialLabel1</value>
-  </data>
-  <data name="&gt;&gt;matLbl1.Name" xml:space="preserve">
-    <value>matLbl1</value>
-  </data>
-  <data name="&gt;&gt;matLbl1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matLbl1.Parent" xml:space="preserve">
-    <value>tblLayout1</value>
-  </data>
-  <data name="&gt;&gt;matLbl1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="iconLbl1.ImageKey" xml:space="preserve">
+    <value>icon_nutrition.ico</value>
   </data>
   <metadata name="iconList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>343, 17</value>
@@ -1046,6 +629,327 @@
         Af8B9wH+AQABfwH/AQABfwH+AR4B/wHgAQABBwH/AYAC/wEAAX8B/gF/Af8B4AEAAQMB/wHxC/8B8wv/
         AfcE/ws=
 </value>
+  </data>
+  <data name="iconLbl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="iconLbl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="iconLbl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;iconLbl1.Name" xml:space="preserve">
+    <value>iconLbl1</value>
+  </data>
+  <data name="&gt;&gt;iconLbl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconLbl1.Parent" xml:space="preserve">
+    <value>tblLayout1</value>
+  </data>
+  <data name="&gt;&gt;iconLbl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayout1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tblLayout1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="tblLayout1.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tblLayout1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 143</value>
+  </data>
+  <data name="tblLayout1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Name" xml:space="preserve">
+    <value>tblLayout1</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayout1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="iconLbl1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,32,Percent,100,Absolute,50" /&gt;&lt;Rows Styles="Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="gBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 57</value>
+  </data>
+  <data name="gBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 166</value>
+  </data>
+  <data name="gBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gBox1.Text" xml:space="preserve">
+    <value>Personal Status</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Name" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Parent" xml:space="preserve">
+    <value>matCd1</value>
+  </data>
+  <data name="&gt;&gt;gBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lbl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 14</value>
+  </data>
+  <data name="lbl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 40</value>
+  </data>
+  <data name="lbl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Name" xml:space="preserve">
+    <value>lbl1</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Parent" xml:space="preserve">
+    <value>matCd1</value>
+  </data>
+  <data name="&gt;&gt;lbl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="matCd1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="matCd1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="matCd1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="matCd1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 338</value>
+  </data>
+  <data name="matCd1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;matCd1.Name" xml:space="preserve">
+    <value>matCd1</value>
+  </data>
+  <data name="&gt;&gt;matCd1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCd1.Parent" xml:space="preserve">
+    <value>tabP1</value>
+  </data>
+  <data name="&gt;&gt;matCd1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="splC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="splC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splC.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel1.Name" xml:space="preserve">
+    <value>splC.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel1.Parent" xml:space="preserve">
+    <value>splC</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel2.Name" xml:space="preserve">
+    <value>splC.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel2.Parent" xml:space="preserve">
+    <value>splC</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 342</value>
+  </data>
+  <data name="splC.SplitterDistance" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="splC.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splC.Name" xml:space="preserve">
+    <value>splC</value>
+  </data>
+  <data name="&gt;&gt;splC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splC.Parent" xml:space="preserve">
+    <value>tabP1</value>
+  </data>
+  <data name="&gt;&gt;splC.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabP1.ImageKey" xml:space="preserve">
+    <value>icon_calculate.ico</value>
+  </data>
+  <data name="tabP1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="tabP1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabP1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>886, 348</value>
+  </data>
+  <data name="tabP1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabP1.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;tabP1.Name" xml:space="preserve">
+    <value>tabP1</value>
+  </data>
+  <data name="&gt;&gt;tabP1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabP1.Parent" xml:space="preserve">
+    <value>matTabC</value>
+  </data>
+  <data name="&gt;&gt;tabP1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabP2.ImageKey" xml:space="preserve">
+    <value>icon_analytics.ico</value>
+  </data>
+  <data name="tabP2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="tabP2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabP2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>886, 344</value>
+  </data>
+  <data name="tabP2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabP2.Text" xml:space="preserve">
+    <value>Analytics</value>
+  </data>
+  <data name="&gt;&gt;tabP2.Name" xml:space="preserve">
+    <value>tabP2</value>
+  </data>
+  <data name="&gt;&gt;tabP2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabP2.Parent" xml:space="preserve">
+    <value>matTabC</value>
+  </data>
+  <data name="&gt;&gt;tabP2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabP3.ImageKey" xml:space="preserve">
+    <value>icon_export.ico</value>
+  </data>
+  <data name="tabP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 39</value>
+  </data>
+  <data name="tabP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>886, 344</value>
+  </data>
+  <data name="tabP3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabP3.Text" xml:space="preserve">
+    <value>Import/Export</value>
+  </data>
+  <data name="&gt;&gt;tabP3.Name" xml:space="preserve">
+    <value>tabP3</value>
+  </data>
+  <data name="&gt;&gt;tabP3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabP3.Parent" xml:space="preserve">
+    <value>matTabC</value>
+  </data>
+  <data name="&gt;&gt;tabP3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="matTabC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="matTabC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 84</value>
+  </data>
+  <data name="matTabC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>894, 391</value>
+  </data>
+  <data name="matTabC.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;matTabC.Name" xml:space="preserve">
+    <value>matTabC</value>
+  </data>
+  <data name="&gt;&gt;matTabC.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matTabC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;matTabC.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lbl2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 14</value>
+  </data>
+  <data name="lbl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 40</value>
+  </data>
+  <data name="lbl2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl2.Name" xml:space="preserve">
+    <value>lbl2</value>
+  </data>
+  <data name="&gt;&gt;lbl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl2.Parent" xml:space="preserve">
+    <value>matCd2</value>
+  </data>
+  <data name="&gt;&gt;lbl2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

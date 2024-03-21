@@ -60,8 +60,8 @@
             this.tabP2 = new System.Windows.Forms.TabPage();
             this.tabP3 = new System.Windows.Forms.TabPage();
             this.tblLayout1 = new System.Windows.Forms.TableLayoutPanel();
-            this.matLbl1 = new MaterialSkin.Controls.MaterialLabel();
             this.iconList2 = new System.Windows.Forms.ImageList(this.components);
+            this.iconLbl1 = new System.Windows.Forms.Label();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -292,15 +292,9 @@
             // tblLayout1
             // 
             resources.ApplyResources(this.tblLayout1, "tblLayout1");
-            this.tblLayout1.Controls.Add(this.matLbl1, 0, 0);
+            this.tblLayout1.Controls.Add(this.iconLbl1, 0, 0);
+            this.tblLayout1.ForeColor = System.Drawing.SystemColors.Control;
             this.tblLayout1.Name = "tblLayout1";
-            // 
-            // matLbl1
-            // 
-            resources.ApplyResources(this.matLbl1, "matLbl1");
-            this.matLbl1.Depth = 0;
-            this.matLbl1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matLbl1.Name = "matLbl1";
             // 
             // iconList2
             // 
@@ -316,6 +310,13 @@
             this.iconList2.Images.SetKeyName(7, "icon_carbon_dioxide.ico");
             this.iconList2.Images.SetKeyName(8, "icon_power.ico");
             this.iconList2.Images.SetKeyName(9, "icon_population.ico");
+            // 
+            // iconLbl1
+            // 
+            resources.ApplyResources(this.iconLbl1, "iconLbl1");
+            this.iconLbl1.ImageList = this.iconList2;
+            this.iconLbl1.Name = "iconLbl1";
+            this.iconLbl1.Paint += new System.Windows.Forms.PaintEventHandler(this.iconLbl1_Paint);
             // 
             // MainForm
             // 
@@ -343,7 +344,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
             this.tblLayout1.ResumeLayout(false);
-            this.tblLayout1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -380,8 +380,8 @@
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.GroupBox gBox1;
         private System.Windows.Forms.TableLayoutPanel tblLayout1;
-        private MaterialSkin.Controls.MaterialLabel matLbl1;
         private System.Windows.Forms.ImageList iconList2;
+        private System.Windows.Forms.Label iconLbl1;
     }
 }
 
