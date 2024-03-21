@@ -63,7 +63,11 @@ namespace LifeSupportCalculator
 
         private void TSMI_App_Diagnostics_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> parent of 177f58d (Backup Commit)
         }
 
         private void TSMI_App_CheckUpdates_Click(object sender, EventArgs e)
