@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.iconList = new System.Windows.Forms.ImageList(this.components);
+            this.iconList1 = new System.Windows.Forms.ImageList(this.components);
             this.stStrip = new System.Windows.Forms.StatusStrip();
             this.TSMI_App = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_App_Diagnostics = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,6 +60,8 @@
             this.tabP2 = new System.Windows.Forms.TabPage();
             this.tabP3 = new System.Windows.Forms.TabPage();
             this.tblLayout1 = new System.Windows.Forms.TableLayoutPanel();
+            this.matLbl1 = new MaterialSkin.Controls.MaterialLabel();
+            this.iconList2 = new System.Windows.Forms.ImageList(this.components);
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -68,17 +70,18 @@
             this.gBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).BeginInit();
             this.splC.SuspendLayout();
+            this.tblLayout1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // iconList
+            // iconList1
             // 
-            this.iconList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList.ImageStream")));
-            this.iconList.TransparentColor = System.Drawing.Color.Transparent;
-            this.iconList.Images.SetKeyName(0, "icon_calculate.ico");
-            this.iconList.Images.SetKeyName(1, "icon_analytics.ico");
-            this.iconList.Images.SetKeyName(2, "icon_export.ico");
-            this.iconList.Images.SetKeyName(3, "icon_export_to_drive.ico");
-            this.iconList.Images.SetKeyName(4, "icon_export_to_cloud.ico");
+            this.iconList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList1.ImageStream")));
+            this.iconList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.iconList1.Images.SetKeyName(0, "icon_calculate.ico");
+            this.iconList1.Images.SetKeyName(1, "icon_analytics.ico");
+            this.iconList1.Images.SetKeyName(2, "icon_export.ico");
+            this.iconList1.Images.SetKeyName(3, "icon_export_to_drive.ico");
+            this.iconList1.Images.SetKeyName(4, "icon_export_to_cloud.ico");
             // 
             // stStrip
             // 
@@ -213,7 +216,7 @@
             this.matTabC.Controls.Add(this.tabP3);
             this.matTabC.Depth = 0;
             resources.ApplyResources(this.matTabC, "matTabC");
-            this.matTabC.ImageList = this.iconList;
+            this.matTabC.ImageList = this.iconList1;
             this.matTabC.MouseState = MaterialSkin.MouseState.HOVER;
             this.matTabC.Multiline = true;
             this.matTabC.Name = "matTabC";
@@ -289,7 +292,30 @@
             // tblLayout1
             // 
             resources.ApplyResources(this.tblLayout1, "tblLayout1");
+            this.tblLayout1.Controls.Add(this.matLbl1, 0, 0);
             this.tblLayout1.Name = "tblLayout1";
+            // 
+            // matLbl1
+            // 
+            resources.ApplyResources(this.matLbl1, "matLbl1");
+            this.matLbl1.Depth = 0;
+            this.matLbl1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matLbl1.Name = "matLbl1";
+            // 
+            // iconList2
+            // 
+            this.iconList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList2.ImageStream")));
+            this.iconList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.iconList2.Images.SetKeyName(0, "icon_nutrition.ico");
+            this.iconList2.Images.SetKeyName(1, "icon_hydration.ico");
+            this.iconList2.Images.SetKeyName(2, "icon_solidwaste.ico");
+            this.iconList2.Images.SetKeyName(3, "icon_liquidwaste.ico");
+            this.iconList2.Images.SetKeyName(4, "icon_hygiene.ico");
+            this.iconList2.Images.SetKeyName(5, "icon_temperature.ico");
+            this.iconList2.Images.SetKeyName(6, "icon_oxygen.ico");
+            this.iconList2.Images.SetKeyName(7, "icon_carbon_dioxide.ico");
+            this.iconList2.Images.SetKeyName(8, "icon_power.ico");
+            this.iconList2.Images.SetKeyName(9, "icon_population.ico");
             // 
             // MainForm
             // 
@@ -316,13 +342,15 @@
             this.gBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
+            this.tblLayout1.ResumeLayout(false);
+            this.tblLayout1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.ImageList iconList;
+        private System.Windows.Forms.ImageList iconList1;
         private System.Windows.Forms.StatusStrip stStrip;
         private System.Windows.Forms.ToolStripMenuItem TSMI_App;
         private System.Windows.Forms.ToolStripMenuItem TSMI_App_Diagnostics;
@@ -352,6 +380,8 @@
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.GroupBox gBox1;
         private System.Windows.Forms.TableLayoutPanel tblLayout1;
+        private MaterialSkin.Controls.MaterialLabel matLbl1;
+        private System.Windows.Forms.ImageList iconList2;
     }
 }
 

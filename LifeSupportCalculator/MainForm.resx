@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="iconList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="iconList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>232, 17</value>
   </metadata>
-  <data name="iconList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="iconList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
@@ -429,37 +429,9 @@
   <data name="&gt;&gt;mnStrip.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="matCd2.AutoScroll" type="System.Boolean, mscorlib">
+  <metadata name="splC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;lbl2.Name" xml:space="preserve">
-    <value>lbl2</value>
-  </data>
-  <data name="&gt;&gt;lbl2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl2.Parent" xml:space="preserve">
-    <value>matCd2</value>
-  </data>
-  <data name="&gt;&gt;lbl2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="matCd2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>408, 3</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="matCd2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>14, 14, 14, 14</value>
-  </data>
-  <data name="matCd2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>14, 14, 14, 14</value>
-  </data>
-  <data name="matCd2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 338</value>
-  </data>
-  <data name="matCd2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
+  </metadata>
   <data name="&gt;&gt;matCd2.Name" xml:space="preserve">
     <value>matCd2</value>
   </data>
@@ -472,105 +444,6 @@
   <data name="&gt;&gt;matCd2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="matCd1.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tblLayout1.ColumnCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tblLayout1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tblLayout1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 20</value>
-  </data>
-  <data name="tblLayout1.RowCount" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="tblLayout1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>360, 143</value>
-  </data>
-  <data name="tblLayout1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Name" xml:space="preserve">
-    <value>tblLayout1</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.Parent" xml:space="preserve">
-    <value>gBox1</value>
-  </data>
-  <data name="&gt;&gt;tblLayout1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tblLayout1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Absolute,24,Percent,100,Absolute,50" /&gt;&lt;Rows Styles="Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="gBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 57</value>
-  </data>
-  <data name="gBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 166</value>
-  </data>
-  <data name="gBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gBox1.Text" xml:space="preserve">
-    <value>Personal Status</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Name" xml:space="preserve">
-    <value>gBox1</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gBox1.Parent" xml:space="preserve">
-    <value>matCd1</value>
-  </data>
-  <data name="&gt;&gt;gBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
-  </data>
-  <data name="lbl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 14</value>
-  </data>
-  <data name="lbl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>366, 40</value>
-  </data>
-  <data name="lbl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Name" xml:space="preserve">
-    <value>lbl1</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl1.Parent" xml:space="preserve">
-    <value>matCd1</value>
-  </data>
-  <data name="&gt;&gt;lbl1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="matCd1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="matCd1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>14, 14, 14, 14</value>
-  </data>
-  <data name="matCd1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>14, 14, 14, 14</value>
-  </data>
-  <data name="matCd1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 338</value>
-  </data>
-  <data name="matCd1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;matCd1.Name" xml:space="preserve">
     <value>matCd1</value>
   </data>
@@ -581,51 +454,6 @@
     <value>tabP1</value>
   </data>
   <data name="&gt;&gt;matCd1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="splC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="splC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="splC.IsSplitterFixed" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="splC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel1.Name" xml:space="preserve">
-    <value>splC.Panel1</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel1.Parent" xml:space="preserve">
-    <value>splC</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel2.Name" xml:space="preserve">
-    <value>splC.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel2.Parent" xml:space="preserve">
-    <value>splC</value>
-  </data>
-  <data name="&gt;&gt;splC.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="splC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 342</value>
-  </data>
-  <data name="splC.SplitterDistance" type="System.Int32, mscorlib">
-    <value>400</value>
-  </data>
-  <data name="splC.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;splC.Name" xml:space="preserve">
@@ -646,6 +474,7 @@
   <data name="tabP1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 39</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tabP1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
@@ -751,6 +580,48 @@
   <data name="&gt;&gt;matTabC.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="matCd2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbl2.Name" xml:space="preserve">
+    <value>lbl2</value>
+  </data>
+  <data name="&gt;&gt;lbl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl2.Parent" xml:space="preserve">
+    <value>matCd2</value>
+  </data>
+  <data name="&gt;&gt;lbl2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="matCd2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 3</value>
+  </data>
+  <data name="matCd2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="matCd2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="matCd2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 338</value>
+  </data>
+  <data name="matCd2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;matCd2.Name" xml:space="preserve">
+    <value>matCd2</value>
+  </data>
+  <data name="&gt;&gt;matCd2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCd2.Parent" xml:space="preserve">
+    <value>tabP1</value>
+  </data>
+  <data name="&gt;&gt;matCd2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="lbl2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
   </data>
@@ -777,6 +648,404 @@
   </data>
   <data name="&gt;&gt;lbl2.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="matCd1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Name" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Parent" xml:space="preserve">
+    <value>matCd1</value>
+  </data>
+  <data name="&gt;&gt;gBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Name" xml:space="preserve">
+    <value>lbl1</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Parent" xml:space="preserve">
+    <value>matCd1</value>
+  </data>
+  <data name="&gt;&gt;lbl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="matCd1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="matCd1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="matCd1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>14, 14, 14, 14</value>
+  </data>
+  <data name="matCd1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 338</value>
+  </data>
+  <data name="matCd1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;matCd1.Name" xml:space="preserve">
+    <value>matCd1</value>
+  </data>
+  <data name="&gt;&gt;matCd1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialCard, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCd1.Parent" xml:space="preserve">
+    <value>tabP1</value>
+  </data>
+  <data name="&gt;&gt;matCd1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Name" xml:space="preserve">
+    <value>tblLayout1</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayout1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="matLbl1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,24,Percent,100,Absolute,50" /&gt;&lt;Rows Styles="Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="gBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 57</value>
+  </data>
+  <data name="gBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 166</value>
+  </data>
+  <data name="gBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gBox1.Text" xml:space="preserve">
+    <value>Personal Status</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Name" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gBox1.Parent" xml:space="preserve">
+    <value>matCd1</value>
+  </data>
+  <data name="&gt;&gt;gBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="lbl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 14</value>
+  </data>
+  <data name="lbl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 40</value>
+  </data>
+  <data name="lbl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Name" xml:space="preserve">
+    <value>lbl1</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl1.Parent" xml:space="preserve">
+    <value>matCd1</value>
+  </data>
+  <data name="&gt;&gt;lbl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="splC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="splC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splC.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel1.Name" xml:space="preserve">
+    <value>splC.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel1.Parent" xml:space="preserve">
+    <value>splC</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel2.Name" xml:space="preserve">
+    <value>splC.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel2.Parent" xml:space="preserve">
+    <value>splC</value>
+  </data>
+  <data name="&gt;&gt;splC.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 342</value>
+  </data>
+  <data name="splC.SplitterDistance" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="splC.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splC.Name" xml:space="preserve">
+    <value>splC</value>
+  </data>
+  <data name="&gt;&gt;splC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splC.Parent" xml:space="preserve">
+    <value>tabP1</value>
+  </data>
+  <data name="&gt;&gt;splC.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tblLayout1.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;matLbl1.Name" xml:space="preserve">
+    <value>matLbl1</value>
+  </data>
+  <data name="&gt;&gt;matLbl1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matLbl1.Parent" xml:space="preserve">
+    <value>tblLayout1</value>
+  </data>
+  <data name="&gt;&gt;matLbl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayout1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tblLayout1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="tblLayout1.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tblLayout1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 143</value>
+  </data>
+  <data name="tblLayout1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Name" xml:space="preserve">
+    <value>tblLayout1</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.Parent" xml:space="preserve">
+    <value>gBox1</value>
+  </data>
+  <data name="&gt;&gt;tblLayout1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayout1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="matLbl1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,24,Percent,100,Absolute,50" /&gt;&lt;Rows Styles="Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24,Absolute,24" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="matLbl1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="matLbl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Roboto, 14px</value>
+  </data>
+  <data name="matLbl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="matLbl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 19</value>
+  </data>
+  <data name="matLbl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="matLbl1.Text" xml:space="preserve">
+    <value>materialLabel1</value>
+  </data>
+  <data name="&gt;&gt;matLbl1.Name" xml:space="preserve">
+    <value>matLbl1</value>
+  </data>
+  <data name="&gt;&gt;matLbl1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matLbl1.Parent" xml:space="preserve">
+    <value>tblLayout1</value>
+  </data>
+  <data name="&gt;&gt;matLbl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="iconList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>343, 17</value>
+  </metadata>
+  <data name="iconList2.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABY
+        IAAAAk1TRnQBSQFMAgEBCgEAARgBAAEIAQABGAEAARgBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFg
+        AwABSAMAAQEBAAEgBgABbP8AswADHAEpAyQBOAMQARX/AHUAAxEBFgMAAf8DAAH//wB8AAH/AwAB/wMA
+        Af80AAMlATkDJwE9AycBPQMnAT0DJwE9AycBPQMnAT0DJwE9AycBPQMnAT0DJwE9AycBPQMnAT0DJwE9
+        AycBPQMnAT0EAQQAAycBPQMnAT0DJwE9AycBPQMYASHnAAH/AwAB/wMAAf8DAAH/MAADDQHuAwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwUBBgcA
+        Af8DAAH/AwAB/wMAAf8DNAGN5wAB/wMAAf8DAAH/AwAB/wMAAf8sAAMNAe4DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DBQEGBwAB/wMAAf8DAAH/
+        AwAB/wM0AY3nAAH/AwAB/wMAAf8DAAH/AwAB/wMaAdkoAAMoAb4DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf8DAAH/Ax8BLecA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMQARUrAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf8DAAH/1AADEQEXAxYBHgMWAR4DFgEe
+        AxYBHgMPAewDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8vAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/CwAB/wMAAf8DAAH/AwAB/98AAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/zAAAyQBOAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DBwEJDwAB/wMAAf8DLAFN6wAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH//wBRAAM1AYQDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af84AAMDAQQQAAMCAQP/AAQAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMaAdsvAAH/AwAB/wMAAf8DAAH/AwAB/wsAAf8DAAH/AwAB//8AAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMdAdYDJAHHAyQBxwMkAccDJAHHAyQBxwMHAQknAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        BAADCgHzAwAB/wMAAf8DAAH/+AADGAEiAwAB/wMAAf8DAAH/AwAB/wMAAf8DGQHcPwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wQAAwkBCwMAAf8DAAH/AwAB//8AAf8DAAH/AwAB/wMAAf8DAAH/AwAB/z8A
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf//AAQAAf8DAAH/AwAB/wMAAf8DAAH/
+        PwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wQAAyEBMgMAAf8DAAH/AwAB//8ACAAB/wMAAf8DAAH/
+        AwAB/z8AAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMmAcMHAAH/AwAB/wMAAf8DAAH//wAIAAH/AwAB/wMA
+        Af8DAAH/QAADBQH5AwAB/wMAAf8DAAH/AzUBhQsAAf8DAAH/AwAB//8AEAAB/wMAAf8DAAH//wB8AAH/
+        AwAB//8AeQADLQGyAyYBwgMMARD/AP8A/wD/AP8A/wBSAAMCAQMDJAE4BAFIAAMkATgDJAE4AyQBOAMk
+        ATgDJAE4AyQBOAMkATgDJAE4AyMBNqwAAxQBG1AAAzUBewMAAf8DAAH/AwAB/wMAAf8DAAH/AwoBDTAA
+        AxYBHgMWAR4DFgEeAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEe
+        AxYBHgMWAR6LAAH/AwYB+A8AAf8PAAH/AwAB/zgAAzMBlwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DHAEpJwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/5wAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/IAADHAEpAwAB/xMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DBQH5
+        EwAB/+AAAyEBMgMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/yAAAyQBxwMAAf8fAAH/
+        DwAB/x8AAf8DJwE9fwAB/wMoAb4PAAH/DAADBQH5AwQB+jQAAyQBxgMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMmATwcAAMkAccDAAH/HwAB/w8AAf8fAAH/AycBPUQAAwsBDgMAAf8DAAH/
+        AwAB/wMAAf8kAAM1AX0QAAMFAfkMAAMZASMDHAEoNAADLAFLAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/IAADJAHHAwAB/08AAf8DJwE9RAADCwEOAwAB/5cAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/yAAAyQBxwMAAf9PAAH/AycBPUsAAf8DAAH/AwAB/wMAAf+IAAMEAfoDAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/Ay8Bq48AAf8DAAH/AwAB/wMAAf8IAAQCAwAB/wMAAf8DAAH/
+        AwAB/xQAAwsBDgMAAf8cAAMmAcIDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AyQBODQAAzQBhwMAAf8DAAH/AwAB/wMAAf8DAAH/AyMBNTwAAyQBNwMkATgDJAE4
+        FAADJAE4AyQBOAMiATMrAAH/CAADAgEDCAADAgEDAwAB/wsAAf8IAAMLAQ4DAAH/AwAB/wMAAf8DAAH/
+        HAADJwHAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMj
+        ATY7AAH/AwAB/wMAAf8DAAH/AwAB/zsAAf8DAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf8LAAH/AwAB/wMA
+        Af8DAAH/IwAB/xQAAwIBAwMAAf8LAAH/OAADKAFCAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wQCOwAB/wMWAR4DFgEeAxYBHgMAAf83AAH/AwAB/wMAAf8DIAHQ
+        AyEBMgQAAzUBiQMAAf8DAAH/AwAB/wMbAScEAAMwAVoDCwHxAwAB/wMAAf8DAAH/HwAB/xQAAwIBAwMA
+        Af8LAAH/PwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/z8A
+        Af8PAAH/MAAEAgMAAf8DAAH/AwAB/wMkATgEAAMJAQwDAAH/AwAB/wMAAf8DAAH/AwAB/wgAAyYBwgMA
+        Af8DAAH/AwAB/x8AAf8DAAH/AwAB/wMAAf8IAAMCAQMDAAH/AwAB/wMAAf8DAAH/PwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/z8AAf8EAAMWAeEDAAH/AwAB/zAA
+        AxcB3wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AxUBHYcAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        QwAB/w8AAf8wAAMNAREDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/48AAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/0cA
+        Af8PAAH/NwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf+TAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/SwAB/wQAAxYB4QMAAf8DAAH/
+        OwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        owAB/1cAAf8PAAH/PAADHgEsAyYBwgMLAfEDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyAB0AMn
+        AcEDEwEapwAB/1cAAf8DGAEhBAADMgGbAwAB/0QAAyYBwgMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DJAE4rAADFgHhVwAB/wMAAf8DAAH/AwAB/wMLAfBEAAMmAcIDAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AyQBOP8ACQADCAEKAycBwQQCSAADJgHCAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMk
+        ATj/AF0AAzMBmAMkAccDJAHHAyQBxwMkAccDJAHHAyQBxwMkAccDHgEs/wD/AP8A9wADAwEEAyQBOAMk
+        ATgDJAE4AyQBOAMkATgDJAE4AyQBOAMkATgDJAE4AyQBOAMkATj/AAkAAxYBHkAAAxMBGgMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf84AAMyAWMDAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMbAScwAAMSARgDFgEeNAADFgEeAwYBBzMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af80AAMZAdwDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        Ay0BTiwAAyYBxAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wM1AXwoAAMkAccDAAH/
+        AycBPQMnAT0DJwE9AycBPQMnAT0DJwE9AycBPQMnAT0DJwE9AycBPQMnAT0DJwE9AycBPQMAAf8DJwE9
+        KAADHwEtAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwMBBC8AAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMrAbUEAAMbAdgDAAH/AwAB/wMAAf8DAAH/AwAB/wMOAe0rAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/JAADJAHHAwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AycBPSsAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/LwAB/wMAAf8DAAH/AwAB/wMAAf8XAAH/AwAB/wMA
+        Af8DAAH/AwAB/ycAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/yAAAyQBxwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMnAT0nAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/KwAB/wMAAf8DAAH/AwAB/wMAAf8XAAH/AwAB/wMAAf8DAAH/AwAB/yAAAxUB4gMA
+        Af8DAAH/AwAB/wMLAQ4DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AykBQwMAAf8DAAH/AwAB/wM1
+        AXscAAMkAccDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DJwE9JwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/ysAAf8DAAH/AwAB/wMAAf8DAAH/FwAB/wMAAf8DAAH/AwAB/wMAAf8jAAH/AwAB/wMAAf8DBgEI
+        CwAB/wMAAf8DAAH/AwAB/wMGAfgIAAMoAUEDAAH/AwAB/wMAAf8cAAMkAccDAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DJwE9IAADLwFWAwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMGAQcnAAH/AwAB/wMA
+        Af8DAAH/AwAB/xcAAf8DAAH/AwAB/wMAAf8DAAH/HAADFAHjAwAB/wMAAf8DAAH/FwAB/wMoAUITAAH/
+        AwAB/wMAAf8DGwEmGAADJAHHAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AycBPSAAAycBwQMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DJAE3JwAB/wMAAf8DAAH/AwAB/wMAAf8DJwE/DAADJwHAAwAB/wMA
+        Af8DAAH/AwAB/wMAAf8fAAH/AwAB/wMAAf8MAAMGAQcEAQMXAd8HAAH/FwAB/wMAAf8DAAH/GAADJAHH
+        AwAB/xMAAf8DAAH/AwAB/wMAAf8DAAH/EwAB/wMnAT0gAAMyAWUDAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwkBDCcAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/w8A
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/x8AAf8DAAH/AwAB/wsAAf8DAAH/AwAB/wMvAVYHAAH/BAADJAE3
+        DwAB/wMAAf8DAAH/MwAB/wMAAf8DAAH/AwAB/wMAAf8/AAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/JAADIAEvAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wcA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8fAAH/AwAB/wMAAf8LAAH/AwAB/wMdAdYDAAH/CwAB/wMA
+        Af8DAAH/Ax4BKwQAAxYB4QMWAeEDFgHhMwAB/wMAAf8DAAH/AwAB/wMAAf8/AAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/JAADIQHNAwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AyoBRxsAAf8DAAH/AwAB/wsA
+        Af8DAAH/AwAB/wMAAf8HAAH/AzMBZgMAAf8DAAH/AwAB/0MAAf8DAAH/AwAB/wMAAf8DAAH/QwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8rAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AxsB2hsAAf8DAAH/AwAB/wsA
+        Af8DAAH/AzEBoQsAAf8DAAH/AwAB/wMAAf8DAAH/PwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/zwA
+        Ay8BrAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMeASsrAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/xgAAwEB/gMA
+        Af8DAAH/AwAB/xgAAxAB6gMAAf8DAAH/AwAB/wMAAf8EApQAAwYBBwMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8zAAH/AwEB/gMmAcIDJgHCAyYBwgMmAcIDJgHCAyYBwgMmAcIDJgHCAyYBwgMmAcIDJgHC
+        AyYBwgMmAcIDAAH/AwAB/x8AAf8DAAH/AwAB/xQAAwkBCwQAAwQBBQMmAcIDJgHEAwAB/wMsAU1HAAH/
+        VAADNAFvAwAB/wMAAf8DAAH/OwAB/wMvAak0AAMHAfcDAAH/HAADBAH6AwAB/wMAAf8DAAH/EAADFgHh
+        AxgBIhAAAxMBGkcAAf9TAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf83AAH/AwkBDDQAAzQBjwMAAf8jAAH/
+        AwAB/wMAAf8DAAH/AwAB/wgAAxYB4QMAAf8DDwEUVwAB/08AAf8DAAH/AwAB/wMAAf8EAAMEAQUDAAH/
+        AzUBhDMAAf84AAMCAQMDAAH/JwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/Aw8BFFMA
+        Af9PAAH/AwAB/wMAAf8DAAH/CAADEAHrAwAB/zMAAf8/AAH/KAADBAH6AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DDgESPwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/OAADLgFU
+        AwAB/wMAAf8DAAH/EAADMQFbLAADBgEIAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8wAAMBAf4DAAH/AwAB/wMAAf8DAAH/AwAB/wM1
+        AYBAAAMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4TgAAzIBmwMyAWNIAAMxAaMDJgHC
+        AyYBwgMmAcIDJgHCAyYBwgMmAcIDJgHCAyYBwgMmAcIDJgHCAyYBwgMmAcIDJgHCAyYBwgMmAcIDJgHC
+        AyYBwgMMARA4AAMWAeEDAAH/AzUBgf8AdQADFgHhAzUBgf8AeQADNAFyjAABQgFNAT4HAAE+AwABKAMA
+        AWADAAFIAwABAQEAAQEFAAFgAQMWAAP/AQAG/wYAAf8BHwT/BgAB/wEfBP8GAAH/AY8B/wGAAQABIAYA
+        Af8BhwH/AYABAAEgBgAB/wGDAf8BgAEAASAGAAH/AYEB/wGAAQABYAYAAf8BgAH/AcABAAFhBgAB8AEA
+        Af8B4AEAAcMGAAH4AQABfwH4AQMBjwYAAfwBAAE/A/8GAAH8AQABHwH/Ab0B/wYAAf4BAAEPAf4BDAF/
+        BgAB/wEAAQcB/AEEAT8GAAH/AQEB/wH8AQQBPwYAAf8BgQH/AfwBBgE/BgAB/wHBAf8B/AEEAT8GAAH/
+        AeEB/wH8AQQBPwYAAf8B4QH/Af4BDAF/BgAB/wHxBP8GAAH/AfkE/wYAAf8B+AT/BgAG/wYABv8GABD/
+        AeMC/wEAAX8E/wH3Av8BgAH/AfABAAEHA/8B/gF3AT8B/wEAAX8BwAEAAQEH/wEAAX8BngEAAT0G/wH+
+        AQABfwGfAd0B/AP/Af4BdwE/Af4BAAE/AZ8B3QH8Av8BgwH+AfcBPwH+AQABfwGfAf8B/AL/AZ8E/wEA
+        AX8BnwH/AfwC/wHDBP8BAAF/A/8B8AHBAfMB+AEAAQ8B/wGAAf8B/gE+AT8B9gHNAYMB+AEAAQ8B/wHB
+        Af8B+AFjAQ8B9wHNAf8B+AEAAQ8B/wHBAf8B8AFBAQcB9wHNAf8B/AEAAR8B/wHdAf8B4AGBAYcB8AHB
+        Af8B/AEAAR8B/wHRAf8B4AEAAQMD/wH+AQABPwH/Ad0B/wHgAQABBwT/AQABfwH/Ad0B/wHwAQABBwT/
+        AYAC/wHRAf8B+AEAAQ8E/wH3Av8B3QH/AfwBAAEfBP8B9wL/AckC/wEAAX8E/wH3Av8BwQL/AQABfwf/
+        AeMC/wEAAX8K/wEAAX8e/wH8AQABPwf/AfcB/wH4AQABHwH/AYAB/wHzAf8B5wH/AYAB/wH4AQABDwH+
+        AQABPwHwAQABBwH+AQABPwH4AQgBDwH8AQABHwHwAQABBwH+AQABPwH4AT4BDwH4AQABDwHwAQABBwH8
+        AQABHwH4AT4BDwHwAQABBwHwAQABBwH8AQABHwH4AT4BDwHwAcEBhwHwAQABBwH4AQABDwH4AT4BDwHh
+        AfMBwwHwAQABBwH4AQABDwH4ARwBDwHjAYsB4wHzAcEB5wH4AQABDwH4ARwBDwHjAQoB4wH/AcEB/wH8
+        AQABHwHwAQgBDwHjAQwBIwH/AcEB/wH8AQABHwHwAQABBwHjAQgBPwH/AcEB/wH+AQABPwHwAQABBwHj
+        ARgBPwH/AYAB/wH+AQABPwHwAQABBwHhAfgBHwT/AQAB/wHwAQABBwHxAfQBHwH/AfcC/wHDAf8B8wH/
+        AecB8AHzAd8B/wH3Av8BgQH/AfMB/wHnAfgBMQL/AfcC/wEIAf8B9wH/AecB/AEAAv8B9wL/AQwB/wH3
+        Af8B9wH+AQABfwH/AQABfwH+AR4B/wHgAQABBwH/AYAC/wEAAX8B/gF/Af8B4AEAAQMB/wHxC/8B8wv/
+        AfcE/ws=
+</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -862,10 +1131,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Life Support Calculator</value>
   </data>
-  <data name="&gt;&gt;iconList.Name" xml:space="preserve">
-    <value>iconList</value>
+  <data name="&gt;&gt;iconList1.Name" xml:space="preserve">
+    <value>iconList1</value>
   </data>
-  <data name="&gt;&gt;iconList.Type" xml:space="preserve">
+  <data name="&gt;&gt;iconList1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TSMI_App.Name" xml:space="preserve">
@@ -963,6 +1232,12 @@
   </data>
   <data name="&gt;&gt;TSMI_Help_GitRepo.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconList2.Name" xml:space="preserve">
+    <value>iconList2</value>
+  </data>
+  <data name="&gt;&gt;iconList2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
