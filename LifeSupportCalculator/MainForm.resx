@@ -124,90 +124,163 @@
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABu
-        EwAAAk1TRnQBSQFMAgEBAgEAAeQBAAHkAQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
-        AwABIAMAAQEBAAEgBgABQP8A/wD/AP8AygADKgFAA0YBgANGAYADRgGAA0YBgANGAYADKgFA/wDlAANG
-        AYADAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYD/AD0AAyoBQANHAYADRwGAA0YBgANGAYADRgGAA0YBgANG
-        AYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANG
-        AYADRgGAAyoBQEQAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgP8APQADRwGABP8DgAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/A0YBgEQAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgP8APQADRwGA
-        BP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DQAH/A4AB/wNAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgCQAAyoBQANGAYADRgGAA0YBgAMqAUAEAAMq
-        AUADRgGAA1oBvwMAAf8DAAH/AwAB/wMAAf8DAAH/A1oBvwNGAYADKgFABAADKgFAA0YBgANGAYADRgGA
-        AyoBQP8AHQADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DgAX/A4AB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGAJAADRgGAAwAB/wMAAf8DAAH/
-        A0YBgAQAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYAEAANGAYADAAH/
-        AwAB/wMAAf8DRgGA/wAdAANHAYAE/wOAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wOABf8DgAH/AwAB/wMA
-        Af8DAAH/A1oBvwNGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADWgG/AwAB/wNGAYAcAAMqAUADRwGA
-        A1oBvwMAAf8DAAH/AwAB/wNaAb8DRgGAA1oBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wNaAb8DRgGAA1oBvwMAAf8DAAH/AwAB/wNaAb8DRwGAAyoBQP8AFQADRwGABP8DgAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DgAX/A4AB/wMAAf8DAAH/AwAB/wNGAYAcAANGAYADAAH/A0YBgBwAA0cBgAOG
-        Af8DQwH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A4AF/wNHAYD/ABUAA0cBgAT/A4AB/wMAAf8DWgG/
-        A0YBgANGAYADRgGAA0cBgANHAYADRwGAA0YBgANaAb8DAAH/A1oBvwNGAYADRgGAA0YBgANGAYADRgGA
-        A0YBgANGAYADWgG/AwAB/wNGAYAcAANGAYADQwH/AyIB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wNaAb8DRgGAA1oBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNA
-        Af8DgAH/A0cBgP8AFQADRwGABP8DgAH/AwAB/wNGAYAcAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYAcAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wNGAYAEAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wNGAYD/ABUAA0cBgAT/A4AB/wMAAf8DWgG/A0YBgANGAYADRgGAA0cBgANHAYADRwGA
-        A0YBgANaAb8DAAH/AzwB/wN5Af8DeQH/A3kB/wN5Af8DeQH/A3kB/wN5Af8DPAH/AwAB/wNGAYAcAAMq
-        AUADRgGAA1oBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWgG/A0YBgAMqAUAEAAMqAUADRgGA
-        A1oBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWgG/A0YBgAMqAUD/ABUAA0cBgAT/A4AB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/A4AF/wOAAf8DAAH/AwAB/wMAAf8DeQH/A/EB/wPxAf8D8QH/A/EB/wPx
-        Af8D8QH/A/EB/wN5Af8DAAH/A0YBgCQAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGA
-        FAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYD/AB0AA0cBgAT/A4AB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/A0AB/wOAAf8DQAH/AwAB/wMAAf8DAAH/AzwB/wN5Af8DeQH/A3kB/wN5Af8DeQH/
-        A3kB/wN5Af8DPAH/AwAB/wNGAYAkAAMqAUADRgGAA1oBvwMAAf8DAAH/AwAB/wNaAb8DRgGAAyoBQBQA
-        AyoBQANGAYADWgG/AwAB/wMAAf8DAAH/A1oBvwNGAYADKgFA/wAdAANHAYAE/wOAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DRgGALAADRgGAAwAB/wMAAf8DAAH/A0YBgCQAA0YBgAMAAf8DAAH/AwAB/wNG
-        AYD/ACUAA0cBgAT/A4AB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYAkAAMqAUADRgGAA1oBvwMA
-        Af8DAAH/AwAB/wNaAb8DRgGAAyoBQBQAAyoBQANGAYADWgG/AwAB/wMAAf8DAAH/A1oBvwNGAYADKgFA
-        /wAdAANHAYAE/wOAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGAJAADRgGAAwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DCwH/AxYB/wNGAYAUAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgP8A
-        HQADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wNaAb8DRgGAA0YBgANGAYADWgG/AwAB/wMAAf8DAAH/A0YBgBwAAyoBQANGAYADWgG/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DBgH/AwsB/wNaAb8DRgGAAyoBQAQAAyoBQANGAYADWgG/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wNaAb8DRgGAAyoBQP8AFQADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYAMAANGAYADAAH/AwAB/wMAAf8DRgGA
-        HAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGABAADRgGA
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGA/wAVAANHAYAE/wOA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgAwA
-        A0YBgAMAAf8DAAH/AwAB/wNGAYAcAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wNaAb8DRgGAA1oBvwMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMt
-        Af8DWQH/A0cBgP8AFQADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wNGAYAMAANGAYADAAH/AwAB/wMAAf8DRgGAHAADRgGAAwAB/wMAAf8DAAH/
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABm
+        JAAAAk1TRnQBSQFMAgEBBQEAAewBAAHsAQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        AwABQAMAAQEBAAEgBgABgP8A/wD/AP8A/wD/AP8A/wD/AP8ANwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AxYBHgQAAxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af//AKQAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AxYBHgQAAxYB4QMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwUBBv8AmAAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AxYBHgQAAxYB4QMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB//8AmAAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AxYBHgQAAxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf//AJAAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEeBAADFgHhAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB//8AkAAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMWAR4EAAMWAeEDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH//wCQAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AxYBHgQAAxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf//AJAAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DFgEeBAADFgHhAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB//8AkAAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wQAAyMBygMA
+        Af8DFgEeBAADFgHhAwAB/wMfAS4HAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf//AJQA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMbAdoIAAMjAcoDFgEeBAADFgHhAx8BLgsA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AygBv/8AmAAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AxsB2ggAAwkBCwQAAxUBHAsAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        /wCdAAMhAc0DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DGwHaFwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH//wCtAAMyAZsDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DGwHa
+        DwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB//8AtQADCwHwAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DGwHaBwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf//AMAAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH//wDAAAH/
         AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DWQH/A7IB/wNHAYD/ABUAA0cBgAT/A4AB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DWgG/A0YBgANGAYADRgGAA1oBvwMA
-        Af8DAAH/AwAB/wNGAYAcAAMqAUADRgGAA1oBvwMAAf8DAAH/AwAB/wNaAb8DRgGAA1oBvwMAAf8DAAH/
-        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNaAb8DRgGAA1oBvwMAAf8DAAH/AwAB/wNaAb8DRwGA
-        AyoBQP8AFQADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgCQAA0YBgAMAAf8DAAH/
-        AwAB/wNGAYAEAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGABAADRgGA
-        AwAB/wMAAf8DAAH/A0YBgP8AHQADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgCQA
-        AyoBQANGAYADRgGAA0YBgAMqAUAEAAMqAUADRgGAA1oBvwMAAf8DAAH/AwAB/wMAAf8DAAH/A1oBvwNG
-        AYADKgFABAADKgFAA0YBgANGAYADRgGAAyoBQP8AHQADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        AwAB//8AvQAEAQMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB//8AyAAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAgH8/wDMAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH//wDUAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB//8A4AAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB//8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
+        /wBcAAMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEe
+        AxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxUBHSwAAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMW
+        AR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFQEdoAADKgFA
+        A0cBgANHAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADRgGA
+        A0YBgANGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADKgFAJwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8nAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/5wAA0cBgAT/A4AB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wNGAYAgAAMYAd4DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMV
+        AR0cAAMYAd4DAAH/AxQB5AMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHh
+        AxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDAwH7AwAB/wMVAR0kAAMDAfsDAAH/AwAB/wMA
         Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
-        Af8DAAH/A0YBgEQAA0YBgAMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgP8APQADKgFAA0cBgANaAb8DgAH/
-        A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/
-        A4AB/wOAAf8DgAH/A4AB/wOAAf8DRwGARAADRgGAAwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGA/wBFAANH
-        AYBU/wNHAYBEAANGAYADAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYD/AEUAAyoBQANHAYADRwGAA0cBgANH
-        AYADRwGAA0cBgANHAYADRwGAA0cBgANHAYADRwGAA0cBgANHAYADRwGAA0cBgANHAYADRwGAA0cBgANH
-        AYADRwGAA0cBgAMqAUBEAAMqAUADRgGAA0YBgANGAYADRgGAA0YBgAMqAUD/AP8A/wD/AP8A/wD/ADcA
-        AUIBTQE+BwABPgMAASgDAAGAAwABIAMAAQEBAAEBBgABAhYAA/8BAAj/CAAI/wgABf8B+AEPAf8IAAX/
-        AfgBDwH/CAAB4AIAAQ8B/wH4AQ8B/wgAAeACAAEPAf8B+AEPAf8IAAHgAgABDwH4ASABAgEPCAAB4AIA
-        AQ8B+AEgAQIBDwgAAeACAAEPAeACAAEDCAAB4AEAAT8BjwHgAgABAwgAAeACAAEPAeACAAEDCAAB4AH+
-        AQABDwHgAQABgAEDCAAB4AIAAQ8B4AEAAYABAwgAAeACAAEPAfgBAwHgAQ8IAAHgAgABDwH4AQMB4AEP
-        CAAB4AIAAQ8B/gEPAfgBPwgAAeACAAEPAfgBAwHgAQ8IAAHgAgABDwH4AQMB4AEPCAAB4AIAAQ8B4AEA
-        AYABAwgAAeABAAEOAQ8B4AEAAYABAwgAAeABAAEOAQ8B4AIAAQMIAAHgAQABDgEPAeACAAEDCAAB4AIA
-        AQ8B4AIAAQMIAAHgAgABDwH4ASABAgEPCAAB4AIAAQ8B+AEgAQIBDwgAAeACAAEPAf8B+AEPAf8IAAHg
-        AgABDwH/AfgBDwH/CAAB+AIAAQ8B/wH4AQ8B/wgAAfgCAAEPAf8B+AEPAf8IAAj/CAAI/wgACP8IAAs=
+        Af8DAAH/AzUBiSAAA0cBgAT/A4AB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0AB/wOAAf8DQAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYAgAAMWAeEDAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMWAR4cAAMWAeEDAAH/AxYBHkwAAxYB4QMAAf8DFgEe
+        JwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/IAADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DgAX/
+        A4AB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGA
+        IAADFgHhAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEeHAADFgHhAwAB/wMWAR5MAAMW
+        AeEDAAH/AxYBHicAAf8DAAH/RwAB/wMAAf8gAANHAYAE/wOAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wOA
+        Bf8DgAH/AwAB/wMAAf8DAAH/A1oBvwNGAYADRgGAA0YBgANGAYADRgGAA0YBgANGAYADWgG/AwAB/wNG
+        AYAgAAMWAeEDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMWAR4cAAMWAeEDAAH/AxYBHkwA
+        AyQBxgMWAeEDFAEbJwAB/wMAAf9HAAH/AwAB/yAAA0cBgAT/A4AB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        A4AF/wOAAf8DAAH/AwAB/wMAAf8DRgGAHAADRgGAAwAB/wNGAYAgAAMWAeEDAAH/AwAB/wMAAf8DAAH/
+        AwAB/wsAAf8DAAH/AwAB/wMWAR4EAAMWAeEDAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf8DAAH/AwAB/wMW
+        AR4cAAMWAeEDAAH/AxYBHkAAAx4B0jsAAf8DAAH/RwAB/wMAAf8gAANHAYAE/wOAAf8DAAH/A1oBvwNG
+        AYADRgGAA0YBgANHAYADRwGAA0cBgANGAYADWgG/AwAB/wNaAb8DRgGAA0YBgANGAYADRgGAA0YBgANG
+        AYADRgGAA1oBvwMAAf8DRgGAIAADFgHhAwAB/wMAAf8DAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf8DFgEe
+        BAADFgHhAwAB/wMAAf8DAAH/CwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEeHAADFgHhAwAB/wMWAR48AAMf
+        AdEDAAH/AwAB/zcAAf8DAAH/IwAB/yMAAf8DAAH/IAADRwGABP8DgAH/AwAB/wNGAYAcAANGAYADAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYAgAAMWAeEDAAH/AwAB/wMA
+        Af8DAAH/AwAB/wsAAf8DAAH/AwAB/wMWAR4EAAMWAeEDAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMWAR4cAAMWAeEDAAH/AxYBHkMAAf8DAAH/AwAB/zMAAf8DAAH/HwAB/wMAAf8DAAH/HwAB/wMA
+        Af8gAANHAYAE/wOAAf8DAAH/A1oBvwNGAYADRgGAA0YBgANHAYADRwGAA0cBgANGAYADWgG/AwAB/wM8
+        Af8DeQH/A3kB/wN5Af8DeQH/A3kB/wN5Af8DeQH/AzwB/wMAAf8DRgGAIAADFgHhAwAB/wMAAf8DAAH/
+        AwAB/wMAAf8LAAH/AwAB/wMAAf8DFgEeBAADFgHhAwAB/wMAAf8DAAH/CwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DFgEeHAADFgHhAwAB/wMWAR5HAAH/AwAB/wMAAf9PAAH/AwAB/wMAAf8DAAH/AwAB/0AAA0cBgAT/
+        A4AB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A4AF/wOAAf8DAAH/AwAB/wMAAf8DeQH/A/EB/wPxAf8D8QH/
+        A/EB/wPxAf8D8QH/A/EB/wN5Af8DAAH/A0YBgCAAAxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/CwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/CwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEeHAADFgHh
+        AwAB/wMWAR5LAAH/AwAB/wMAAf9HAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/PAADRwGABP8DgAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DQAH/A4AB/wNAAf8DAAH/AwAB/wMAAf8DPAH/A3kB/wN5Af8DeQH/
+        A3kB/wN5Af8DeQH/A3kB/wM8Af8DAAH/A0YBgCAAAxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/CwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/CwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEeHAADFgHh
+        AwAB/wMWAR4UAAMUARsDFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMW
+        AR4DFgEeAwAB/wMAAf8DAAH/PwAB/wMAAf8DAAH/AxYB4QMAAf8DFgEeAwAB/wMAAf8DAAH/OAADRwGA
+        BP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgCAAAxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/
+        CwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/CwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEe
+        HAADFgHhAwAB/wMWAR4UAAMWAeEDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/zcAAf8DAAH/AwAB/wQAAxYB4QMAAf8DFgEeBwAB/wMA
+        Af8DAAH/NAADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgCAAAxYB4QMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEeBAADFgHhAwAB/wMAAf8DAAH/CwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DFgEeHAADFgHhAwAB/wMWAR4UAAMkAcYDFgHhAxYB4QMWAeEDFgHhAxYB4QMW
+        AeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAwAB/wMAAf8DAAH/NwAB/wMAAf8DAAH/CAADFgHh
+        AwAB/wMWAR4LAAH/AwAB/wMAAf8wAANHAYAE/wOAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGA
+        IAADFgHhAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMUARsEAAMXAeADAAH/
+        AwAB/wMAAf8LAAH/AwAB/wMAAf8DAAH/AwAB/wMWAR4cAAMWAeEDAAH/AxYBHksAAf8DAAH/AwAB/z8A
+        Af8MAAMWAeEDAAH/AxYBHg8AAf80AANHAYAE/wOAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A1oBvwNGAYADRgGAA0YBgANaAb8DAAH/AwAB/wMAAf8DRgGA
+        IAADFgHhAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wsAAf8DAAH/AwAB/wMAAf8DAAH/AxYBHhwAAxYB4QMAAf8DFgEeRwAB/wMAAf8DAAH/
+        UAADFgHhAwAB/wMWAR5EAANHAYAE/wOAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/A0YBgAwAA0YBgAMAAf8DAAH/AwAB/wNGAYAgAAMWAeEDAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/CwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DFgEeHAADFgHhAwAB/wMWAR5DAAH/AwAB/wMAAf9UAAMWAeEDAAH/AxYBHkQA
+        A0cBgAT/A4AB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DRgGADAADRgGAAwAB/wMAAf8DAAH/A0YBgCAAAxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8LAAH/AwAB/wMAAf8DAAH/AwAB/wMW
+        AR4cAAMWAeEDAAH/AxYBHj8AAf8DAAH/AwAB/1gAAxYB4QMAAf8DFgEeRAADRwGABP8DgAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNGAYAMAANGAYADAAH/
+        AwAB/wMAAf8DRgGAIAADFgHhAwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wsAAf8DAAH/AwAB/wMAAf8DAAH/AxYBHhwAAxYB4QMAAf8DFgEe
+        QwAB/1wAAxYB4QMAAf8DFgEeRAADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wNaAb8DRgGAA0YBgANGAYADWgG/AwAB/wMAAf8DAAH/A0YBgCAA
+        AxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8LAAH/AwAB/wMAAf8DAAH/AwAB/wMWAR4cAAMWAeEDAAH/AxYBHkwAAxQBGwMWAR4DAwEE
+        SAADFgHhAwAB/wMWAR5EAANHAYAE/wOAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DRgGAIAADFgHh
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DFgEeHAADFgHhAwAB/wMWAR5MAAMWAeEDAAH/
+        AxYBHkgAAxYB4QMAAf8DFgEeRAADRwGABP8DgAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/A0YBgCAA
+        AxYB4QMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AxYBHhwAAxYB4QMAAf8DFgEeTAADFgHh
+        AwAB/wMWAR5IAAMWAeEDAAH/AxYBHkQAA0cBgAT/A4AB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wNG
+        AYAgAAMWAeEDAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/
+        AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMWAR4cAAMWAeEDAAH/AyUBOQMW
+        AR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMWAR4DFgEeAxYBHgMW
+        AR4DFgEeAxYBHgMWAR4DFAHkAwAB/wMWAR5IAAMWAeEDAAH/AxYBHkQAAyoBQANHAYADWgG/A4AB/wOA
+        Af8DgAH/A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/A4AB/wOAAf8DgAH/A4AB/wOA
+        Af8DgAH/A4AB/wOAAf8DgAH/A0cBgCcAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/JwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf8DAAH/AwAB/wMA
+        Af8DAAH/AwAB/wMAAf8DAAH/AwAB/wMAAf+kAANHAYBU/wNHAYAoAAMWAeEDFgHhAxYB4QMWAeEDFgHh
+        AxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHh
+        AxgB3iwAAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMW
+        AeEDFgHhAxYB4QMWAeEDFgHhAxYB4QMWAeEDGAHeqAADKgFAA0cBgANHAYADRwGAA0cBgANHAYADRwGA
+        A0cBgANHAYADRwGAA0cBgANHAYADRwGAA0cBgANHAYADRwGAA0cBgANHAYADRwGAA0cBgANHAYADRwGA
+        AyoBQP8A/wD/AP8A/wD/AP8AlwABQgFNAT4HAAE+AwABKAMAAYADAAFAAwABAQEAAQEGAAEEFgAD/wEA
+        BP8MAAT/DAAE/wwABP8MAAT/DAAB/AEAAYABDwwAAfABAAGAAQMMAAHgAQABgAEDDAAB4AEAAYABAQwA
+        AcABAAGAAQEMAAHAAQABgAEBDAABwAEAAYABAQwAAcABAAGAAQEMAAHAAQgBiAEDDAABwAEMAZgBAwwA
+        AeABBgGwAQ8MAAHgAQMB4AF/DAAB8AEBAcABfwwAAfwBAAGAAX8MAAH/AgABfwwAAf8CAAF/DAAB/wIA
+        Af8MAAH/AYABAAH/DAAB/wHAAQEB/wwAAf8B4AEDAf8MAAH/AfgBDwH/DAAE/wwABP8MAAT/DAAE/wwA
+        BP8MAAT/DAA0/wH8AgABHwH8AgABHwT/AeACAAEPAfgCAAEPAfgCAAEPBP8B4AIAAQ8B8AIAAQcB8AIA
+        AQcB/AIAAR8B4AIAAQ8B8AIAAQcB8QL/AccB/AIAAR8B4AIAAQ8B8AIAAQcB8QL/AccB/AL/AZ8B4AIA
+        AQ8B8AIAAQcB8QL/AccB/AL/AZ8B4AEAAT8BjwHwATABhgEHAfEB/wH+Af8B/AL/AZ8B4AIAAQ8B8AEw
+        AYYBBwHxAf8B/AF/AfwB/wF/AZ8B4AH+AQABDwHwATABhgEHAfEB/wH+AT8B/AH+AT8BnwHgAgABDwHw
+        ATABhgEHAfEC/wEfAf8B/AEfAf8B4AIAAQ8B8AEwAQYBBwHxAv8BjwH/AfgBDwH/AeACAAEPAfABMAEG
+        AQcB8QHwAQABBwH/AfABBwH/AeACAAEPAfABMAEGAQcB8QHwAQABAwH/AeIBIwH/AeACAAEPAfABAAGG
+        AQcB8QHwAQABBwH/AcYBMQH/AeACAAEPAfABAAGGAQcB8QL/AY8B/wHuATsB/wHgAgABDwHwAQABBgEH
+        AfEC/wEfAf8B/gE/Af8B4AEAAQ4BDwHwAQABBgEHAfEB/wH+AT8B/wH+AT8B/wHgAQABDgEPAfABAAEG
+        AQcB8QH/AfwBfwH/Af4BPwH/AeABAAEOAQ8B8AEAAQYBBwHxAf8B/gL/Af4BPwH/AeACAAEPAfABAAEG
+        AQcB8QL/AccB/wH+AT8B/wHgAgABDwHwAgABBwHxAv8BxwH/Af4BPwH/AeACAAEPAfACAAEHAfEC/wHH
+        Af8B/gE/Af8B4AIAAQ8B8AIAAQcB8AIAAQcB/wH+AT8B/wHgAgABDwH4AgABDwH4AgABDwT/AfgCAAEP
+        AfwCAAEfAfwCAAEfBP8B+AIAAQ88/ws=
 </value>
   </data>
   <metadata name="stStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -215,10 +288,10 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="stStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 475</value>
+    <value>3, 473</value>
   </data>
   <data name="stStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 22</value>
+    <value>894, 24</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="stStrip.TabIndex" type="System.Int32, mscorlib">
@@ -238,6 +311,12 @@
   </data>
   <data name="&gt;&gt;stStrip.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="TSMI_App.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 22</value>
+  </data>
+  <data name="TSMI_App.Text" xml:space="preserve">
+    <value>App</value>
   </data>
   <data name="TSMI_App_Diagnostics.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 26</value>
@@ -275,11 +354,17 @@
   <data name="TSMI_App_AppClose.Text" xml:space="preserve">
     <value>App Close</value>
   </data>
-  <data name="TSMI_App.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 22</value>
+  <data name="TSMI_View.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 22</value>
   </data>
-  <data name="TSMI_App.Text" xml:space="preserve">
-    <value>App</value>
+  <data name="TSMI_View.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="TSMI_View_Visuals.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 26</value>
+  </data>
+  <data name="TSMI_View_Visuals.Text" xml:space="preserve">
+    <value>Visuals...</value>
   </data>
   <data name="TSMI_View_Visuals_Simple.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 26</value>
@@ -293,41 +378,29 @@
   <data name="TSMI_View_Visuals_Detail.Text" xml:space="preserve">
     <value>Detailed</value>
   </data>
-  <data name="TSMI_View_Visuals.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 26</value>
-  </data>
-  <data name="TSMI_View_Visuals.Text" xml:space="preserve">
-    <value>Visuals...</value>
-  </data>
-  <data name="TSMI_View.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 22</value>
-  </data>
-  <data name="TSMI_View.Text" xml:space="preserve">
-    <value>View</value>
-  </data>
-  <data name="TSMI_Help_About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
-  </data>
-  <data name="TSMI_Help_About.Text" xml:space="preserve">
-    <value>About...</value>
-  </data>
-  <data name="TSMI_Help_Homepage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
-  </data>
-  <data name="TSMI_Help_Homepage.Text" xml:space="preserve">
-    <value>Visit Homepage</value>
-  </data>
-  <data name="TSMI_Help_GitRepo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 26</value>
-  </data>
-  <data name="TSMI_Help_GitRepo.Text" xml:space="preserve">
-    <value>Github Repository</value>
-  </data>
   <data name="TSMI_Help.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 22</value>
   </data>
   <data name="TSMI_Help.Text" xml:space="preserve">
     <value>Help</value>
+  </data>
+  <data name="TSMI_Help_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="TSMI_Help_About.Text" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="TSMI_Help_Homepage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="TSMI_Help_Homepage.Text" xml:space="preserve">
+    <value>Visit Homepage</value>
+  </data>
+  <data name="TSMI_Help_GitRepo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 26</value>
+  </data>
+  <data name="TSMI_Help_GitRepo.Text" xml:space="preserve">
+    <value>Github Repository</value>
   </data>
   <metadata name="mnStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -339,7 +412,7 @@
     <value>3, 58</value>
   </data>
   <data name="mnStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 26</value>
+    <value>894, 26</value>
   </data>
   <data name="mnStrip.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -360,7 +433,7 @@
     <value>True</value>
   </data>
   <data name="matCd2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>400, 3</value>
+    <value>408, 3</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="matCd2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -370,7 +443,7 @@
     <value>14, 14, 14, 14</value>
   </data>
   <data name="matCd2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 342</value>
+    <value>400, 342</value>
   </data>
   <data name="matCd2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -400,7 +473,7 @@
     <value>14, 14, 14, 14</value>
   </data>
   <data name="matCd1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>390, 342</value>
+    <value>400, 342</value>
   </data>
   <data name="matCd1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -417,8 +490,14 @@
   <data name="&gt;&gt;matCd1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="splC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="splC.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
+  </data>
+  <data name="splC.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="splC.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -448,10 +527,10 @@
     <value>1</value>
   </data>
   <data name="splC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>780, 342</value>
+    <value>880, 340</value>
   </data>
   <data name="splC.SplitterDistance" type="System.Int32, mscorlib">
-    <value>390</value>
+    <value>400</value>
   </data>
   <data name="splC.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -478,7 +557,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabP1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 348</value>
+    <value>886, 346</value>
   </data>
   <data name="tabP1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -498,6 +577,9 @@
   <data name="&gt;&gt;tabP1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="tabP2.ImageKey" xml:space="preserve">
+    <value>icon_analytics.ico</value>
+  </data>
   <data name="tabP2.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 39</value>
   </data>
@@ -505,13 +587,13 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabP2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 346</value>
+    <value>886, 348</value>
   </data>
   <data name="tabP2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tabP2.Text" xml:space="preserve">
-    <value>Analystics</value>
+    <value>Analytics</value>
   </data>
   <data name="&gt;&gt;tabP2.Name" xml:space="preserve">
     <value>tabP2</value>
@@ -525,11 +607,14 @@
   <data name="&gt;&gt;tabP2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="tabP3.ImageKey" xml:space="preserve">
+    <value>icon_export.ico</value>
+  </data>
   <data name="tabP3.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 39</value>
   </data>
   <data name="tabP3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 346</value>
+    <value>886, 348</value>
   </data>
   <data name="tabP3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -556,7 +641,7 @@
     <value>3, 84</value>
   </data>
   <data name="matTabC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>794, 391</value>
+    <value>894, 389</value>
   </data>
   <data name="matTabC.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -583,7 +668,7 @@
     <value>9, 18</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 500</value>
+    <value>900, 500</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9pt</value>
@@ -644,6 +729,9 @@
         IQHSRixfPquUX3mVvdfBCQ6QR9/Zz2jxH3D88nm/NpYVDOJUEZcAfSqTBHUkYlnaWLYEEH4WjRBCCCGE
         EEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBAiB/k/oerAXtTB4icAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>

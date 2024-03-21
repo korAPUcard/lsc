@@ -51,11 +51,11 @@
             this.mnStrip = new System.Windows.Forms.MenuStrip();
             this.matTabC = new MaterialSkin.Controls.MaterialTabControl();
             this.tabP1 = new System.Windows.Forms.TabPage();
+            this.matCd2 = new MaterialSkin.Controls.MaterialCard();
+            this.matCd1 = new MaterialSkin.Controls.MaterialCard();
+            this.splC = new System.Windows.Forms.SplitContainer();
             this.tabP2 = new System.Windows.Forms.TabPage();
             this.tabP3 = new System.Windows.Forms.TabPage();
-            this.splC = new System.Windows.Forms.SplitContainer();
-            this.matCd1 = new MaterialSkin.Controls.MaterialCard();
-            this.matCd2 = new MaterialSkin.Controls.MaterialCard();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -68,13 +68,17 @@
             this.iconList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList.ImageStream")));
             this.iconList.TransparentColor = System.Drawing.Color.Transparent;
             this.iconList.Images.SetKeyName(0, "icon_calculate.ico");
-            this.iconList.Images.SetKeyName(1, "icon_settings.ico");
+            this.iconList.Images.SetKeyName(1, "icon_analytics.ico");
+            this.iconList.Images.SetKeyName(2, "icon_export.ico");
+            this.iconList.Images.SetKeyName(3, "icon_export_to_drive.ico");
+            this.iconList.Images.SetKeyName(4, "icon_export_to_cloud.ico");
             // 
             // stStrip
             // 
             this.stStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             resources.ApplyResources(this.stStrip, "stStrip");
             this.stStrip.Name = "stStrip";
+            this.stStrip.SizingGrip = false;
             // 
             // TSMI_App
             // 
@@ -217,6 +221,30 @@
             this.tabP1.Name = "tabP1";
             this.tabP1.UseVisualStyleBackColor = true;
             // 
+            // matCd2
+            // 
+            resources.ApplyResources(this.matCd2, "matCd2");
+            this.matCd2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCd2.Depth = 0;
+            this.matCd2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCd2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matCd2.Name = "matCd2";
+            // 
+            // matCd1
+            // 
+            resources.ApplyResources(this.matCd1, "matCd1");
+            this.matCd1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCd1.Depth = 0;
+            this.matCd1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCd1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matCd1.Name = "matCd1";
+            // 
+            // splC
+            // 
+            resources.ApplyResources(this.splC, "splC");
+            this.splC.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splC.Name = "splC";
+            // 
             // tabP2
             // 
             resources.ApplyResources(this.tabP2, "tabP2");
@@ -228,30 +256,6 @@
             resources.ApplyResources(this.tabP3, "tabP3");
             this.tabP3.Name = "tabP3";
             this.tabP3.UseVisualStyleBackColor = true;
-            // 
-            // splC
-            // 
-            resources.ApplyResources(this.splC, "splC");
-            this.splC.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splC.Name = "splC";
-            // 
-            // matCd1
-            // 
-            resources.ApplyResources(this.matCd1, "matCd1");
-            this.matCd1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.matCd1.Depth = 0;
-            this.matCd1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matCd1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matCd1.Name = "matCd1";
-            // 
-            // matCd2
-            // 
-            resources.ApplyResources(this.matCd2, "matCd2");
-            this.matCd2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.matCd2.Depth = 0;
-            this.matCd2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matCd2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matCd2.Name = "matCd2";
             // 
             // MainForm
             // 
