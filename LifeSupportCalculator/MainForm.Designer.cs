@@ -58,7 +58,7 @@
             this.tabP2 = new System.Windows.Forms.TabPage();
             this.tabP3 = new System.Windows.Forms.TabPage();
             this.lbl2 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gBox1 = new System.Windows.Forms.GroupBox();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -240,7 +240,7 @@
             // 
             resources.ApplyResources(this.matCd1, "matCd1");
             this.matCd1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.matCd1.Controls.Add(this.groupBox1);
+            this.matCd1.Controls.Add(this.gBox1);
             this.matCd1.Controls.Add(this.lbl1);
             this.matCd1.Depth = 0;
             this.matCd1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -277,11 +277,11 @@
             this.lbl2.Name = "lbl2";
             this.lbl2.Paint += new System.Windows.Forms.PaintEventHandler(this.lbl2_Paint);
             // 
-            // groupBox1
+            // gBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
+            resources.ApplyResources(this.gBox1, "gBox1");
+            this.gBox1.Name = "gBox1";
+            this.gBox1.TabStop = false;
             // 
             // MainForm
             // 
@@ -341,7 +341,7 @@
         private MaterialSkin.Controls.MaterialCard matCd2;
         private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gBox1;
     }
 }
 
