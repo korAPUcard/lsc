@@ -49,25 +49,34 @@
             this.TSMI_Help_Homepage = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_Help_GitRepo = new System.Windows.Forms.ToolStripMenuItem();
             this.mnStrip = new System.Windows.Forms.MenuStrip();
-            this.matTabC = new MaterialSkin.Controls.MaterialTabControl();
-            this.tabP1 = new System.Windows.Forms.TabPage();
-            this.matCd2 = new MaterialSkin.Controls.MaterialCard();
             this.matCd1 = new MaterialSkin.Controls.MaterialCard();
+            this.matLbl1 = new MaterialSkin.Controls.MaterialLabel();
+            this.gBox1 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.splC = new System.Windows.Forms.SplitContainer();
-            this.tabP2 = new System.Windows.Forms.TabPage();
-            this.tabP3 = new System.Windows.Forms.TabPage();
+            this.UIIconList = new System.Windows.Forms.ImageList(this.components);
+            this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.matCd2 = new MaterialSkin.Controls.MaterialCard();
             this.mnStrip.SuspendLayout();
-            this.matTabC.SuspendLayout();
-            this.tabP1.SuspendLayout();
+            this.matCd1.SuspendLayout();
+            this.gBox1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).BeginInit();
+            this.splC.Panel1.SuspendLayout();
+            this.splC.Panel2.SuspendLayout();
             this.splC.SuspendLayout();
+            this.materialTabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // iconList
             // 
             this.iconList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList.ImageStream")));
             this.iconList.TransparentColor = System.Drawing.Color.Transparent;
-            this.iconList.Images.SetKeyName(0, "icon_calculate.ico");
+            this.iconList.Images.SetKeyName(0, "icon_calculates.ico");
             this.iconList.Images.SetKeyName(1, "icon_analytics.ico");
             this.iconList.Images.SetKeyName(2, "icon_export.ico");
             this.iconList.Images.SetKeyName(3, "icon_export_to_drive.ico");
@@ -199,27 +208,88 @@
             this.TSMI_Help});
             this.mnStrip.Name = "mnStrip";
             // 
-            // matTabC
+            // matCd1
             // 
-            this.matTabC.Controls.Add(this.tabP1);
-            this.matTabC.Controls.Add(this.tabP2);
-            this.matTabC.Controls.Add(this.tabP3);
-            this.matTabC.Depth = 0;
-            resources.ApplyResources(this.matTabC, "matTabC");
-            this.matTabC.ImageList = this.iconList;
-            this.matTabC.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matTabC.Multiline = true;
-            this.matTabC.Name = "matTabC";
-            this.matTabC.SelectedIndex = 0;
+            resources.ApplyResources(this.matCd1, "matCd1");
+            this.matCd1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCd1.Controls.Add(this.matLbl1);
+            this.matCd1.Controls.Add(this.gBox1);
+            this.matCd1.Depth = 0;
+            this.matCd1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCd1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matCd1.Name = "matCd1";
             // 
-            // tabP1
+            // matLbl1
             // 
-            this.tabP1.Controls.Add(this.matCd2);
-            this.tabP1.Controls.Add(this.matCd1);
-            this.tabP1.Controls.Add(this.splC);
-            resources.ApplyResources(this.tabP1, "tabP1");
-            this.tabP1.Name = "tabP1";
-            this.tabP1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.matLbl1, "matLbl1");
+            this.matLbl1.Depth = 0;
+            this.matLbl1.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.matLbl1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matLbl1.Name = "matLbl1";
+            // 
+            // gBox1
+            // 
+            this.gBox1.Controls.Add(this.tableLayoutPanel1);
+            resources.ApplyResources(this.gBox1, "gBox1");
+            this.gBox1.Name = "gBox1";
+            this.gBox1.TabStop = false;
+            // 
+            // tableLayoutPanel1
+            // 
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
+            this.tableLayoutPanel1.Controls.Add(this.materialLabel1, 0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
+            // materialLabel1
+            // 
+            resources.ApplyResources(this.materialLabel1, "materialLabel1");
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            // 
+            // splC
+            // 
+            resources.ApplyResources(this.splC, "splC");
+            this.splC.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splC.Name = "splC";
+            // 
+            // splC.Panel1
+            // 
+            this.splC.Panel1.Controls.Add(this.matCd1);
+            // 
+            // splC.Panel2
+            // 
+            this.splC.Panel2.Controls.Add(this.matCd2);
+            // 
+            // UIIconList
+            // 
+            this.UIIconList.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            resources.ApplyResources(this.UIIconList, "UIIconList");
+            this.UIIconList.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // materialTabControl1
+            // 
+            this.materialTabControl1.Controls.Add(this.tabPage1);
+            this.materialTabControl1.Controls.Add(this.tabPage2);
+            this.materialTabControl1.Depth = 0;
+            resources.ApplyResources(this.materialTabControl1, "materialTabControl1");
+            this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialTabControl1.Multiline = true;
+            this.materialTabControl1.Name = "materialTabControl1";
+            this.materialTabControl1.SelectedIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.splC);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            resources.ApplyResources(this.tabPage2, "tabPage2");
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // matCd2
             // 
@@ -230,43 +300,15 @@
             this.matCd2.MouseState = MaterialSkin.MouseState.HOVER;
             this.matCd2.Name = "matCd2";
             // 
-            // matCd1
-            // 
-            resources.ApplyResources(this.matCd1, "matCd1");
-            this.matCd1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.matCd1.Depth = 0;
-            this.matCd1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matCd1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matCd1.Name = "matCd1";
-            // 
-            // splC
-            // 
-            resources.ApplyResources(this.splC, "splC");
-            this.splC.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splC.Name = "splC";
-            // 
-            // tabP2
-            // 
-            resources.ApplyResources(this.tabP2, "tabP2");
-            this.tabP2.Name = "tabP2";
-            this.tabP2.UseVisualStyleBackColor = true;
-            // 
-            // tabP3
-            // 
-            resources.ApplyResources(this.tabP3, "tabP3");
-            this.tabP3.Name = "tabP3";
-            this.tabP3.UseVisualStyleBackColor = true;
-            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.Controls.Add(this.matTabC);
+            this.Controls.Add(this.materialTabControl1);
             this.Controls.Add(this.stStrip);
             this.Controls.Add(this.mnStrip);
             this.DrawerShowIconsWhenHidden = true;
-            this.DrawerTabControl = this.matTabC;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MainMenuStrip = this.mnStrip;
             this.MaximizeBox = false;
@@ -275,10 +317,17 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.mnStrip.ResumeLayout(false);
             this.mnStrip.PerformLayout();
-            this.matTabC.ResumeLayout(false);
-            this.tabP1.ResumeLayout(false);
+            this.matCd1.ResumeLayout(false);
+            this.matCd1.PerformLayout();
+            this.gBox1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.splC.Panel1.ResumeLayout(false);
+            this.splC.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
+            this.materialTabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,12 +353,16 @@
         private System.Windows.Forms.ToolStripMenuItem TSMI_Help_Homepage;
         private System.Windows.Forms.ToolStripMenuItem TSMI_Help_GitRepo;
         private System.Windows.Forms.MenuStrip mnStrip;
-        private MaterialSkin.Controls.MaterialTabControl matTabC;
-        private System.Windows.Forms.TabPage tabP1;
-        private System.Windows.Forms.TabPage tabP2;
-        private System.Windows.Forms.TabPage tabP3;
         private System.Windows.Forms.SplitContainer splC;
         private MaterialSkin.Controls.MaterialCard matCd1;
+        private System.Windows.Forms.GroupBox gBox1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private System.Windows.Forms.ImageList UIIconList;
+        private MaterialSkin.Controls.MaterialLabel matLbl1;
+        private MaterialSkin.Controls.MaterialTabControl materialTabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
         private MaterialSkin.Controls.MaterialCard matCd2;
     }
 }

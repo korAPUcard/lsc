@@ -96,7 +96,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\AppIcon.ico" />
-    <Content Include="Resources\icon_calculate.ico" />
+    <Content Include="Resources\icon_calculates.ico" />
     <Content Include="Resources\icon_settings.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

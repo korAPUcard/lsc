@@ -19,6 +19,11 @@ namespace LifeSupportCalculator
 
             this.Icon = Properties.Resources.AppIcon;
 
+            matCd1.HorizontalScroll.Enabled = false;
+            matCd2.HorizontalScroll.Enabled = false;
+
+            matLbl1.Text = "Consumption";
+
             Properties.Settings.Default.Language = "en-US";
             Properties.Settings.Default.Theme = "Dark";
             Properties.Settings.Default.Save();
@@ -58,7 +63,7 @@ namespace LifeSupportCalculator
 
         private void TSMI_App_Diagnostics_Click(object sender, EventArgs e)
         {
-            Debugger.GetAllComponents();
+            
         }
 
         private void TSMI_App_CheckUpdates_Click(object sender, EventArgs e)
