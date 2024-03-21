@@ -127,9 +127,6 @@
   <data name="icon_calculate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon_calculate.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon_settings.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="NOTO_SANS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NotoSans-VariableFont_wdth,wght.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
