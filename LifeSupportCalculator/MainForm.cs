@@ -2,6 +2,8 @@
 using MaterialSkin.Controls;
 using System;
 using System.Diagnostics;
+using System.Drawing;
+using System.Text;
 using System.Windows.Forms;
 
 namespace LifeSupportCalculator
@@ -18,6 +20,9 @@ namespace LifeSupportCalculator
             InitializeComponent();
 
             this.Icon = Properties.Resources.AppIcon;
+
+            matCd1.HorizontalScroll.Enabled = false;
+            matCd2.HorizontalScroll.Enabled = false;
 
             Properties.Settings.Default.Language = "en-US";
             Properties.Settings.Default.Theme = "Dark";
@@ -104,6 +109,16 @@ namespace LifeSupportCalculator
         private void TSMI_Help_GitRepo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void lbl1_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawString("Consumption", new Font("Roboto", 14, FontStyle.Bold), new SolidBrush(Color.White), new Point(0, 0));
+        }
+
+        private void lbl2_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawString("Supplies", new Font("Roboto", 14, FontStyle.Bold), new SolidBrush(Color.White), new Point(0, 0));
         }
     }
 }
