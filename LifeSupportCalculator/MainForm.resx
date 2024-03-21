@@ -233,10 +233,10 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="stStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 475</value>
+    <value>3, 473</value>
   </data>
   <data name="stStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>894, 22</value>
+    <value>894, 24</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="stStrip.TabIndex" type="System.Int32, mscorlib">
@@ -472,7 +472,7 @@
     <value>1</value>
   </data>
   <data name="splC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 342</value>
+    <value>880, 340</value>
   </data>
   <data name="splC.SplitterDistance" type="System.Int32, mscorlib">
     <value>400</value>
@@ -502,7 +502,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="tabP1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>886, 348</value>
+    <value>886, 346</value>
   </data>
   <data name="tabP1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -586,7 +586,7 @@
     <value>3, 84</value>
   </data>
   <data name="matTabC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>894, 391</value>
+    <value>894, 389</value>
   </data>
   <data name="matTabC.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
