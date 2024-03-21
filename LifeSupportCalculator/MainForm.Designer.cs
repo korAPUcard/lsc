@@ -56,9 +56,11 @@
             this.splC = new System.Windows.Forms.SplitContainer();
             this.tabP2 = new System.Windows.Forms.TabPage();
             this.tabP3 = new System.Windows.Forms.TabPage();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
+            this.matCd1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).BeginInit();
             this.splC.SuspendLayout();
             this.SuspendLayout();
@@ -234,6 +236,7 @@
             // 
             resources.ApplyResources(this.matCd1, "matCd1");
             this.matCd1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCd1.Controls.Add(this.lbl1);
             this.matCd1.Depth = 0;
             this.matCd1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.matCd1.MouseState = MaterialSkin.MouseState.HOVER;
@@ -257,6 +260,11 @@
             this.tabP3.Name = "tabP3";
             this.tabP3.UseVisualStyleBackColor = true;
             // 
+            // lbl1
+            // 
+            resources.ApplyResources(this.lbl1, "lbl1");
+            this.lbl1.Name = "lbl1";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -277,6 +285,8 @@
             this.mnStrip.PerformLayout();
             this.matTabC.ResumeLayout(false);
             this.tabP1.ResumeLayout(false);
+            this.matCd1.ResumeLayout(false);
+            this.matCd1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -311,6 +321,7 @@
         private System.Windows.Forms.SplitContainer splC;
         private MaterialSkin.Controls.MaterialCard matCd1;
         private MaterialSkin.Controls.MaterialCard matCd2;
+        private System.Windows.Forms.Label lbl1;
     }
 }
 

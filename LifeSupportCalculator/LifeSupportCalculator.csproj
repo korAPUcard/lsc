@@ -97,7 +97,19 @@
   <ItemGroup>
     <Content Include="Resources\AppIcon.ico" />
     <Content Include="Resources\icon_calculate.ico" />
+    <Content Include="Resources\icon_carbon_dioxide.ico" />
+    <Content Include="Resources\icon_export_to_cloud.ico" />
+    <Content Include="Resources\icon_export_to_drive.ico" />
+    <Content Include="Resources\icon_hydration.ico" />
+    <Content Include="Resources\icon_hygiene.ico" />
+    <Content Include="Resources\icon_liquidwaste.ico" />
+    <Content Include="Resources\icon_nutrition.ico" />
+    <Content Include="Resources\icon_oxygen.ico" />
+    <Content Include="Resources\icon_population.ico" />
+    <Content Include="Resources\icon_power.ico" />
     <Content Include="Resources\icon_settings.ico" />
+    <Content Include="Resources\icon_solidwaste.ico" />
+    <Content Include="Resources\icon_temperature.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
