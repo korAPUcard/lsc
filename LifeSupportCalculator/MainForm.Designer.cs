@@ -52,18 +52,20 @@
             this.matTabC = new MaterialSkin.Controls.MaterialTabControl();
             this.tabP1 = new System.Windows.Forms.TabPage();
             this.matCd2 = new MaterialSkin.Controls.MaterialCard();
+            this.lbl2 = new System.Windows.Forms.Label();
             this.matCd1 = new MaterialSkin.Controls.MaterialCard();
+            this.gBox1 = new System.Windows.Forms.GroupBox();
             this.lbl1 = new System.Windows.Forms.Label();
             this.splC = new System.Windows.Forms.SplitContainer();
             this.tabP2 = new System.Windows.Forms.TabPage();
             this.tabP3 = new System.Windows.Forms.TabPage();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.gBox1 = new System.Windows.Forms.GroupBox();
+            this.tblLayout1 = new System.Windows.Forms.TableLayoutPanel();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
             this.matCd2.SuspendLayout();
             this.matCd1.SuspendLayout();
+            this.gBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).BeginInit();
             this.splC.SuspendLayout();
             this.SuspendLayout();
@@ -236,6 +238,12 @@
             this.matCd2.MouseState = MaterialSkin.MouseState.HOVER;
             this.matCd2.Name = "matCd2";
             // 
+            // lbl2
+            // 
+            resources.ApplyResources(this.lbl2, "lbl2");
+            this.lbl2.Name = "lbl2";
+            this.lbl2.Paint += new System.Windows.Forms.PaintEventHandler(this.lbl2_Paint);
+            // 
             // matCd1
             // 
             resources.ApplyResources(this.matCd1, "matCd1");
@@ -246,6 +254,13 @@
             this.matCd1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.matCd1.MouseState = MaterialSkin.MouseState.HOVER;
             this.matCd1.Name = "matCd1";
+            // 
+            // gBox1
+            // 
+            this.gBox1.Controls.Add(this.tblLayout1);
+            resources.ApplyResources(this.gBox1, "gBox1");
+            this.gBox1.Name = "gBox1";
+            this.gBox1.TabStop = false;
             // 
             // lbl1
             // 
@@ -271,17 +286,10 @@
             this.tabP3.Name = "tabP3";
             this.tabP3.UseVisualStyleBackColor = true;
             // 
-            // lbl2
+            // tblLayout1
             // 
-            resources.ApplyResources(this.lbl2, "lbl2");
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Paint += new System.Windows.Forms.PaintEventHandler(this.lbl2_Paint);
-            // 
-            // gBox1
-            // 
-            resources.ApplyResources(this.gBox1, "gBox1");
-            this.gBox1.Name = "gBox1";
-            this.gBox1.TabStop = false;
+            resources.ApplyResources(this.tblLayout1, "tblLayout1");
+            this.tblLayout1.Name = "tblLayout1";
             // 
             // MainForm
             // 
@@ -305,6 +313,7 @@
             this.tabP1.ResumeLayout(false);
             this.matCd2.ResumeLayout(false);
             this.matCd1.ResumeLayout(false);
+            this.gBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -342,6 +351,7 @@
         private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.GroupBox gBox1;
+        private System.Windows.Forms.TableLayoutPanel tblLayout1;
     }
 }
 
