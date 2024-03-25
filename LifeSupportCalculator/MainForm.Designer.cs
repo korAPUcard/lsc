@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.iconList1 = new System.Windows.Forms.ImageList(this.components);
-            this.stStrip = new System.Windows.Forms.StatusStrip();
             this.TSMI_App = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_App_Diagnostics = new System.Windows.Forms.ToolStripMenuItem();
             this.TSMI_App_CheckUpdates = new System.Windows.Forms.ToolStripMenuItem();
@@ -89,6 +88,12 @@
             this.iconList_DT24 = new System.Windows.Forms.ImageList(this.components);
             this.iconList_LT48 = new System.Windows.Forms.ImageList(this.components);
             this.iconList_DT48 = new System.Windows.Forms.ImageList(this.components);
+            this.TSSI_ProcSt = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.TSSI_ProcStBar = new System.Windows.Forms.StatusStrip();
+            this.TSSI_Sp1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.TSSI_MemSt = new System.Windows.Forms.ToolStripStatusLabel();
+            this.TSSI_MemStBar = new System.Windows.Forms.ToolStripProgressBar();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -104,6 +109,7 @@
             this.tblLayout3A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).BeginInit();
             this.splC.SuspendLayout();
+            this.TSSI_ProcStBar.SuspendLayout();
             this.SuspendLayout();
             // 
             // iconList1
@@ -115,13 +121,6 @@
             this.iconList1.Images.SetKeyName(2, "icon_export.ico");
             this.iconList1.Images.SetKeyName(3, "icon_export_to_drive.ico");
             this.iconList1.Images.SetKeyName(4, "icon_export_to_cloud.ico");
-            // 
-            // stStrip
-            // 
-            this.stStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
-            resources.ApplyResources(this.stStrip, "stStrip");
-            this.stStrip.Name = "stStrip";
-            this.stStrip.SizingGrip = false;
             // 
             // TSMI_App
             // 
@@ -557,13 +556,51 @@
             this.iconList_DT48.Images.SetKeyName(0, "icon_crew_property_W.ico");
             this.iconList_DT48.Images.SetKeyName(1, "icon_environment_property_W.ico");
             // 
+            // TSSI_ProcSt
+            // 
+            this.TSSI_ProcSt.Name = "TSSI_ProcSt";
+            resources.ApplyResources(this.TSSI_ProcSt, "TSSI_ProcSt");
+            // 
+            // toolStripProgressBar1
+            // 
+            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
+            resources.ApplyResources(this.toolStripProgressBar1, "toolStripProgressBar1");
+            // 
+            // TSSI_ProcStBar
+            // 
+            resources.ApplyResources(this.TSSI_ProcStBar, "TSSI_ProcStBar");
+            this.TSSI_ProcStBar.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.TSSI_ProcStBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TSSI_ProcSt,
+            this.toolStripProgressBar1,
+            this.TSSI_Sp1,
+            this.TSSI_MemSt,
+            this.TSSI_MemStBar});
+            this.TSSI_ProcStBar.Name = "TSSI_ProcStBar";
+            this.TSSI_ProcStBar.SizingGrip = false;
+            // 
+            // TSSI_Sp1
+            // 
+            this.TSSI_Sp1.Name = "TSSI_Sp1";
+            resources.ApplyResources(this.TSSI_Sp1, "TSSI_Sp1");
+            // 
+            // TSSI_MemSt
+            // 
+            this.TSSI_MemSt.Name = "TSSI_MemSt";
+            resources.ApplyResources(this.TSSI_MemSt, "TSSI_MemSt");
+            // 
+            // TSSI_MemStBar
+            // 
+            this.TSSI_MemStBar.Name = "TSSI_MemStBar";
+            resources.ApplyResources(this.TSSI_MemStBar, "TSSI_MemStBar");
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.matTabC);
-            this.Controls.Add(this.stStrip);
+            this.Controls.Add(this.TSSI_ProcStBar);
             this.Controls.Add(this.mnStrip);
             this.DrawerShowIconsWhenHidden = true;
             this.DrawerTabControl = this.matTabC;
@@ -589,6 +626,8 @@
             this.tblLayout3A.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
+            this.TSSI_ProcStBar.ResumeLayout(false);
+            this.TSSI_ProcStBar.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -596,7 +635,6 @@
 
         #endregion
         private System.Windows.Forms.ImageList iconList1;
-        private System.Windows.Forms.StatusStrip stStrip;
         private System.Windows.Forms.ToolStripMenuItem TSMI_App;
         private System.Windows.Forms.ToolStripMenuItem TSMI_App_Diagnostics;
         private System.Windows.Forms.ToolStripMenuItem TSMI_App_CheckUpdates;
@@ -654,6 +692,12 @@
         private System.Windows.Forms.PictureBox iconBox1A;
         private System.Windows.Forms.ImageList iconList_LT48;
         private System.Windows.Forms.ImageList iconList_DT48;
+        private System.Windows.Forms.ToolStripStatusLabel TSSI_ProcSt;
+        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.StatusStrip TSSI_ProcStBar;
+        private System.Windows.Forms.ToolStripStatusLabel TSSI_Sp1;
+        private System.Windows.Forms.ToolStripStatusLabel TSSI_MemSt;
+        private System.Windows.Forms.ToolStripProgressBar TSSI_MemStBar;
     }
 }
 
