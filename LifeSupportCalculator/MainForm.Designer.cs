@@ -322,7 +322,6 @@
             this.iconList_LT24.Images.SetKeyName(13, "icon_oxygen_supply_D.ico");
             this.iconList_LT24.Images.SetKeyName(14, "icon_water_supply_D.ico");
             this.iconList_LT24.Images.SetKeyName(15, "icon_population_D.ico");
-            this.iconList_LT24.Images.SetKeyName(16, "icon_environment_D.ico");
             // 
             // label2
             // 
@@ -543,20 +542,20 @@
             this.iconList_DT24.Images.SetKeyName(13, "icon_oxygen_supply_W.ico");
             this.iconList_DT24.Images.SetKeyName(14, "icon_water_supply_W.ico");
             this.iconList_DT24.Images.SetKeyName(15, "icon_population_W.ico");
-            this.iconList_DT24.Images.SetKeyName(16, "icon_environment_W.ico");
             // 
             // iconList_LT48
             // 
             this.iconList_LT48.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_LT48.ImageStream")));
             this.iconList_LT48.TransparentColor = System.Drawing.Color.Transparent;
             this.iconList_LT48.Images.SetKeyName(0, "icon_population_D.ico");
-            this.iconList_LT48.Images.SetKeyName(1, "icon_environment_D.ico");
+            this.iconList_LT48.Images.SetKeyName(1, "icon_environment_property_D.ico");
             // 
             // iconList_DT48
             // 
-            this.iconList_DT48.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
-            resources.ApplyResources(this.iconList_DT48, "iconList_DT48");
+            this.iconList_DT48.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_DT48.ImageStream")));
             this.iconList_DT48.TransparentColor = System.Drawing.Color.Transparent;
+            this.iconList_DT48.Images.SetKeyName(0, "icon_crew_property_W.ico");
+            this.iconList_DT48.Images.SetKeyName(1, "icon_environment_property_W.ico");
             // 
             // MainForm
             // 

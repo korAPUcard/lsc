@@ -106,8 +106,8 @@
     <Content Include="Resources\icon_carbon_dioxide_D.ico" />
     <Content Include="Resources\icon_death_D.ico" />
     <Content Include="Resources\icon_death_W.ico" />
-    <Content Include="Resources\icon_environment_D.ico" />
-    <Content Include="Resources\icon_environment_W.ico" />
+    <Content Include="Resources\icon_environment_property_D.ico" />
+    <Content Include="Resources\icon_environment_property_W.ico" />
     <Content Include="Resources\icon_export_to_cloud.ico" />
     <Content Include="Resources\icon_export_to_drive.ico" />
     <Content Include="Resources\icon_health_D.ico" />
