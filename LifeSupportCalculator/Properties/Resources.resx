@@ -128,15 +128,18 @@
     <value>..\Resources\icon_calculate.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NOTO_SANS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NotoSans-VariableFont_wdth,wght.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\NOTO_SANS.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NOTO_SANS_ITALIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NotoSans-Italic-VariableFont_wdth,wght.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\NOTO_SANS_ITALIC.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NOTO_SANS_JP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOTO_SANS_JP.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NOTO_SANS_KR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NotoSansKR-VariableFont_wght.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\NOTO_SANS_KR.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ORBITRON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Orbitron-VariableFont_wght.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\ORBITRON.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

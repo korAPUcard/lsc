@@ -7,26 +7,31 @@ using System.Drawing.Imaging;
 using System.Reflection.Emit;
 using System.Text;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace LifeSupportCalculator
 {
     public partial class MainForm : MaterialForm
     {
+        MaterialSkinManager matSkinManager = MaterialSkinManager.Instance;
+
         //DialogResult appRestartConfirmator;
         //DialogResult appCloseConfirmator;
 
         //bool isAppRestartConfirmatorEnabled = false;
-
-        bool isDarkTheme = false;
 
         public MainForm()
         {
             InitializeComponent();
 
             this.Icon = Properties.Resources.AppIcon;
+            this.Font = new Font(FontLibrary.Families[0], 12);
 
             matCd1.HorizontalScroll.Enabled = false;
+            matCd1.HorizontalScroll.Visible = false;
             matCd2.HorizontalScroll.Enabled = false;
+            matCd2.HorizontalScroll.Visible = false;
+            
 
             Properties.Settings.Default.Language = "en-US";
             Properties.Settings.Default.Theme = "Dark";
@@ -35,8 +40,6 @@ namespace LifeSupportCalculator
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            MaterialSkinManager matSkinManager = MaterialSkinManager.Instance;
-
             if (Properties.Settings.Default.Theme == "Dark")
             {
                 matSkinManager.AddFormToManage(this);
@@ -48,7 +51,7 @@ namespace LifeSupportCalculator
                     Primary.LightBlue500,
                     Accent.Cyan200,
                     TextShade.WHITE
-                ); isDarkTheme = true;
+                ); IconTheme_Dark();
             }
             else
             {
@@ -61,13 +64,41 @@ namespace LifeSupportCalculator
                     Primary.LightBlue500,
                     Accent.Cyan200,
                     TextShade.BLACK
-                ); isDarkTheme = false;
+                ); IconTheme_Light();
             }
+        }
+
+        private void IconTheme_Light()
+        {
+            iconLbl1.ImageList = iconList_LT;
+            iconLbl2.ImageList = iconList_LT;
+            iconLbl3.ImageList = iconList_LT;
+            iconLbl4.ImageList = iconList_LT;
+            iconLbl5.ImageList = iconList_LT;
+            iconLbl6.ImageList = iconList_LT;
+            iconLbl7.ImageList = iconList_LT;
+            iconLbl8.ImageList = iconList_LT;
+            iconLbl9.ImageList = iconList_LT;
+            iconLbl10.ImageList = iconList_LT;
+        }
+
+        private void IconTheme_Dark()
+        {
+            iconLbl1.ImageList = iconList_DT;
+            iconLbl2.ImageList = iconList_DT;
+            iconLbl3.ImageList = iconList_DT;
+            iconLbl4.ImageList = iconList_DT;
+            iconLbl5.ImageList = iconList_DT;
+            iconLbl6.ImageList = iconList_DT;
+            iconLbl7.ImageList = iconList_DT;
+            iconLbl8.ImageList = iconList_DT;
+            iconLbl9.ImageList = iconList_DT;
+            iconLbl10.ImageList = iconList_DT;
         }
 
         private void TSMI_App_Diagnostics_Click(object sender, EventArgs e)
         {
-            Debugger.GetAllComponents();
+            
         }
 
         private void TSMI_App_CheckUpdates_Click(object sender, EventArgs e)
@@ -117,24 +148,12 @@ namespace LifeSupportCalculator
 
         private void lbl1_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawString("Consumption", new Font("Roboto", 14, FontStyle.Bold), new SolidBrush(Color.White), new Point(0, 0));
+            e.Graphics.DrawString("Consumption", new Font("Noto Sans", 14, FontStyle.Bold), new SolidBrush(Color.White), new Point(0, 0));
         }
 
         private void lbl2_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawString("Supplies", new Font("Roboto", 14, FontStyle.Bold), new SolidBrush(Color.White), new Point(0, 0));
-        }
-
-        private void iconLbl1_Paint(object sender, PaintEventArgs e)
-        {
-            /*if (isDarkTheme)
-            {
-                e.Graphics.DrawImage(iconList2.Images[iconLbl1.ImageKey], Color.White);
-            }
-            else
-            {
-                e.Graphics.DrawImage(iconList2.Images[iconLbl1.ImageKey], 0, 0, iconLbl1.Width, iconLbl1.Height, Color.Black);
-            }*/
+            e.Graphics.DrawString("Supplies", new Font("Noto Sans", 14, FontStyle.Bold), new SolidBrush(Color.White), new Point(0, 0));
         }
     }
 }

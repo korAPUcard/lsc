@@ -112,6 +112,16 @@ namespace LifeSupportCalculator.Properties {
         /// <summary>
         ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static byte[] NOTO_SANS_JP {
+            get {
+                object obj = ResourceManager.GetObject("NOTO_SANS_JP", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Byte[] 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static byte[] NOTO_SANS_KR {
             get {
                 object obj = ResourceManager.GetObject("NOTO_SANS_KR", resourceCulture);
