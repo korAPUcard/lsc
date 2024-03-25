@@ -70,30 +70,30 @@ namespace LifeSupportCalculator
 
         private void IconTheme_Light()
         {
-            iconLbl1.ImageList = iconList_LT;
-            iconLbl2.ImageList = iconList_LT;
-            iconLbl3.ImageList = iconList_LT;
-            iconLbl4.ImageList = iconList_LT;
-            iconLbl5.ImageList = iconList_LT;
-            iconLbl6.ImageList = iconList_LT;
-            iconLbl7.ImageList = iconList_LT;
-            iconLbl8.ImageList = iconList_LT;
-            iconLbl9.ImageList = iconList_LT;
-            iconLbl10.ImageList = iconList_LT;
+            iconLbl1.ImageList = iconList_LT24;
+            iconLbl2.ImageList = iconList_LT24;
+            iconLbl3.ImageList = iconList_LT24;
+            iconLbl4.ImageList = iconList_LT24;
+            iconLbl5.ImageList = iconList_LT24;
+            iconLbl6.ImageList = iconList_LT24;
+            iconLbl7.ImageList = iconList_LT24;
+            iconLbl8.ImageList = iconList_LT24;
+            iconLbl9.ImageList = iconList_LT24;
+            iconLbl10.ImageList = iconList_LT24;
         }
 
         private void IconTheme_Dark()
         {
-            iconLbl1.ImageList = iconList_DT;
-            iconLbl2.ImageList = iconList_DT;
-            iconLbl3.ImageList = iconList_DT;
-            iconLbl4.ImageList = iconList_DT;
-            iconLbl5.ImageList = iconList_DT;
-            iconLbl6.ImageList = iconList_DT;
-            iconLbl7.ImageList = iconList_DT;
-            iconLbl8.ImageList = iconList_DT;
-            iconLbl9.ImageList = iconList_DT;
-            iconLbl10.ImageList = iconList_DT;
+            iconLbl1.ImageList = iconList_DT24;
+            iconLbl2.ImageList = iconList_DT24;
+            iconLbl3.ImageList = iconList_DT24;
+            iconLbl4.ImageList = iconList_DT24;
+            iconLbl5.ImageList = iconList_DT24;
+            iconLbl6.ImageList = iconList_DT24;
+            iconLbl7.ImageList = iconList_DT24;
+            iconLbl8.ImageList = iconList_DT24;
+            iconLbl9.ImageList = iconList_DT24;
+            iconLbl10.ImageList = iconList_DT24;
         }
 
         private void TSMI_App_Diagnostics_Click(object sender, EventArgs e)

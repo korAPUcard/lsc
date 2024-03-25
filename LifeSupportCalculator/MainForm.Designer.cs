@@ -55,7 +55,7 @@
             this.gBox1B = new System.Windows.Forms.GroupBox();
             this.tblLayout1B = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.iconList_LT = new System.Windows.Forms.ImageList(this.components);
+            this.iconList_LT24 = new System.Windows.Forms.ImageList(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -78,15 +78,17 @@
             this.iconLbl8 = new System.Windows.Forms.Label();
             this.iconLbl10 = new System.Windows.Forms.Label();
             this.gBox2A = new System.Windows.Forms.GroupBox();
+            this.tblLayout2A = new System.Windows.Forms.TableLayoutPanel();
+            this.iconBox1A = new System.Windows.Forms.PictureBox();
             this.tblLayout3A = new System.Windows.Forms.TableLayoutPanel();
             this.iconLbl11 = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
             this.splC = new System.Windows.Forms.SplitContainer();
             this.tabP2 = new System.Windows.Forms.TabPage();
             this.tabP3 = new System.Windows.Forms.TabPage();
-            this.iconList_DT = new System.Windows.Forms.ImageList(this.components);
-            this.tblLayout2A = new System.Windows.Forms.TableLayoutPanel();
-            this.iconBox1A = new System.Windows.Forms.PictureBox();
+            this.iconList_DT24 = new System.Windows.Forms.ImageList(this.components);
+            this.iconList_LT48 = new System.Windows.Forms.ImageList(this.components);
+            this.iconList_DT48 = new System.Windows.Forms.ImageList(this.components);
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -97,11 +99,11 @@
             this.gBox1A.SuspendLayout();
             this.tblLayout1A.SuspendLayout();
             this.gBox2A.SuspendLayout();
+            this.tblLayout2A.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.iconBox1A)).BeginInit();
             this.tblLayout3A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).BeginInit();
             this.splC.SuspendLayout();
-            this.tblLayout2A.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBox1A)).BeginInit();
             this.SuspendLayout();
             // 
             // iconList1
@@ -297,71 +299,71 @@
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
-            this.label1.ImageList = this.iconList_LT;
+            this.label1.ImageList = this.iconList_LT24;
             this.label1.Name = "label1";
             // 
-            // iconList_LT
+            // iconList_LT24
             // 
-            this.iconList_LT.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_LT.ImageStream")));
-            this.iconList_LT.TransparentColor = System.Drawing.Color.Transparent;
-            this.iconList_LT.Images.SetKeyName(0, "icon_nutrition_D.ico");
-            this.iconList_LT.Images.SetKeyName(1, "icon_hydration_D.ico");
-            this.iconList_LT.Images.SetKeyName(2, "icon_solidwaste_D.ico");
-            this.iconList_LT.Images.SetKeyName(3, "icon_liquidwaste_D.ico");
-            this.iconList_LT.Images.SetKeyName(4, "icon_hygiene_D.ico");
-            this.iconList_LT.Images.SetKeyName(5, "icon_temperature_D.ico");
-            this.iconList_LT.Images.SetKeyName(6, "icon_oxygen_D.ico");
-            this.iconList_LT.Images.SetKeyName(7, "icon_carbon_dioxide_D.ico");
-            this.iconList_LT.Images.SetKeyName(8, "icon_health_D.ico");
-            this.iconList_LT.Images.SetKeyName(9, "icon_mood_D.ico");
-            this.iconList_LT.Images.SetKeyName(10, "icon_medicine_D.ico");
-            this.iconList_LT.Images.SetKeyName(11, "icon_death_D.ico");
-            this.iconList_LT.Images.SetKeyName(12, "icon_power_D.ico");
-            this.iconList_LT.Images.SetKeyName(13, "icon_oxygen_supply_D.ico");
-            this.iconList_LT.Images.SetKeyName(14, "icon_water_supply_D.ico");
-            this.iconList_LT.Images.SetKeyName(15, "icon_population_D.ico");
-            this.iconList_LT.Images.SetKeyName(16, "icon_environment_D.ico");
+            this.iconList_LT24.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_LT24.ImageStream")));
+            this.iconList_LT24.TransparentColor = System.Drawing.Color.Transparent;
+            this.iconList_LT24.Images.SetKeyName(0, "icon_nutrition_D.ico");
+            this.iconList_LT24.Images.SetKeyName(1, "icon_hydration_D.ico");
+            this.iconList_LT24.Images.SetKeyName(2, "icon_solidwaste_D.ico");
+            this.iconList_LT24.Images.SetKeyName(3, "icon_liquidwaste_D.ico");
+            this.iconList_LT24.Images.SetKeyName(4, "icon_hygiene_D.ico");
+            this.iconList_LT24.Images.SetKeyName(5, "icon_temperature_D.ico");
+            this.iconList_LT24.Images.SetKeyName(6, "icon_oxygen_D.ico");
+            this.iconList_LT24.Images.SetKeyName(7, "icon_carbon_dioxide_D.ico");
+            this.iconList_LT24.Images.SetKeyName(8, "icon_health_D.ico");
+            this.iconList_LT24.Images.SetKeyName(9, "icon_mood_D.ico");
+            this.iconList_LT24.Images.SetKeyName(10, "icon_medicine_D.ico");
+            this.iconList_LT24.Images.SetKeyName(11, "icon_death_D.ico");
+            this.iconList_LT24.Images.SetKeyName(12, "icon_power_D.ico");
+            this.iconList_LT24.Images.SetKeyName(13, "icon_oxygen_supply_D.ico");
+            this.iconList_LT24.Images.SetKeyName(14, "icon_water_supply_D.ico");
+            this.iconList_LT24.Images.SetKeyName(15, "icon_population_D.ico");
+            this.iconList_LT24.Images.SetKeyName(16, "icon_environment_D.ico");
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
-            this.label2.ImageList = this.iconList_LT;
+            this.label2.ImageList = this.iconList_LT24;
             this.label2.Name = "label2";
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
-            this.label3.ImageList = this.iconList_LT;
+            this.label3.ImageList = this.iconList_LT24;
             this.label3.Name = "label3";
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
-            this.label4.ImageList = this.iconList_LT;
+            this.label4.ImageList = this.iconList_LT24;
             this.label4.Name = "label4";
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
-            this.label5.ImageList = this.iconList_LT;
+            this.label5.ImageList = this.iconList_LT24;
             this.label5.Name = "label5";
             // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
-            this.label6.ImageList = this.iconList_LT;
+            this.label6.ImageList = this.iconList_LT24;
             this.label6.Name = "label6";
             // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
-            this.label7.ImageList = this.iconList_LT;
+            this.label7.ImageList = this.iconList_LT24;
             this.label7.Name = "label7";
             // 
             // label8
             // 
             resources.ApplyResources(this.label8, "label8");
-            this.label8.ImageList = this.iconList_LT;
+            this.label8.ImageList = this.iconList_LT24;
             this.label8.Name = "label8";
             // 
             // lbl2
@@ -408,61 +410,61 @@
             // iconLbl9
             // 
             resources.ApplyResources(this.iconLbl9, "iconLbl9");
-            this.iconLbl9.ImageList = this.iconList_LT;
+            this.iconLbl9.ImageList = this.iconList_LT24;
             this.iconLbl9.Name = "iconLbl9";
             // 
             // iconLbl6
             // 
             resources.ApplyResources(this.iconLbl6, "iconLbl6");
-            this.iconLbl6.ImageList = this.iconList_LT;
+            this.iconLbl6.ImageList = this.iconList_LT24;
             this.iconLbl6.Name = "iconLbl6";
             // 
             // iconLbl1
             // 
             resources.ApplyResources(this.iconLbl1, "iconLbl1");
-            this.iconLbl1.ImageList = this.iconList_LT;
+            this.iconLbl1.ImageList = this.iconList_LT24;
             this.iconLbl1.Name = "iconLbl1";
             // 
             // iconLbl2
             // 
             resources.ApplyResources(this.iconLbl2, "iconLbl2");
-            this.iconLbl2.ImageList = this.iconList_LT;
+            this.iconLbl2.ImageList = this.iconList_LT24;
             this.iconLbl2.Name = "iconLbl2";
             // 
             // iconLbl3
             // 
             resources.ApplyResources(this.iconLbl3, "iconLbl3");
-            this.iconLbl3.ImageList = this.iconList_LT;
+            this.iconLbl3.ImageList = this.iconList_LT24;
             this.iconLbl3.Name = "iconLbl3";
             // 
             // iconLbl4
             // 
             resources.ApplyResources(this.iconLbl4, "iconLbl4");
-            this.iconLbl4.ImageList = this.iconList_LT;
+            this.iconLbl4.ImageList = this.iconList_LT24;
             this.iconLbl4.Name = "iconLbl4";
             // 
             // iconLbl5
             // 
             resources.ApplyResources(this.iconLbl5, "iconLbl5");
-            this.iconLbl5.ImageList = this.iconList_LT;
+            this.iconLbl5.ImageList = this.iconList_LT24;
             this.iconLbl5.Name = "iconLbl5";
             // 
             // iconLbl7
             // 
             resources.ApplyResources(this.iconLbl7, "iconLbl7");
-            this.iconLbl7.ImageList = this.iconList_LT;
+            this.iconLbl7.ImageList = this.iconList_LT24;
             this.iconLbl7.Name = "iconLbl7";
             // 
             // iconLbl8
             // 
             resources.ApplyResources(this.iconLbl8, "iconLbl8");
-            this.iconLbl8.ImageList = this.iconList_LT;
+            this.iconLbl8.ImageList = this.iconList_LT24;
             this.iconLbl8.Name = "iconLbl8";
             // 
             // iconLbl10
             // 
             resources.ApplyResources(this.iconLbl10, "iconLbl10");
-            this.iconLbl10.ImageList = this.iconList_LT;
+            this.iconLbl10.ImageList = this.iconList_LT24;
             this.iconLbl10.Name = "iconLbl10";
             // 
             // gBox2A
@@ -473,6 +475,18 @@
             this.gBox2A.Name = "gBox2A";
             this.gBox2A.TabStop = false;
             // 
+            // tblLayout2A
+            // 
+            resources.ApplyResources(this.tblLayout2A, "tblLayout2A");
+            this.tblLayout2A.Controls.Add(this.iconBox1A, 0, 0);
+            this.tblLayout2A.Name = "tblLayout2A";
+            // 
+            // iconBox1A
+            // 
+            resources.ApplyResources(this.iconBox1A, "iconBox1A");
+            this.iconBox1A.Name = "iconBox1A";
+            this.iconBox1A.TabStop = false;
+            // 
             // tblLayout3A
             // 
             resources.ApplyResources(this.tblLayout3A, "tblLayout3A");
@@ -482,7 +496,7 @@
             // iconLbl11
             // 
             resources.ApplyResources(this.iconLbl11, "iconLbl11");
-            this.iconLbl11.ImageList = this.iconList_LT;
+            this.iconLbl11.ImageList = this.iconList_LT24;
             this.iconLbl11.Name = "iconLbl11";
             // 
             // lbl1
@@ -509,39 +523,40 @@
             this.tabP3.Name = "tabP3";
             this.tabP3.UseVisualStyleBackColor = true;
             // 
-            // iconList_DT
+            // iconList_DT24
             // 
-            this.iconList_DT.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_DT.ImageStream")));
-            this.iconList_DT.TransparentColor = System.Drawing.Color.Transparent;
-            this.iconList_DT.Images.SetKeyName(0, "icon_nutrition_W.ico");
-            this.iconList_DT.Images.SetKeyName(1, "icon_hydration_W.ico");
-            this.iconList_DT.Images.SetKeyName(2, "icon_solidwaste_W.ico");
-            this.iconList_DT.Images.SetKeyName(3, "icon_liquidwaste_W.ico");
-            this.iconList_DT.Images.SetKeyName(4, "icon_hygiene_W.ico");
-            this.iconList_DT.Images.SetKeyName(5, "icon_temperature_W.ico");
-            this.iconList_DT.Images.SetKeyName(6, "icon_oxygen_W.ico");
-            this.iconList_DT.Images.SetKeyName(7, "icon_carbon_dioxide_W.ico");
-            this.iconList_DT.Images.SetKeyName(8, "icon_health_W.ico");
-            this.iconList_DT.Images.SetKeyName(9, "icon_mood_W.ico");
-            this.iconList_DT.Images.SetKeyName(10, "icon_medicine_W.ico");
-            this.iconList_DT.Images.SetKeyName(11, "icon_death_W.ico");
-            this.iconList_DT.Images.SetKeyName(12, "icon_power_W.ico");
-            this.iconList_DT.Images.SetKeyName(13, "icon_oxygen_supply_W.ico");
-            this.iconList_DT.Images.SetKeyName(14, "icon_water_supply_W.ico");
-            this.iconList_DT.Images.SetKeyName(15, "icon_population_W.ico");
-            this.iconList_DT.Images.SetKeyName(16, "icon_environment_W.ico");
+            this.iconList_DT24.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_DT24.ImageStream")));
+            this.iconList_DT24.TransparentColor = System.Drawing.Color.Transparent;
+            this.iconList_DT24.Images.SetKeyName(0, "icon_nutrition_W.ico");
+            this.iconList_DT24.Images.SetKeyName(1, "icon_hydration_W.ico");
+            this.iconList_DT24.Images.SetKeyName(2, "icon_solidwaste_W.ico");
+            this.iconList_DT24.Images.SetKeyName(3, "icon_liquidwaste_W.ico");
+            this.iconList_DT24.Images.SetKeyName(4, "icon_hygiene_W.ico");
+            this.iconList_DT24.Images.SetKeyName(5, "icon_temperature_W.ico");
+            this.iconList_DT24.Images.SetKeyName(6, "icon_oxygen_W.ico");
+            this.iconList_DT24.Images.SetKeyName(7, "icon_carbon_dioxide_W.ico");
+            this.iconList_DT24.Images.SetKeyName(8, "icon_health_W.ico");
+            this.iconList_DT24.Images.SetKeyName(9, "icon_mood_W.ico");
+            this.iconList_DT24.Images.SetKeyName(10, "icon_medicine_W.ico");
+            this.iconList_DT24.Images.SetKeyName(11, "icon_death_W.ico");
+            this.iconList_DT24.Images.SetKeyName(12, "icon_power_W.ico");
+            this.iconList_DT24.Images.SetKeyName(13, "icon_oxygen_supply_W.ico");
+            this.iconList_DT24.Images.SetKeyName(14, "icon_water_supply_W.ico");
+            this.iconList_DT24.Images.SetKeyName(15, "icon_population_W.ico");
+            this.iconList_DT24.Images.SetKeyName(16, "icon_environment_W.ico");
             // 
-            // tblLayout2A
+            // iconList_LT48
             // 
-            resources.ApplyResources(this.tblLayout2A, "tblLayout2A");
-            this.tblLayout2A.Controls.Add(this.iconBox1A, 0, 0);
-            this.tblLayout2A.Name = "tblLayout2A";
+            this.iconList_LT48.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_LT48.ImageStream")));
+            this.iconList_LT48.TransparentColor = System.Drawing.Color.Transparent;
+            this.iconList_LT48.Images.SetKeyName(0, "icon_population_D.ico");
+            this.iconList_LT48.Images.SetKeyName(1, "icon_environment_D.ico");
             // 
-            // iconBox1A
+            // iconList_DT48
             // 
-            resources.ApplyResources(this.iconBox1A, "iconBox1A");
-            this.iconBox1A.Name = "iconBox1A";
-            this.iconBox1A.TabStop = false;
+            this.iconList_DT48.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
+            resources.ApplyResources(this.iconList_DT48, "iconList_DT48");
+            this.iconList_DT48.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // MainForm
             // 
@@ -570,11 +585,11 @@
             this.gBox1A.ResumeLayout(false);
             this.tblLayout1A.ResumeLayout(false);
             this.gBox2A.ResumeLayout(false);
+            this.tblLayout2A.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.iconBox1A)).EndInit();
             this.tblLayout3A.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
-            this.tblLayout2A.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconBox1A)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -611,9 +626,9 @@
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.GroupBox gBox1A;
         private System.Windows.Forms.TableLayoutPanel tblLayout1A;
-        private System.Windows.Forms.ImageList iconList_LT;
+        private System.Windows.Forms.ImageList iconList_LT24;
         private System.Windows.Forms.Label iconLbl1;
-        private System.Windows.Forms.ImageList iconList_DT;
+        private System.Windows.Forms.ImageList iconList_DT24;
         private System.Windows.Forms.Label iconLbl6;
         private System.Windows.Forms.Label iconLbl2;
         private System.Windows.Forms.Label iconLbl3;
@@ -638,6 +653,8 @@
         private System.Windows.Forms.Label iconLbl10;
         private System.Windows.Forms.TableLayoutPanel tblLayout2A;
         private System.Windows.Forms.PictureBox iconBox1A;
+        private System.Windows.Forms.ImageList iconList_LT48;
+        private System.Windows.Forms.ImageList iconList_DT48;
     }
 }
 
