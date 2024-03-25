@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Debugger.cs" />
+    <Compile Include="FontLibrary.cs" />
     <Compile Include="FontManager.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -67,28 +68,29 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Resources\NotoSans-Italic-VariableFont_wdth,wght.ttf" />
-    <None Include="Resources\NotoSans-VariableFont_wdth,wght.ttf" />
-    <None Include="Resources\NotoSansKR-VariableFont_wght.ttf" />
-    <None Include="Resources\Orbitron-VariableFont_wght.ttf" />
+    <None Include="Resources\NOTO_SANS_JP.ttf" />
+    <None Include="Resources\NOTO_SANS_ITALIC.ttf" />
+    <None Include="Resources\NOTO_SANS.ttf" />
+    <None Include="Resources\NOTO_SANS_KR.ttf" />
+    <None Include="Resources\ORBITRON.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -96,8 +98,48 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\AppIcon.ico" />
+    <Content Include="Resources\icon_battery_D.ico" />
+    <Content Include="Resources\icon_battery_replacement_D.ico" />
+    <Content Include="Resources\icon_battery_replacement_W.ico" />
+    <Content Include="Resources\icon_battery_W.ico" />
     <Content Include="Resources\icon_calculate.ico" />
-    <Content Include="Resources\icon_settings.ico" />
+    <Content Include="Resources\icon_carbon_dioxide_D.ico" />
+    <Content Include="Resources\icon_death_D.ico" />
+    <Content Include="Resources\icon_death_W.ico" />
+    <Content Include="Resources\icon_environment_property_D.ico" />
+    <Content Include="Resources\icon_environment_property_W.ico" />
+    <Content Include="Resources\icon_export_to_cloud.ico" />
+    <Content Include="Resources\icon_export_to_drive.ico" />
+    <Content Include="Resources\icon_health_D.ico" />
+    <Content Include="Resources\icon_health_W.ico" />
+    <Content Include="Resources\icon_hydration_D.ico" />
+    <Content Include="Resources\icon_hydration_W.ico" />
+    <Content Include="Resources\icon_hygiene_D.ico" />
+    <Content Include="Resources\icon_hygiene_W.ico" />
+    <Content Include="Resources\icon_liquidwaste_D.ico" />
+    <Content Include="Resources\icon_liquidwaste_W.ico" />
+    <Content Include="Resources\icon_location_W.ico" />
+    <Content Include="Resources\icon_medicine_D.ico" />
+    <Content Include="Resources\icon_medicine_W.ico" />
+    <Content Include="Resources\icon_mood_D.ico" />
+    <Content Include="Resources\icon_mood_W.ico" />
+    <Content Include="Resources\icon_nutrition_D.ico" />
+    <Content Include="Resources\icon_nutrition_W.ico" />
+    <Content Include="Resources\icon_oxygen_D.ico" />
+    <Content Include="Resources\icon_oxygen_supply_D.ico" />
+    <Content Include="Resources\icon_oxygen_supply_W.ico" />
+    <Content Include="Resources\icon_oxygen_W.ico" />
+    <Content Include="Resources\icon_population_D.ico" />
+    <Content Include="Resources\icon_population_W.ico" />
+    <Content Include="Resources\icon_power_D.ico" />
+    <Content Include="Resources\icon_power_W.ico" />
+    <Content Include="Resources\icon_settings_D.ico" />
+    <Content Include="Resources\icon_solidwaste_D.ico" />
+    <Content Include="Resources\icon_solidwaste_W.ico" />
+    <Content Include="Resources\icon_temperature_D.ico" />
+    <Content Include="Resources\icon_temperature_W.ico" />
+    <Content Include="Resources\icon_water_supply_D.ico" />
+    <Content Include="Resources\icon_water_supply_W.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
