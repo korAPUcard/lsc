@@ -80,6 +80,10 @@ namespace LifeSupportCalculator
             iconLbl8.ImageList = iconList_LT24;
             iconLbl9.ImageList = iconList_LT24;
             iconLbl10.ImageList = iconList_LT24;
+
+            iconLblH1.ImageList = iconList_LT42;
+            iconLblH2.ImageList = iconList_LT42;
+            iconLblH3.ImageList = iconList_LT42;
         }
 
         private void IconTheme_Dark()
@@ -94,6 +98,10 @@ namespace LifeSupportCalculator
             iconLbl8.ImageList = iconList_DT24;
             iconLbl9.ImageList = iconList_DT24;
             iconLbl10.ImageList = iconList_DT24;
+
+            iconLblH1.ImageList = iconList_DT42;
+            iconLblH2.ImageList = iconList_DT42;
+            iconLblH3.ImageList = iconList_DT42;
         }
 
         private void TSMI_App_Diagnostics_Click(object sender, EventArgs e)

@@ -78,7 +78,14 @@
             this.iconLbl10 = new System.Windows.Forms.Label();
             this.gBox2A = new System.Windows.Forms.GroupBox();
             this.tblLayout2A = new System.Windows.Forms.TableLayoutPanel();
-            this.iconBox1A = new System.Windows.Forms.PictureBox();
+            this.iconLblH3 = new System.Windows.Forms.Label();
+            this.iconList_LT42 = new System.Windows.Forms.ImageList(this.components);
+            this.iconLblH1 = new System.Windows.Forms.Label();
+            this.iconLblH2 = new System.Windows.Forms.Label();
+            this.matTB1 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matCB1 = new MaterialSkin.Controls.MaterialComboBox();
+            this.matCB3 = new MaterialSkin.Controls.MaterialComboBox();
+            this.matCB2 = new MaterialSkin.Controls.MaterialComboBox();
             this.tblLayout3A = new System.Windows.Forms.TableLayoutPanel();
             this.iconLbl11 = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
@@ -86,14 +93,14 @@
             this.tabP2 = new System.Windows.Forms.TabPage();
             this.tabP3 = new System.Windows.Forms.TabPage();
             this.iconList_DT24 = new System.Windows.Forms.ImageList(this.components);
-            this.iconList_LT48 = new System.Windows.Forms.ImageList(this.components);
-            this.iconList_DT48 = new System.Windows.Forms.ImageList(this.components);
+            this.iconList_DT42 = new System.Windows.Forms.ImageList(this.components);
             this.TSSI_ProcSt = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.TSSI_ProcStBar = new System.Windows.Forms.StatusStrip();
             this.TSSI_Sp1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.TSSI_MemSt = new System.Windows.Forms.ToolStripStatusLabel();
             this.TSSI_MemStBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.matCB4 = new MaterialSkin.Controls.MaterialComboBox();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -105,7 +112,6 @@
             this.tblLayout1A.SuspendLayout();
             this.gBox2A.SuspendLayout();
             this.tblLayout2A.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconBox1A)).BeginInit();
             this.tblLayout3A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).BeginInit();
             this.splC.SuspendLayout();
@@ -476,14 +482,141 @@
             // tblLayout2A
             // 
             resources.ApplyResources(this.tblLayout2A, "tblLayout2A");
-            this.tblLayout2A.Controls.Add(this.iconBox1A, 0, 0);
+            this.tblLayout2A.Controls.Add(this.iconLblH3, 0, 2);
+            this.tblLayout2A.Controls.Add(this.iconLblH1, 0, 0);
+            this.tblLayout2A.Controls.Add(this.iconLblH2, 0, 1);
+            this.tblLayout2A.Controls.Add(this.matTB1, 1, 0);
+            this.tblLayout2A.Controls.Add(this.matCB1, 1, 1);
+            this.tblLayout2A.Controls.Add(this.matCB3, 1, 3);
+            this.tblLayout2A.Controls.Add(this.matCB2, 1, 2);
+            this.tblLayout2A.Controls.Add(this.matCB4, 1, 4);
             this.tblLayout2A.Name = "tblLayout2A";
             // 
-            // iconBox1A
+            // iconLblH3
             // 
-            resources.ApplyResources(this.iconBox1A, "iconBox1A");
-            this.iconBox1A.Name = "iconBox1A";
-            this.iconBox1A.TabStop = false;
+            resources.ApplyResources(this.iconLblH3, "iconLblH3");
+            this.iconLblH3.ImageList = this.iconList_LT42;
+            this.iconLblH3.Name = "iconLblH3";
+            // 
+            // iconList_LT42
+            // 
+            this.iconList_LT42.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_LT42.ImageStream")));
+            this.iconList_LT42.TransparentColor = System.Drawing.Color.Transparent;
+            this.iconList_LT42.Images.SetKeyName(0, "icon_crew_property_D.ico");
+            this.iconList_LT42.Images.SetKeyName(1, "icon_environment_property_D.ico");
+            this.iconList_LT42.Images.SetKeyName(2, "icon_vehicle_property_D.ico");
+            // 
+            // iconLblH1
+            // 
+            resources.ApplyResources(this.iconLblH1, "iconLblH1");
+            this.iconLblH1.ImageList = this.iconList_LT42;
+            this.iconLblH1.Name = "iconLblH1";
+            // 
+            // iconLblH2
+            // 
+            resources.ApplyResources(this.iconLblH2, "iconLblH2");
+            this.iconLblH2.ImageList = this.iconList_LT42;
+            this.iconLblH2.Name = "iconLblH2";
+            // 
+            // matTB1
+            // 
+            this.matTB1.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB1, "matTB1");
+            this.matTB1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB1.Depth = 0;
+            this.matTB1.HideSelection = true;
+            this.matTB1.LeadingIcon = null;
+            this.matTB1.MaxLength = 32767;
+            this.matTB1.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB1.Name = "matTB1";
+            this.matTB1.PasswordChar = '\0';
+            this.matTB1.ReadOnly = false;
+            this.matTB1.SelectedText = "";
+            this.matTB1.SelectionLength = 0;
+            this.matTB1.SelectionStart = 0;
+            this.matTB1.ShortcutsEnabled = true;
+            this.matTB1.TabStop = false;
+            this.matTB1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB1.TrailingIcon = null;
+            this.matTB1.UseSystemPasswordChar = false;
+            // 
+            // matCB1
+            // 
+            this.matCB1.AutoResize = false;
+            this.matCB1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCB1.Depth = 0;
+            resources.ApplyResources(this.matCB1, "matCB1");
+            this.matCB1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.matCB1.DropDownHeight = 174;
+            this.matCB1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.matCB1.DropDownWidth = 121;
+            this.matCB1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCB1.FormattingEnabled = true;
+            this.matCB1.Items.AddRange(new object[] {
+            resources.GetString("matCB1.Items"),
+            resources.GetString("matCB1.Items1"),
+            resources.GetString("matCB1.Items2"),
+            resources.GetString("matCB1.Items3"),
+            resources.GetString("matCB1.Items4"),
+            resources.GetString("matCB1.Items5"),
+            resources.GetString("matCB1.Items6"),
+            resources.GetString("matCB1.Items7"),
+            resources.GetString("matCB1.Items8"),
+            resources.GetString("matCB1.Items9"),
+            resources.GetString("matCB1.Items10"),
+            resources.GetString("matCB1.Items11")});
+            this.matCB1.MouseState = MaterialSkin.MouseState.OUT;
+            this.matCB1.Name = "matCB1";
+            this.matCB1.StartIndex = 6;
+            // 
+            // matCB3
+            // 
+            this.matCB3.AutoResize = false;
+            this.matCB3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCB3.Depth = 0;
+            resources.ApplyResources(this.matCB3, "matCB3");
+            this.matCB3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.matCB3.DropDownHeight = 174;
+            this.matCB3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.matCB3.DropDownWidth = 121;
+            this.matCB3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCB3.FormattingEnabled = true;
+            this.matCB3.Items.AddRange(new object[] {
+            resources.GetString("matCB3.Items"),
+            resources.GetString("matCB3.Items1"),
+            resources.GetString("matCB3.Items2"),
+            resources.GetString("matCB3.Items3"),
+            resources.GetString("matCB3.Items4"),
+            resources.GetString("matCB3.Items5"),
+            resources.GetString("matCB3.Items6"),
+            resources.GetString("matCB3.Items7")});
+            this.matCB3.MouseState = MaterialSkin.MouseState.OUT;
+            this.matCB3.Name = "matCB3";
+            this.matCB3.StartIndex = 3;
+            // 
+            // matCB2
+            // 
+            this.matCB2.AutoResize = false;
+            this.matCB2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCB2.Depth = 0;
+            resources.ApplyResources(this.matCB2, "matCB2");
+            this.matCB2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.matCB2.DropDownHeight = 174;
+            this.matCB2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.matCB2.DropDownWidth = 121;
+            this.matCB2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCB2.FormattingEnabled = true;
+            this.matCB2.Items.AddRange(new object[] {
+            resources.GetString("matCB2.Items"),
+            resources.GetString("matCB2.Items1"),
+            resources.GetString("matCB2.Items2"),
+            resources.GetString("matCB2.Items3"),
+            resources.GetString("matCB2.Items4"),
+            resources.GetString("matCB2.Items5"),
+            resources.GetString("matCB2.Items6")});
+            this.matCB2.MouseState = MaterialSkin.MouseState.OUT;
+            this.matCB2.Name = "matCB2";
+            this.matCB2.StartIndex = 0;
             // 
             // tblLayout3A
             // 
@@ -542,19 +675,13 @@
             this.iconList_DT24.Images.SetKeyName(14, "icon_water_supply_W.ico");
             this.iconList_DT24.Images.SetKeyName(15, "icon_population_W.ico");
             // 
-            // iconList_LT48
+            // iconList_DT42
             // 
-            this.iconList_LT48.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_LT48.ImageStream")));
-            this.iconList_LT48.TransparentColor = System.Drawing.Color.Transparent;
-            this.iconList_LT48.Images.SetKeyName(0, "icon_population_D.ico");
-            this.iconList_LT48.Images.SetKeyName(1, "icon_environment_property_D.ico");
-            // 
-            // iconList_DT48
-            // 
-            this.iconList_DT48.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_DT48.ImageStream")));
-            this.iconList_DT48.TransparentColor = System.Drawing.Color.Transparent;
-            this.iconList_DT48.Images.SetKeyName(0, "icon_crew_property_W.ico");
-            this.iconList_DT48.Images.SetKeyName(1, "icon_environment_property_W.ico");
+            this.iconList_DT42.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iconList_DT42.ImageStream")));
+            this.iconList_DT42.TransparentColor = System.Drawing.Color.Transparent;
+            this.iconList_DT42.Images.SetKeyName(0, "icon_crew_property_W.ico");
+            this.iconList_DT42.Images.SetKeyName(1, "icon_environment_property_W.ico");
+            this.iconList_DT42.Images.SetKeyName(2, "icon_vehicle_property_W.ico");
             // 
             // TSSI_ProcSt
             // 
@@ -594,6 +721,29 @@
             this.TSSI_MemStBar.Name = "TSSI_MemStBar";
             resources.ApplyResources(this.TSSI_MemStBar, "TSSI_MemStBar");
             // 
+            // matCB4
+            // 
+            this.matCB4.AutoResize = false;
+            this.matCB4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCB4.Depth = 0;
+            resources.ApplyResources(this.matCB4, "matCB4");
+            this.matCB4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.matCB4.DropDownHeight = 174;
+            this.matCB4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.matCB4.DropDownWidth = 121;
+            this.matCB4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCB4.FormattingEnabled = true;
+            this.matCB4.Items.AddRange(new object[] {
+            resources.GetString("matCB4.Items"),
+            resources.GetString("matCB4.Items1"),
+            resources.GetString("matCB4.Items2"),
+            resources.GetString("matCB4.Items3"),
+            resources.GetString("matCB4.Items4"),
+            resources.GetString("matCB4.Items5")});
+            this.matCB4.MouseState = MaterialSkin.MouseState.OUT;
+            this.matCB4.Name = "matCB4";
+            this.matCB4.StartIndex = 0;
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -622,7 +772,7 @@
             this.tblLayout1A.ResumeLayout(false);
             this.gBox2A.ResumeLayout(false);
             this.tblLayout2A.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iconBox1A)).EndInit();
+            this.tblLayout2A.PerformLayout();
             this.tblLayout3A.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
@@ -689,15 +839,22 @@
         private System.Windows.Forms.Label iconLbl11;
         private System.Windows.Forms.Label iconLbl10;
         private System.Windows.Forms.TableLayoutPanel tblLayout2A;
-        private System.Windows.Forms.PictureBox iconBox1A;
-        private System.Windows.Forms.ImageList iconList_LT48;
-        private System.Windows.Forms.ImageList iconList_DT48;
+        private System.Windows.Forms.ImageList iconList_LT42;
+        private System.Windows.Forms.ImageList iconList_DT42;
         private System.Windows.Forms.ToolStripStatusLabel TSSI_ProcSt;
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
         private System.Windows.Forms.StatusStrip TSSI_ProcStBar;
         private System.Windows.Forms.ToolStripStatusLabel TSSI_Sp1;
         private System.Windows.Forms.ToolStripStatusLabel TSSI_MemSt;
         private System.Windows.Forms.ToolStripProgressBar TSSI_MemStBar;
+        private System.Windows.Forms.Label iconLblH1;
+        private System.Windows.Forms.Label iconLblH2;
+        private MaterialSkin.Controls.MaterialTextBox2 matTB1;
+        private MaterialSkin.Controls.MaterialComboBox matCB1;
+        private System.Windows.Forms.Label iconLblH3;
+        private MaterialSkin.Controls.MaterialComboBox matCB3;
+        private MaterialSkin.Controls.MaterialComboBox matCB2;
+        private MaterialSkin.Controls.MaterialComboBox matCB4;
     }
 }
 
