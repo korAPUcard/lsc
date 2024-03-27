@@ -66,6 +66,15 @@
             this.matCd1 = new MaterialSkin.Controls.MaterialCard();
             this.gBox1A = new System.Windows.Forms.GroupBox();
             this.tblLayout1A = new System.Windows.Forms.TableLayoutPanel();
+            this.matTB10 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB9 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB8 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB7 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB6 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB5 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB4 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB3 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB2 = new MaterialSkin.Controls.MaterialTextBox2();
             this.iconLbl9 = new System.Windows.Forms.Label();
             this.iconLbl6 = new System.Windows.Forms.Label();
             this.iconLbl1 = new System.Windows.Forms.Label();
@@ -76,6 +85,17 @@
             this.iconLbl7 = new System.Windows.Forms.Label();
             this.iconLbl8 = new System.Windows.Forms.Label();
             this.iconLbl10 = new System.Windows.Forms.Label();
+            this.matSlider1 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider2 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider3 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider4 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider5 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider6 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider7 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider8 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider9 = new MaterialSkin.Controls.MaterialSlider();
+            this.matSlider10 = new MaterialSkin.Controls.MaterialSlider();
+            this.matTB1 = new MaterialSkin.Controls.MaterialTextBox2();
             this.gBox2A = new System.Windows.Forms.GroupBox();
             this.tblLayout2A = new System.Windows.Forms.TableLayoutPanel();
             this.iconLblH3 = new System.Windows.Forms.Label();
@@ -101,26 +121,6 @@
             this.TSSI_Sp1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.TSSI_MemSt = new System.Windows.Forms.ToolStripStatusLabel();
             this.TSSI_MemStBar = new System.Windows.Forms.ToolStripProgressBar();
-            this.matSlider1 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider2 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider3 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider4 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider5 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider6 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider7 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider8 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider9 = new MaterialSkin.Controls.MaterialSlider();
-            this.matSlider10 = new MaterialSkin.Controls.MaterialSlider();
-            this.matTB1 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB2 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB3 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB4 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB5 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB6 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB7 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB8 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB9 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB10 = new MaterialSkin.Controls.MaterialTextBox2();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -451,6 +451,204 @@
             this.tblLayout1A.ForeColor = System.Drawing.SystemColors.Control;
             this.tblLayout1A.Name = "tblLayout1A";
             // 
+            // matTB10
+            // 
+            this.matTB10.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB10, "matTB10");
+            this.matTB10.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB10.Depth = 0;
+            this.matTB10.HideSelection = true;
+            this.matTB10.LeadingIcon = null;
+            this.matTB10.MaxLength = 32767;
+            this.matTB10.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB10.Name = "matTB10";
+            this.matTB10.PasswordChar = '\0';
+            this.matTB10.ReadOnly = false;
+            this.matTB10.SelectedText = "";
+            this.matTB10.SelectionLength = 0;
+            this.matTB10.SelectionStart = 0;
+            this.matTB10.ShortcutsEnabled = true;
+            this.matTB10.TabStop = false;
+            this.matTB10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB10.TrailingIcon = null;
+            this.matTB10.UseSystemPasswordChar = false;
+            // 
+            // matTB9
+            // 
+            this.matTB9.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB9, "matTB9");
+            this.matTB9.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB9.Depth = 0;
+            this.matTB9.HideSelection = true;
+            this.matTB9.LeadingIcon = null;
+            this.matTB9.MaxLength = 32767;
+            this.matTB9.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB9.Name = "matTB9";
+            this.matTB9.PasswordChar = '\0';
+            this.matTB9.ReadOnly = false;
+            this.matTB9.SelectedText = "";
+            this.matTB9.SelectionLength = 0;
+            this.matTB9.SelectionStart = 0;
+            this.matTB9.ShortcutsEnabled = true;
+            this.matTB9.TabStop = false;
+            this.matTB9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB9.TrailingIcon = null;
+            this.matTB9.UseSystemPasswordChar = false;
+            // 
+            // matTB8
+            // 
+            this.matTB8.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB8, "matTB8");
+            this.matTB8.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB8.Depth = 0;
+            this.matTB8.HideSelection = true;
+            this.matTB8.LeadingIcon = null;
+            this.matTB8.MaxLength = 32767;
+            this.matTB8.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB8.Name = "matTB8";
+            this.matTB8.PasswordChar = '\0';
+            this.matTB8.ReadOnly = false;
+            this.matTB8.SelectedText = "";
+            this.matTB8.SelectionLength = 0;
+            this.matTB8.SelectionStart = 0;
+            this.matTB8.ShortcutsEnabled = true;
+            this.matTB8.TabStop = false;
+            this.matTB8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB8.TrailingIcon = null;
+            this.matTB8.UseSystemPasswordChar = false;
+            // 
+            // matTB7
+            // 
+            this.matTB7.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB7, "matTB7");
+            this.matTB7.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB7.Depth = 0;
+            this.matTB7.HideSelection = true;
+            this.matTB7.LeadingIcon = null;
+            this.matTB7.MaxLength = 32767;
+            this.matTB7.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB7.Name = "matTB7";
+            this.matTB7.PasswordChar = '\0';
+            this.matTB7.ReadOnly = false;
+            this.matTB7.SelectedText = "";
+            this.matTB7.SelectionLength = 0;
+            this.matTB7.SelectionStart = 0;
+            this.matTB7.ShortcutsEnabled = true;
+            this.matTB7.TabStop = false;
+            this.matTB7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB7.TrailingIcon = null;
+            this.matTB7.UseSystemPasswordChar = false;
+            // 
+            // matTB6
+            // 
+            this.matTB6.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB6, "matTB6");
+            this.matTB6.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB6.Depth = 0;
+            this.matTB6.HideSelection = true;
+            this.matTB6.LeadingIcon = null;
+            this.matTB6.MaxLength = 32767;
+            this.matTB6.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB6.Name = "matTB6";
+            this.matTB6.PasswordChar = '\0';
+            this.matTB6.ReadOnly = false;
+            this.matTB6.SelectedText = "";
+            this.matTB6.SelectionLength = 0;
+            this.matTB6.SelectionStart = 0;
+            this.matTB6.ShortcutsEnabled = true;
+            this.matTB6.TabStop = false;
+            this.matTB6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB6.TrailingIcon = null;
+            this.matTB6.UseSystemPasswordChar = false;
+            // 
+            // matTB5
+            // 
+            this.matTB5.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB5, "matTB5");
+            this.matTB5.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB5.Depth = 0;
+            this.matTB5.HideSelection = true;
+            this.matTB5.LeadingIcon = null;
+            this.matTB5.MaxLength = 32767;
+            this.matTB5.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB5.Name = "matTB5";
+            this.matTB5.PasswordChar = '\0';
+            this.matTB5.ReadOnly = false;
+            this.matTB5.SelectedText = "";
+            this.matTB5.SelectionLength = 0;
+            this.matTB5.SelectionStart = 0;
+            this.matTB5.ShortcutsEnabled = true;
+            this.matTB5.TabStop = false;
+            this.matTB5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB5.TrailingIcon = null;
+            this.matTB5.UseSystemPasswordChar = false;
+            // 
+            // matTB4
+            // 
+            this.matTB4.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB4, "matTB4");
+            this.matTB4.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB4.Depth = 0;
+            this.matTB4.HideSelection = true;
+            this.matTB4.LeadingIcon = null;
+            this.matTB4.MaxLength = 32767;
+            this.matTB4.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB4.Name = "matTB4";
+            this.matTB4.PasswordChar = '\0';
+            this.matTB4.ReadOnly = false;
+            this.matTB4.SelectedText = "";
+            this.matTB4.SelectionLength = 0;
+            this.matTB4.SelectionStart = 0;
+            this.matTB4.ShortcutsEnabled = true;
+            this.matTB4.TabStop = false;
+            this.matTB4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB4.TrailingIcon = null;
+            this.matTB4.UseSystemPasswordChar = false;
+            // 
+            // matTB3
+            // 
+            this.matTB3.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB3, "matTB3");
+            this.matTB3.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB3.Depth = 0;
+            this.matTB3.HideSelection = true;
+            this.matTB3.LeadingIcon = null;
+            this.matTB3.MaxLength = 32767;
+            this.matTB3.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB3.Name = "matTB3";
+            this.matTB3.PasswordChar = '\0';
+            this.matTB3.ReadOnly = false;
+            this.matTB3.SelectedText = "";
+            this.matTB3.SelectionLength = 0;
+            this.matTB3.SelectionStart = 0;
+            this.matTB3.ShortcutsEnabled = true;
+            this.matTB3.TabStop = false;
+            this.matTB3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB3.TrailingIcon = null;
+            this.matTB3.UseSystemPasswordChar = false;
+            // 
+            // matTB2
+            // 
+            this.matTB2.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB2, "matTB2");
+            this.matTB2.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB2.Depth = 0;
+            this.matTB2.HideSelection = true;
+            this.matTB2.LeadingIcon = null;
+            this.matTB2.MaxLength = 32767;
+            this.matTB2.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB2.Name = "matTB2";
+            this.matTB2.PasswordChar = '\0';
+            this.matTB2.ReadOnly = false;
+            this.matTB2.SelectedText = "";
+            this.matTB2.SelectionLength = 0;
+            this.matTB2.SelectionStart = 0;
+            this.matTB2.ShortcutsEnabled = true;
+            this.matTB2.TabStop = false;
+            this.matTB2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB2.TrailingIcon = null;
+            this.matTB2.UseSystemPasswordChar = false;
+            // 
             // iconLbl9
             // 
             resources.ApplyResources(this.iconLbl9, "iconLbl9");
@@ -510,6 +708,128 @@
             resources.ApplyResources(this.iconLbl10, "iconLbl10");
             this.iconLbl10.ImageList = this.iconList_LT24;
             this.iconLbl10.Name = "iconLbl10";
+            // 
+            // matSlider1
+            // 
+            this.matSlider1.Depth = 0;
+            resources.ApplyResources(this.matSlider1, "matSlider1");
+            this.matSlider1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider1.Name = "matSlider1";
+            this.matSlider1.ValueMax = 100;
+            this.matSlider1.ValueSuffix = "%";
+            // 
+            // matSlider2
+            // 
+            this.matSlider2.Depth = 0;
+            resources.ApplyResources(this.matSlider2, "matSlider2");
+            this.matSlider2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider2.Name = "matSlider2";
+            this.matSlider2.ValueMax = 100;
+            this.matSlider2.ValueSuffix = "%";
+            // 
+            // matSlider3
+            // 
+            this.matSlider3.Depth = 0;
+            resources.ApplyResources(this.matSlider3, "matSlider3");
+            this.matSlider3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider3.Name = "matSlider3";
+            this.matSlider3.ValueMax = 100;
+            this.matSlider3.ValueSuffix = "%";
+            // 
+            // matSlider4
+            // 
+            this.matSlider4.Depth = 0;
+            resources.ApplyResources(this.matSlider4, "matSlider4");
+            this.matSlider4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider4.Name = "matSlider4";
+            this.matSlider4.ValueMax = 100;
+            this.matSlider4.ValueSuffix = "%";
+            // 
+            // matSlider5
+            // 
+            this.matSlider5.Depth = 0;
+            resources.ApplyResources(this.matSlider5, "matSlider5");
+            this.matSlider5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider5.Name = "matSlider5";
+            this.matSlider5.ValueMax = 100;
+            this.matSlider5.ValueSuffix = "%";
+            // 
+            // matSlider6
+            // 
+            this.matSlider6.Depth = 0;
+            resources.ApplyResources(this.matSlider6, "matSlider6");
+            this.matSlider6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider6.Name = "matSlider6";
+            this.matSlider6.ValueMax = 100;
+            this.matSlider6.ValueSuffix = "%";
+            // 
+            // matSlider7
+            // 
+            this.matSlider7.Depth = 0;
+            resources.ApplyResources(this.matSlider7, "matSlider7");
+            this.matSlider7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider7.Name = "matSlider7";
+            this.matSlider7.ValueMax = 100;
+            this.matSlider7.ValueSuffix = "%";
+            // 
+            // matSlider8
+            // 
+            this.matSlider8.Depth = 0;
+            resources.ApplyResources(this.matSlider8, "matSlider8");
+            this.matSlider8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider8.Name = "matSlider8";
+            this.matSlider8.ValueMax = 100;
+            this.matSlider8.ValueSuffix = "%";
+            // 
+            // matSlider9
+            // 
+            this.matSlider9.Depth = 0;
+            resources.ApplyResources(this.matSlider9, "matSlider9");
+            this.matSlider9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider9.Name = "matSlider9";
+            this.matSlider9.ValueMax = 100;
+            this.matSlider9.ValueSuffix = "%";
+            // 
+            // matSlider10
+            // 
+            this.matSlider10.Depth = 0;
+            resources.ApplyResources(this.matSlider10, "matSlider10");
+            this.matSlider10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matSlider10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matSlider10.Name = "matSlider10";
+            this.matSlider10.ValueMax = 100;
+            this.matSlider10.ValueSuffix = "%";
+            // 
+            // matTB1
+            // 
+            this.matTB1.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB1, "matTB1");
+            this.matTB1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB1.Depth = 0;
+            this.matTB1.HideSelection = true;
+            this.matTB1.LeadingIcon = null;
+            this.matTB1.MaxLength = 32767;
+            this.matTB1.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB1.Name = "matTB1";
+            this.matTB1.PasswordChar = '\0';
+            this.matTB1.ReadOnly = false;
+            this.matTB1.SelectedText = "";
+            this.matTB1.SelectionLength = 0;
+            this.matTB1.SelectionStart = 0;
+            this.matTB1.ShortcutsEnabled = true;
+            this.matTB1.TabStop = false;
+            this.matTB1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB1.TrailingIcon = null;
+            this.matTB1.UseSystemPasswordChar = false;
             // 
             // gBox2A
             // 
@@ -758,6 +1078,7 @@
             // 
             // TSSI_ProcSt
             // 
+            this.TSSI_ProcSt.Image = global::LifeSupportCalculator.Properties.Resources.icon_processor_LT;
             this.TSSI_ProcSt.Name = "TSSI_ProcSt";
             resources.ApplyResources(this.TSSI_ProcSt, "TSSI_ProcSt");
             // 
@@ -786,6 +1107,7 @@
             // 
             // TSSI_MemSt
             // 
+            this.TSSI_MemSt.Image = global::LifeSupportCalculator.Properties.Resources.icon_memory_LT;
             this.TSSI_MemSt.Name = "TSSI_MemSt";
             resources.ApplyResources(this.TSSI_MemSt, "TSSI_MemSt");
             // 
@@ -793,326 +1115,6 @@
             // 
             this.TSSI_MemStBar.Name = "TSSI_MemStBar";
             resources.ApplyResources(this.TSSI_MemStBar, "TSSI_MemStBar");
-            // 
-            // matSlider1
-            // 
-            this.matSlider1.Depth = 0;
-            resources.ApplyResources(this.matSlider1, "matSlider1");
-            this.matSlider1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider1.Name = "matSlider1";
-            this.matSlider1.ValueMax = 100;
-            this.matSlider1.ValueSuffix = "%";
-            // 
-            // matSlider2
-            // 
-            this.matSlider2.Depth = 0;
-            resources.ApplyResources(this.matSlider2, "matSlider2");
-            this.matSlider2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider2.Name = "matSlider2";
-            this.matSlider2.ValueMax = 100;
-            this.matSlider2.ValueSuffix = "%";
-            // 
-            // matSlider3
-            // 
-            this.matSlider3.Depth = 0;
-            resources.ApplyResources(this.matSlider3, "matSlider3");
-            this.matSlider3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider3.Name = "matSlider3";
-            this.matSlider3.ValueMax = 100;
-            this.matSlider3.ValueSuffix = "%";
-            // 
-            // matSlider4
-            // 
-            this.matSlider4.Depth = 0;
-            resources.ApplyResources(this.matSlider4, "matSlider4");
-            this.matSlider4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider4.Name = "matSlider4";
-            this.matSlider4.ValueMax = 100;
-            this.matSlider4.ValueSuffix = "%";
-            // 
-            // matSlider5
-            // 
-            this.matSlider5.Depth = 0;
-            resources.ApplyResources(this.matSlider5, "matSlider5");
-            this.matSlider5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider5.Name = "matSlider5";
-            this.matSlider5.ValueMax = 100;
-            this.matSlider5.ValueSuffix = "%";
-            // 
-            // matSlider6
-            // 
-            this.matSlider6.Depth = 0;
-            resources.ApplyResources(this.matSlider6, "matSlider6");
-            this.matSlider6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider6.Name = "matSlider6";
-            this.matSlider6.ValueMax = 100;
-            this.matSlider6.ValueSuffix = "%";
-            // 
-            // matSlider7
-            // 
-            this.matSlider7.Depth = 0;
-            resources.ApplyResources(this.matSlider7, "matSlider7");
-            this.matSlider7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider7.Name = "matSlider7";
-            this.matSlider7.ValueMax = 100;
-            this.matSlider7.ValueSuffix = "%";
-            // 
-            // matSlider8
-            // 
-            this.matSlider8.Depth = 0;
-            resources.ApplyResources(this.matSlider8, "matSlider8");
-            this.matSlider8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider8.Name = "matSlider8";
-            this.matSlider8.ValueMax = 100;
-            this.matSlider8.ValueSuffix = "%";
-            // 
-            // matSlider9
-            // 
-            this.matSlider9.Depth = 0;
-            resources.ApplyResources(this.matSlider9, "matSlider9");
-            this.matSlider9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider9.Name = "matSlider9";
-            this.matSlider9.ValueMax = 100;
-            this.matSlider9.ValueSuffix = "%";
-            // 
-            // matSlider10
-            // 
-            this.matSlider10.Depth = 0;
-            resources.ApplyResources(this.matSlider10, "matSlider10");
-            this.matSlider10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matSlider10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.matSlider10.Name = "matSlider10";
-            this.matSlider10.ValueMax = 100;
-            this.matSlider10.ValueSuffix = "%";
-            // 
-            // matTB1
-            // 
-            this.matTB1.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB1, "matTB1");
-            this.matTB1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB1.Depth = 0;
-            this.matTB1.HideSelection = true;
-            this.matTB1.LeadingIcon = null;
-            this.matTB1.MaxLength = 32767;
-            this.matTB1.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB1.Name = "matTB1";
-            this.matTB1.PasswordChar = '\0';
-            this.matTB1.ReadOnly = false;
-            this.matTB1.SelectedText = "";
-            this.matTB1.SelectionLength = 0;
-            this.matTB1.SelectionStart = 0;
-            this.matTB1.ShortcutsEnabled = true;
-            this.matTB1.TabStop = false;
-            this.matTB1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB1.TrailingIcon = null;
-            this.matTB1.UseSystemPasswordChar = false;
-            // 
-            // matTB2
-            // 
-            this.matTB2.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB2, "matTB2");
-            this.matTB2.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB2.Depth = 0;
-            this.matTB2.HideSelection = true;
-            this.matTB2.LeadingIcon = null;
-            this.matTB2.MaxLength = 32767;
-            this.matTB2.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB2.Name = "matTB2";
-            this.matTB2.PasswordChar = '\0';
-            this.matTB2.ReadOnly = false;
-            this.matTB2.SelectedText = "";
-            this.matTB2.SelectionLength = 0;
-            this.matTB2.SelectionStart = 0;
-            this.matTB2.ShortcutsEnabled = true;
-            this.matTB2.TabStop = false;
-            this.matTB2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB2.TrailingIcon = null;
-            this.matTB2.UseSystemPasswordChar = false;
-            // 
-            // matTB3
-            // 
-            this.matTB3.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB3, "matTB3");
-            this.matTB3.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB3.Depth = 0;
-            this.matTB3.HideSelection = true;
-            this.matTB3.LeadingIcon = null;
-            this.matTB3.MaxLength = 32767;
-            this.matTB3.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB3.Name = "matTB3";
-            this.matTB3.PasswordChar = '\0';
-            this.matTB3.ReadOnly = false;
-            this.matTB3.SelectedText = "";
-            this.matTB3.SelectionLength = 0;
-            this.matTB3.SelectionStart = 0;
-            this.matTB3.ShortcutsEnabled = true;
-            this.matTB3.TabStop = false;
-            this.matTB3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB3.TrailingIcon = null;
-            this.matTB3.UseSystemPasswordChar = false;
-            // 
-            // matTB4
-            // 
-            this.matTB4.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB4, "matTB4");
-            this.matTB4.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB4.Depth = 0;
-            this.matTB4.HideSelection = true;
-            this.matTB4.LeadingIcon = null;
-            this.matTB4.MaxLength = 32767;
-            this.matTB4.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB4.Name = "matTB4";
-            this.matTB4.PasswordChar = '\0';
-            this.matTB4.ReadOnly = false;
-            this.matTB4.SelectedText = "";
-            this.matTB4.SelectionLength = 0;
-            this.matTB4.SelectionStart = 0;
-            this.matTB4.ShortcutsEnabled = true;
-            this.matTB4.TabStop = false;
-            this.matTB4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB4.TrailingIcon = null;
-            this.matTB4.UseSystemPasswordChar = false;
-            // 
-            // matTB5
-            // 
-            this.matTB5.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB5, "matTB5");
-            this.matTB5.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB5.Depth = 0;
-            this.matTB5.HideSelection = true;
-            this.matTB5.LeadingIcon = null;
-            this.matTB5.MaxLength = 32767;
-            this.matTB5.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB5.Name = "matTB5";
-            this.matTB5.PasswordChar = '\0';
-            this.matTB5.ReadOnly = false;
-            this.matTB5.SelectedText = "";
-            this.matTB5.SelectionLength = 0;
-            this.matTB5.SelectionStart = 0;
-            this.matTB5.ShortcutsEnabled = true;
-            this.matTB5.TabStop = false;
-            this.matTB5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB5.TrailingIcon = null;
-            this.matTB5.UseSystemPasswordChar = false;
-            // 
-            // matTB6
-            // 
-            this.matTB6.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB6, "matTB6");
-            this.matTB6.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB6.Depth = 0;
-            this.matTB6.HideSelection = true;
-            this.matTB6.LeadingIcon = null;
-            this.matTB6.MaxLength = 32767;
-            this.matTB6.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB6.Name = "matTB6";
-            this.matTB6.PasswordChar = '\0';
-            this.matTB6.ReadOnly = false;
-            this.matTB6.SelectedText = "";
-            this.matTB6.SelectionLength = 0;
-            this.matTB6.SelectionStart = 0;
-            this.matTB6.ShortcutsEnabled = true;
-            this.matTB6.TabStop = false;
-            this.matTB6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB6.TrailingIcon = null;
-            this.matTB6.UseSystemPasswordChar = false;
-            // 
-            // matTB7
-            // 
-            this.matTB7.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB7, "matTB7");
-            this.matTB7.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB7.Depth = 0;
-            this.matTB7.HideSelection = true;
-            this.matTB7.LeadingIcon = null;
-            this.matTB7.MaxLength = 32767;
-            this.matTB7.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB7.Name = "matTB7";
-            this.matTB7.PasswordChar = '\0';
-            this.matTB7.ReadOnly = false;
-            this.matTB7.SelectedText = "";
-            this.matTB7.SelectionLength = 0;
-            this.matTB7.SelectionStart = 0;
-            this.matTB7.ShortcutsEnabled = true;
-            this.matTB7.TabStop = false;
-            this.matTB7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB7.TrailingIcon = null;
-            this.matTB7.UseSystemPasswordChar = false;
-            // 
-            // matTB8
-            // 
-            this.matTB8.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB8, "matTB8");
-            this.matTB8.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB8.Depth = 0;
-            this.matTB8.HideSelection = true;
-            this.matTB8.LeadingIcon = null;
-            this.matTB8.MaxLength = 32767;
-            this.matTB8.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB8.Name = "matTB8";
-            this.matTB8.PasswordChar = '\0';
-            this.matTB8.ReadOnly = false;
-            this.matTB8.SelectedText = "";
-            this.matTB8.SelectionLength = 0;
-            this.matTB8.SelectionStart = 0;
-            this.matTB8.ShortcutsEnabled = true;
-            this.matTB8.TabStop = false;
-            this.matTB8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB8.TrailingIcon = null;
-            this.matTB8.UseSystemPasswordChar = false;
-            // 
-            // matTB9
-            // 
-            this.matTB9.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB9, "matTB9");
-            this.matTB9.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB9.Depth = 0;
-            this.matTB9.HideSelection = true;
-            this.matTB9.LeadingIcon = null;
-            this.matTB9.MaxLength = 32767;
-            this.matTB9.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB9.Name = "matTB9";
-            this.matTB9.PasswordChar = '\0';
-            this.matTB9.ReadOnly = false;
-            this.matTB9.SelectedText = "";
-            this.matTB9.SelectionLength = 0;
-            this.matTB9.SelectionStart = 0;
-            this.matTB9.ShortcutsEnabled = true;
-            this.matTB9.TabStop = false;
-            this.matTB9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB9.TrailingIcon = null;
-            this.matTB9.UseSystemPasswordChar = false;
-            // 
-            // matTB10
-            // 
-            this.matTB10.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB10, "matTB10");
-            this.matTB10.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB10.Depth = 0;
-            this.matTB10.HideSelection = true;
-            this.matTB10.LeadingIcon = null;
-            this.matTB10.MaxLength = 32767;
-            this.matTB10.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB10.Name = "matTB10";
-            this.matTB10.PasswordChar = '\0';
-            this.matTB10.ReadOnly = false;
-            this.matTB10.SelectedText = "";
-            this.matTB10.SelectionLength = 0;
-            this.matTB10.SelectionStart = 0;
-            this.matTB10.ShortcutsEnabled = true;
-            this.matTB10.TabStop = false;
-            this.matTB10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB10.TrailingIcon = null;
-            this.matTB10.UseSystemPasswordChar = false;
             // 
             // MainForm
             // 
