@@ -13,6 +13,6 @@ This calculator also includes some system monitoring functions such as performan
 | Platforms | Architecture | Is support? | Note |
 |---|---|---|---|
 | Windows XP | x32 | No | Unsupported |
-| Windows 7 | x32, x64 | Yes | Current development environment |
-| Windows 10 | x32, x64 | Maybe | Not tested |
-| Windows 11 | x64 | Unknown | Not tested |
+| Windows 7 | x32, x64 | No | Canceled |
+| Windows 10 | x32, x64 | Yes | Will be support |
+| Windows 11 | x64 | Yes | Currently build environment |
