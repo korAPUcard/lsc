@@ -880,92 +880,14 @@
   <data name="tblLayout2A.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;iconLblH2.Name" xml:space="preserve">
-    <value>iconLblH2</value>
-  </data>
-  <data name="&gt;&gt;iconLblH2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;iconLblH2.Parent" xml:space="preserve">
-    <value>tblLayout2A</value>
-  </data>
-  <data name="&gt;&gt;iconLblH2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;iconLblH1.Name" xml:space="preserve">
-    <value>iconLblH1</value>
-  </data>
-  <data name="&gt;&gt;iconLblH1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;iconLblH1.Parent" xml:space="preserve">
-    <value>tblLayout2A</value>
-  </data>
-  <data name="&gt;&gt;iconLblH1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;matCB1.Name" xml:space="preserve">
-    <value>matCB1</value>
-  </data>
-  <data name="&gt;&gt;matCB1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matCB1.Parent" xml:space="preserve">
-    <value>tblLayout2A</value>
-  </data>
-  <data name="&gt;&gt;matCB1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;matTB11.Name" xml:space="preserve">
-    <value>matTB11</value>
-  </data>
-  <data name="&gt;&gt;matTB11.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matTB11.Parent" xml:space="preserve">
-    <value>tblLayout2A</value>
-  </data>
-  <data name="&gt;&gt;matTB11.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tblLayout2A.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 23</value>
-  </data>
-  <data name="tblLayout2A.RowCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tblLayout2A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>343, 122</value>
-  </data>
-  <data name="tblLayout2A.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tblLayout2A.Name" xml:space="preserve">
-    <value>tblLayout2A</value>
-  </data>
-  <data name="&gt;&gt;tblLayout2A.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tblLayout2A.Parent" xml:space="preserve">
-    <value>gBox2A</value>
-  </data>
-  <data name="&gt;&gt;tblLayout2A.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tblLayout2A.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="iconLblH2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconLblH1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="matCB1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="matTB11" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,52,Percent,100" /&gt;&lt;Rows Styles="Absolute,52,Absolute,52,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="tblLayout3A.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="iconLblH3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="iconLblH2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="iconLblH3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="iconLblH2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="iconLblH3.ImageIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="iconLblH2.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <metadata name="iconList_LT42.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>644, 17</value>
@@ -1124,251 +1046,203 @@
         AfwIAAb/AfAG/wGAAT8B/AgABv8B/Aj/AfwIAA//AfwIAAs=
 </value>
   </data>
-  <data name="iconLblH3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="iconLblH2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="iconLblH3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+  <data name="iconLblH2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 52</value>
   </data>
-  <data name="iconLblH3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="iconLblH2.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 52</value>
   </data>
-  <data name="iconLblH3.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;iconLblH3.Name" xml:space="preserve">
-    <value>iconLblH3</value>
-  </data>
-  <data name="&gt;&gt;iconLblH3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;iconLblH3.Parent" xml:space="preserve">
-    <value>tblLayout3A</value>
-  </data>
-  <data name="&gt;&gt;iconLblH3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="matCB2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="matCB2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14px, style=Bold</value>
-  </data>
-  <data name="matCB2.Hint" xml:space="preserve">
-    <value>Vehicle type</value>
-  </data>
-  <data name="matCB2.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="matCB2.ItemHeight" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="matCB2.Items" xml:space="preserve">
-    <value>GV: General Car</value>
-  </data>
-  <data name="matCB2.Items1" xml:space="preserve">
-    <value>GV: Rover / Truck / Camper</value>
-  </data>
-  <data name="matCB2.Items2" xml:space="preserve">
-    <value>GV: RV / XV</value>
-  </data>
-  <data name="matCB2.Items3" xml:space="preserve">
-    <value>GV: Train</value>
-  </data>
-  <data name="matCB2.Items4" xml:space="preserve">
-    <value>WC: General Boat</value>
-  </data>
-  <data name="matCB2.Items5" xml:space="preserve">
-    <value>WC: Yacht</value>
-  </data>
-  <data name="matCB2.Items6" xml:space="preserve">
-    <value>WC: Warship</value>
-  </data>
-  <data name="matCB2.Items7" xml:space="preserve">
-    <value>WC: Aircraft Carrier</value>
-  </data>
-  <data name="matCB2.Items8" xml:space="preserve">
-    <value>WC: Submersible / Submarine</value>
-  </data>
-  <data name="matCB2.Items9" xml:space="preserve">
-    <value>AC: General Aircraft</value>
-  </data>
-  <data name="matCB2.Items10" xml:space="preserve">
-    <value>AC: Private Airplane</value>
-  </data>
-  <data name="matCB2.Items11" xml:space="preserve">
-    <value>AC: Commercial Airplane</value>
-  </data>
-  <data name="matCB2.Items12" xml:space="preserve">
-    <value>AC: Militery-grade Airplane</value>
-  </data>
-  <data name="matCB2.Items13" xml:space="preserve">
-    <value>AC: Misc.</value>
-  </data>
-  <data name="matCB2.Items14" xml:space="preserve">
-    <value>SC: Space Pod / Space Capsule</value>
-  </data>
-  <data name="matCB2.Items15" xml:space="preserve">
-    <value>SC: Spaceship</value>
-  </data>
-  <data name="matCB2.Items16" xml:space="preserve">
-    <value>SC: Mobile Space Station</value>
-  </data>
-  <data name="matCB2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 3</value>
-  </data>
-  <data name="matCB2.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="matCB2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 49</value>
-  </data>
-  <data name="matCB2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;matCB2.Name" xml:space="preserve">
-    <value>matCB2</value>
-  </data>
-  <data name="&gt;&gt;matCB2.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matCB2.Parent" xml:space="preserve">
-    <value>tblLayout3A</value>
-  </data>
-  <data name="&gt;&gt;matCB2.ZOrder" xml:space="preserve">
+  <data name="iconLblH2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="matCB3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="&gt;&gt;iconLblH2.Name" xml:space="preserve">
+    <value>iconLblH2</value>
+  </data>
+  <data name="&gt;&gt;iconLblH2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconLblH2.Parent" xml:space="preserve">
+    <value>tblLayout2A</value>
+  </data>
+  <data name="&gt;&gt;iconLblH2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="iconLblH1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="iconLblH1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="iconLblH1.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="iconLblH1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="iconLblH1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 52</value>
+  </data>
+  <data name="iconLblH1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;iconLblH1.Name" xml:space="preserve">
+    <value>iconLblH1</value>
+  </data>
+  <data name="&gt;&gt;iconLblH1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconLblH1.Parent" xml:space="preserve">
+    <value>tblLayout2A</value>
+  </data>
+  <data name="&gt;&gt;iconLblH1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="matCB1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="matCB3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="matCB1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14px, style=Bold</value>
   </data>
-  <data name="matCB3.Hint" xml:space="preserve">
-    <value>Vehicle fuel property</value>
+  <data name="matCB1.Hint" xml:space="preserve">
+    <value>Select calculation environment...</value>
   </data>
-  <data name="matCB3.IntegralHeight" type="System.Boolean, mscorlib">
+  <data name="matCB1.IntegralHeight" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="matCB3.ItemHeight" type="System.Int32, mscorlib">
+  <data name="matCB1.ItemHeight" type="System.Int32, mscorlib">
     <value>43</value>
   </data>
-  <data name="matCB3.Items" xml:space="preserve">
-    <value>Solid fuel</value>
+  <data name="matCB1.Items" xml:space="preserve">
+    <value>Surface of planet w/ Atm.</value>
   </data>
-  <data name="matCB3.Items1" xml:space="preserve">
-    <value>Liquid fuel</value>
+  <data name="matCB1.Items1" xml:space="preserve">
+    <value>Surface of planet w/o Atm.</value>
   </data>
-  <data name="matCB3.Items2" xml:space="preserve">
-    <value>Gases fuel</value>
+  <data name="matCB1.Items2" xml:space="preserve">
+    <value>Just in a space</value>
   </data>
-  <data name="matCB3.Items3" xml:space="preserve">
-    <value>Chemical compound fuel</value>
+  <data name="matCB1.Items3" xml:space="preserve">
+    <value>Ground vehicles</value>
   </data>
-  <data name="matCB3.Items4" xml:space="preserve">
-    <value>Electricity</value>
+  <data name="matCB1.Items4" xml:space="preserve">
+    <value>Watercrafts</value>
   </data>
-  <data name="matCB3.Items5" xml:space="preserve">
-    <value>Ion propellant</value>
+  <data name="matCB1.Items5" xml:space="preserve">
+    <value>Aircrafts</value>
   </data>
-  <data name="matCB3.Items6" xml:space="preserve">
-    <value>Plasma propellant</value>
+  <data name="matCB1.Items6" xml:space="preserve">
+    <value>Spacecrafts</value>
   </data>
-  <data name="matCB3.Items7" xml:space="preserve">
-    <value>Nuclear propellant</value>
+  <data name="matCB1.Items7" xml:space="preserve">
+    <value>Space Station</value>
   </data>
-  <data name="matCB3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="matCB1.Items8" xml:space="preserve">
+    <value>Base / Colony</value>
+  </data>
+  <data name="matCB1.Items9" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="matCB1.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 55</value>
   </data>
-  <data name="matCB3.MaxDropDownItems" type="System.Int32, mscorlib">
+  <data name="matCB1.MaxDropDownItems" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="matCB3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 49</value>
+  <data name="matCB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 49</value>
   </data>
-  <data name="matCB3.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="matCB1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;matCB3.Name" xml:space="preserve">
-    <value>matCB3</value>
+  <data name="&gt;&gt;matCB1.Name" xml:space="preserve">
+    <value>matCB1</value>
   </data>
-  <data name="&gt;&gt;matCB3.Type" xml:space="preserve">
+  <data name="&gt;&gt;matCB1.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;matCB3.Parent" xml:space="preserve">
-    <value>tblLayout3A</value>
+  <data name="&gt;&gt;matCB1.Parent" xml:space="preserve">
+    <value>tblLayout2A</value>
   </data>
-  <data name="&gt;&gt;matCB3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;matCB1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="matCB4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="matTB11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="matTB11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="matCB4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  <data name="matTB11.ErrorMessage" xml:space="preserve">
+    <value>Invalid value!</value>
   </data>
-  <data name="matCB4.Hint" xml:space="preserve">
-    <value>Vehicle scale</value>
+  <data name="matTB11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16px</value>
   </data>
-  <data name="matCB4.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="matTB11.HelperText" xml:space="preserve">
+    <value>Enter a number of crew.</value>
   </data>
-  <data name="matCB4.ItemHeight" type="System.Int32, mscorlib">
-    <value>43</value>
+  <data name="matTB11.Hint" xml:space="preserve">
+    <value>Enter a number of crew...</value>
   </data>
-  <data name="matCB4.Items" xml:space="preserve">
-    <value>XS</value>
+  <data name="matTB11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 3</value>
   </data>
-  <data name="matCB4.Items1" xml:space="preserve">
-    <value>S</value>
+  <data name="matTB11.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
-  <data name="matCB4.Items2" xml:space="preserve">
-    <value>M</value>
+  <data name="matTB11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
-  <data name="matCB4.Items3" xml:space="preserve">
-    <value>L</value>
+  <data name="matTB11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 48</value>
   </data>
-  <data name="matCB4.Items4" xml:space="preserve">
-    <value>XL</value>
-  </data>
-  <data name="matCB4.Items5" xml:space="preserve">
-    <value>XXL</value>
-  </data>
-  <data name="matCB4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 107</value>
-  </data>
-  <data name="matCB4.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="matCB4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 49</value>
-  </data>
-  <data name="matCB4.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;matCB4.Name" xml:space="preserve">
-    <value>matCB4</value>
-  </data>
-  <data name="&gt;&gt;matCB4.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matCB4.Parent" xml:space="preserve">
-    <value>tblLayout3A</value>
-  </data>
-  <data name="&gt;&gt;matCB4.ZOrder" xml:space="preserve">
+  <data name="matTB11.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="tblLayout3A.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 61</value>
+  <data name="matTB11.Text" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="tblLayout3A.RowCount" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;matTB11.Name" xml:space="preserve">
+    <value>matTB11</value>
+  </data>
+  <data name="&gt;&gt;matTB11.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matTB11.Parent" xml:space="preserve">
+    <value>tblLayout2A</value>
+  </data>
+  <data name="&gt;&gt;matTB11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tblLayout2A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="tblLayout2A.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tblLayout2A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 122</value>
+  </data>
+  <data name="tblLayout2A.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="tblLayout3A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>337, 174</value>
+  <data name="&gt;&gt;tblLayout2A.Name" xml:space="preserve">
+    <value>tblLayout2A</value>
   </data>
-  <data name="tblLayout3A.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;tblLayout2A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblLayout2A.Parent" xml:space="preserve">
+    <value>gBox2A</value>
+  </data>
+  <data name="&gt;&gt;tblLayout2A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayout2A.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="iconLblH2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="iconLblH1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="matCB1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="matTB11" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,52,Percent,100" /&gt;&lt;Rows Styles="Absolute,52,Absolute,52,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="&gt;&gt;tblLayout3A.Name" xml:space="preserve">
     <value>tblLayout3A</value>
@@ -1414,54 +1288,6 @@
   </data>
   <data name="&gt;&gt;matEP1.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="tblLayout4A.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="iconLblH4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="iconLblH4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="iconLblH4.ImageIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="iconLblH4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="iconLblH4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="iconLblH4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 52</value>
-  </data>
-  <data name="iconLblH4.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;iconLblH4.Name" xml:space="preserve">
-    <value>iconLblH4</value>
-  </data>
-  <data name="&gt;&gt;iconLblH4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;iconLblH4.Parent" xml:space="preserve">
-    <value>tblLayout4A</value>
-  </data>
-  <data name="&gt;&gt;iconLblH4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tblLayout4A.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 59</value>
-  </data>
-  <data name="tblLayout4A.RowCount" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="tblLayout4A.Size" type="System.Drawing.Size, System.Drawing">
-    <value>337, 229</value>
-  </data>
-  <data name="tblLayout4A.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="&gt;&gt;tblLayout4A.Name" xml:space="preserve">
     <value>tblLayout4A</value>
@@ -3452,82 +3278,247 @@
   <data name="&gt;&gt;matTB1.ZOrder" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="iconLblH1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="iconLblH3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="iconLblH1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="iconLblH3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="iconLblH1.ImageIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="iconLblH3.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="iconLblH1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="iconLblH3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconLblH3.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 0</value>
   </data>
-  <data name="iconLblH1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="iconLblH3.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 52</value>
   </data>
-  <data name="iconLblH1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="iconLblH3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;iconLblH1.Name" xml:space="preserve">
-    <value>iconLblH1</value>
+  <data name="&gt;&gt;iconLblH3.Name" xml:space="preserve">
+    <value>iconLblH3</value>
   </data>
-  <data name="&gt;&gt;iconLblH1.Type" xml:space="preserve">
+  <data name="&gt;&gt;iconLblH3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;iconLblH1.Parent" xml:space="preserve">
-    <value>tblLayout2A</value>
+  <data name="&gt;&gt;iconLblH3.Parent" xml:space="preserve">
+    <value>tblLayout3A</value>
   </data>
-  <data name="&gt;&gt;iconLblH1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;iconLblH3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="matTB11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="matTB11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="matCB3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="matTB11.ErrorMessage" xml:space="preserve">
-    <value>Invalid value!</value>
+  <data name="matCB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
   </data>
-  <data name="matTB11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16px</value>
+  <data name="matCB3.Hint" xml:space="preserve">
+    <value>Vehicle fuel property</value>
   </data>
-  <data name="matTB11.HelperText" xml:space="preserve">
-    <value>Enter a number of crew.</value>
+  <data name="matCB3.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="matTB11.Hint" xml:space="preserve">
-    <value>Enter a number of crew...</value>
+  <data name="matCB3.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
   </data>
-  <data name="matTB11.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="matCB3.Items" xml:space="preserve">
+    <value>Solid fuel</value>
+  </data>
+  <data name="matCB3.Items1" xml:space="preserve">
+    <value>Liquid fuel</value>
+  </data>
+  <data name="matCB3.Items2" xml:space="preserve">
+    <value>Gases fuel</value>
+  </data>
+  <data name="matCB3.Items3" xml:space="preserve">
+    <value>Chemical compound fuel</value>
+  </data>
+  <data name="matCB3.Items4" xml:space="preserve">
+    <value>Electricity</value>
+  </data>
+  <data name="matCB3.Items5" xml:space="preserve">
+    <value>Ion propellant</value>
+  </data>
+  <data name="matCB3.Items6" xml:space="preserve">
+    <value>Plasma propellant</value>
+  </data>
+  <data name="matCB3.Items7" xml:space="preserve">
+    <value>Nuclear propellant</value>
+  </data>
+  <data name="matCB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="matCB3.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="matCB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 49</value>
+  </data>
+  <data name="matCB3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;matCB3.Name" xml:space="preserve">
+    <value>matCB3</value>
+  </data>
+  <data name="&gt;&gt;matCB3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCB3.Parent" xml:space="preserve">
+    <value>tblLayout3A</value>
+  </data>
+  <data name="&gt;&gt;matCB3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="matCB2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="matCB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
+  </data>
+  <data name="matCB2.Hint" xml:space="preserve">
+    <value>Vehicle type</value>
+  </data>
+  <data name="matCB2.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="matCB2.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="matCB2.Items" xml:space="preserve">
+    <value>GV: General Car</value>
+  </data>
+  <data name="matCB2.Items1" xml:space="preserve">
+    <value>GV: Rover / Truck / Camper</value>
+  </data>
+  <data name="matCB2.Items2" xml:space="preserve">
+    <value>GV: RV / XV</value>
+  </data>
+  <data name="matCB2.Items3" xml:space="preserve">
+    <value>GV: Train</value>
+  </data>
+  <data name="matCB2.Items4" xml:space="preserve">
+    <value>WC: General Boat</value>
+  </data>
+  <data name="matCB2.Items5" xml:space="preserve">
+    <value>WC: Yacht</value>
+  </data>
+  <data name="matCB2.Items6" xml:space="preserve">
+    <value>WC: Warship</value>
+  </data>
+  <data name="matCB2.Items7" xml:space="preserve">
+    <value>WC: Aircraft Carrier</value>
+  </data>
+  <data name="matCB2.Items8" xml:space="preserve">
+    <value>WC: Submersible / Submarine</value>
+  </data>
+  <data name="matCB2.Items9" xml:space="preserve">
+    <value>AC: General Aircraft</value>
+  </data>
+  <data name="matCB2.Items10" xml:space="preserve">
+    <value>AC: Private Airplane</value>
+  </data>
+  <data name="matCB2.Items11" xml:space="preserve">
+    <value>AC: Commercial Airplane</value>
+  </data>
+  <data name="matCB2.Items12" xml:space="preserve">
+    <value>AC: Militery-grade Airplane</value>
+  </data>
+  <data name="matCB2.Items13" xml:space="preserve">
+    <value>AC: Misc.</value>
+  </data>
+  <data name="matCB2.Items14" xml:space="preserve">
+    <value>SC: Space Pod / Space Capsule</value>
+  </data>
+  <data name="matCB2.Items15" xml:space="preserve">
+    <value>SC: Spaceship</value>
+  </data>
+  <data name="matCB2.Items16" xml:space="preserve">
+    <value>SC: Mobile Space Station</value>
+  </data>
+  <data name="matCB2.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 3</value>
   </data>
-  <data name="matTB11.PrefixSuffixText" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="matCB2.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="matTB11.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="matCB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 49</value>
   </data>
-  <data name="matTB11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 48</value>
+  <data name="matCB2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="matTB11.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;matCB2.Name" xml:space="preserve">
+    <value>matCB2</value>
   </data>
-  <data name="matTB11.Text" xml:space="preserve">
+  <data name="&gt;&gt;matCB2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCB2.Parent" xml:space="preserve">
+    <value>tblLayout3A</value>
+  </data>
+  <data name="&gt;&gt;matCB2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;matTB11.Name" xml:space="preserve">
-    <value>matTB11</value>
+  <data name="matCB4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="&gt;&gt;matTB11.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTextBox2, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="matCB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14px, style=Bold</value>
   </data>
-  <data name="&gt;&gt;matTB11.Parent" xml:space="preserve">
-    <value>tblLayout2A</value>
+  <data name="matCB4.Hint" xml:space="preserve">
+    <value>Vehicle scale</value>
   </data>
-  <data name="&gt;&gt;matTB11.ZOrder" xml:space="preserve">
+  <data name="matCB4.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="matCB4.ItemHeight" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="matCB4.Items" xml:space="preserve">
+    <value>XS</value>
+  </data>
+  <data name="matCB4.Items1" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="matCB4.Items2" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="matCB4.Items3" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="matCB4.Items4" xml:space="preserve">
+    <value>XL</value>
+  </data>
+  <data name="matCB4.Items5" xml:space="preserve">
+    <value>XXL</value>
+  </data>
+  <data name="matCB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 107</value>
+  </data>
+  <data name="matCB4.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="matCB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 49</value>
+  </data>
+  <data name="matCB4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;matCB4.Name" xml:space="preserve">
+    <value>matCB4</value>
+  </data>
+  <data name="&gt;&gt;matCB4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCB4.Parent" xml:space="preserve">
+    <value>tblLayout3A</value>
+  </data>
+  <data name="&gt;&gt;matCB4.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <metadata name="iconList_DT24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -3803,113 +3794,158 @@
   <data name="TSSI_MemStBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 18</value>
   </data>
-  <data name="matCB1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="matCB1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14px, style=Bold</value>
-  </data>
-  <data name="matCB1.Hint" xml:space="preserve">
-    <value>Select calculation environment...</value>
-  </data>
-  <data name="matCB1.IntegralHeight" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="matCB1.ItemHeight" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="matCB1.Items" xml:space="preserve">
-    <value>Surface of planet w/ Atm.</value>
-  </data>
-  <data name="matCB1.Items1" xml:space="preserve">
-    <value>Surface of planet w/o Atm.</value>
-  </data>
-  <data name="matCB1.Items2" xml:space="preserve">
-    <value>Just in a space</value>
-  </data>
-  <data name="matCB1.Items3" xml:space="preserve">
-    <value>Ground vehicles</value>
-  </data>
-  <data name="matCB1.Items4" xml:space="preserve">
-    <value>Watercrafts</value>
-  </data>
-  <data name="matCB1.Items5" xml:space="preserve">
-    <value>Aircrafts</value>
-  </data>
-  <data name="matCB1.Items6" xml:space="preserve">
-    <value>Spacecrafts</value>
-  </data>
-  <data name="matCB1.Items7" xml:space="preserve">
-    <value>Space Station</value>
-  </data>
-  <data name="matCB1.Items8" xml:space="preserve">
-    <value>Base / Colony</value>
-  </data>
-  <data name="matCB1.Items9" xml:space="preserve">
-    <value>Other vehicle...</value>
-  </data>
-  <data name="matCB1.Items10" xml:space="preserve">
-    <value>Other structure...</value>
-  </data>
-  <data name="matCB1.Items11" xml:space="preserve">
-    <value>Other environment...</value>
-  </data>
-  <data name="matCB1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="matCB1.MaxDropDownItems" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="matCB1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>285, 49</value>
-  </data>
-  <data name="matCB1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;matCB1.Name" xml:space="preserve">
-    <value>matCB1</value>
-  </data>
-  <data name="&gt;&gt;matCB1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;matCB1.Parent" xml:space="preserve">
-    <value>tblLayout2A</value>
-  </data>
-  <data name="&gt;&gt;matCB1.ZOrder" xml:space="preserve">
+  <data name="tblLayout4A.ColumnCount" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="iconLblH2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="&gt;&gt;iconLblH4.Name" xml:space="preserve">
+    <value>iconLblH4</value>
   </data>
-  <data name="iconLblH2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="iconLblH2.ImageIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="iconLblH2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="iconLblH2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 52</value>
-  </data>
-  <data name="iconLblH2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 52</value>
-  </data>
-  <data name="iconLblH2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;iconLblH2.Name" xml:space="preserve">
-    <value>iconLblH2</value>
-  </data>
-  <data name="&gt;&gt;iconLblH2.Type" xml:space="preserve">
+  <data name="&gt;&gt;iconLblH4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;iconLblH2.Parent" xml:space="preserve">
-    <value>tblLayout2A</value>
+  <data name="&gt;&gt;iconLblH4.Parent" xml:space="preserve">
+    <value>tblLayout4A</value>
   </data>
-  <data name="&gt;&gt;iconLblH2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;iconLblH4.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="tblLayout4A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 59</value>
+  </data>
+  <data name="tblLayout4A.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tblLayout4A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 229</value>
+  </data>
+  <data name="tblLayout4A.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tblLayout4A.Name" xml:space="preserve">
+    <value>tblLayout4A</value>
+  </data>
+  <data name="&gt;&gt;tblLayout4A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblLayout4A.Parent" xml:space="preserve">
+    <value>matEP2</value>
+  </data>
+  <data name="&gt;&gt;tblLayout4A.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayout4A.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="iconLblH4" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,52,Percent,100" /&gt;&lt;Rows Styles="Absolute,52,Absolute,52,Absolute,52,Absolute,52,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="iconLblH4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="iconLblH4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="iconLblH4.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="iconLblH4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="iconLblH4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="iconLblH4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 52</value>
+  </data>
+  <data name="iconLblH4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;iconLblH4.Name" xml:space="preserve">
+    <value>iconLblH4</value>
+  </data>
+  <data name="&gt;&gt;iconLblH4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconLblH4.Parent" xml:space="preserve">
+    <value>tblLayout4A</value>
+  </data>
+  <data name="&gt;&gt;iconLblH4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tblLayout3A.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;iconLblH3.Name" xml:space="preserve">
+    <value>iconLblH3</value>
+  </data>
+  <data name="&gt;&gt;iconLblH3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iconLblH3.Parent" xml:space="preserve">
+    <value>tblLayout3A</value>
+  </data>
+  <data name="&gt;&gt;iconLblH3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;matCB2.Name" xml:space="preserve">
+    <value>matCB2</value>
+  </data>
+  <data name="&gt;&gt;matCB2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCB2.Parent" xml:space="preserve">
+    <value>tblLayout3A</value>
+  </data>
+  <data name="&gt;&gt;matCB2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;matCB3.Name" xml:space="preserve">
+    <value>matCB3</value>
+  </data>
+  <data name="&gt;&gt;matCB3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCB3.Parent" xml:space="preserve">
+    <value>tblLayout3A</value>
+  </data>
+  <data name="&gt;&gt;matCB3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;matCB4.Name" xml:space="preserve">
+    <value>matCB4</value>
+  </data>
+  <data name="&gt;&gt;matCB4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialComboBox, MaterialSkin, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;matCB4.Parent" xml:space="preserve">
+    <value>tblLayout3A</value>
+  </data>
+  <data name="&gt;&gt;matCB4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tblLayout3A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 61</value>
+  </data>
+  <data name="tblLayout3A.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tblLayout3A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>337, 174</value>
+  </data>
+  <data name="tblLayout3A.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tblLayout3A.Name" xml:space="preserve">
+    <value>tblLayout3A</value>
+  </data>
+  <data name="&gt;&gt;tblLayout3A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tblLayout3A.Parent" xml:space="preserve">
+    <value>matEP1</value>
+  </data>
+  <data name="&gt;&gt;tblLayout3A.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tblLayout3A.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="iconLblH3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="matCB2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="matCB3" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="matCB4" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,52,Percent,100" /&gt;&lt;Rows Styles="Absolute,52,Absolute,52,Absolute,52,AutoSize,0,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

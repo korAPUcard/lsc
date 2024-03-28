@@ -1140,9 +1140,7 @@
             resources.GetString("matCB1.Items6"),
             resources.GetString("matCB1.Items7"),
             resources.GetString("matCB1.Items8"),
-            resources.GetString("matCB1.Items9"),
-            resources.GetString("matCB1.Items10"),
-            resources.GetString("matCB1.Items11")});
+            resources.GetString("matCB1.Items9")});
             this.matCB1.MouseState = MaterialSkin.MouseState.OUT;
             this.matCB1.Name = "matCB1";
             this.matCB1.StartIndex = 6;
