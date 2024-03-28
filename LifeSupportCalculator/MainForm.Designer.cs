@@ -97,18 +97,13 @@
             this.matSlider10 = new MaterialSkin.Controls.MaterialSlider();
             this.matTB1 = new MaterialSkin.Controls.MaterialTextBox2();
             this.gBox2A = new System.Windows.Forms.GroupBox();
-            this.tblLayout2A = new System.Windows.Forms.TableLayoutPanel();
             this.iconLblH3 = new System.Windows.Forms.Label();
             this.iconList_LT42 = new System.Windows.Forms.ImageList(this.components);
             this.iconLblH1 = new System.Windows.Forms.Label();
-            this.iconLblH2 = new System.Windows.Forms.Label();
             this.matTB11 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matCB1 = new MaterialSkin.Controls.MaterialComboBox();
             this.matCB3 = new MaterialSkin.Controls.MaterialComboBox();
             this.matCB2 = new MaterialSkin.Controls.MaterialComboBox();
             this.matCB4 = new MaterialSkin.Controls.MaterialComboBox();
-            this.tblLayout3A = new System.Windows.Forms.TableLayoutPanel();
-            this.iconLbl11 = new System.Windows.Forms.Label();
             this.lbl1 = new System.Windows.Forms.Label();
             this.splC = new System.Windows.Forms.SplitContainer();
             this.tabP2 = new System.Windows.Forms.TabPage();
@@ -121,6 +116,14 @@
             this.TSSI_Sp1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.TSSI_MemSt = new System.Windows.Forms.ToolStripStatusLabel();
             this.TSSI_MemStBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.matEP2 = new MaterialSkin.Controls.MaterialExpansionPanel();
+            this.tblLayout4A = new System.Windows.Forms.TableLayoutPanel();
+            this.iconLblH4 = new System.Windows.Forms.Label();
+            this.matEP1 = new MaterialSkin.Controls.MaterialExpansionPanel();
+            this.tblLayout3A = new System.Windows.Forms.TableLayoutPanel();
+            this.matCB1 = new MaterialSkin.Controls.MaterialComboBox();
+            this.iconLblH2 = new System.Windows.Forms.Label();
+            this.tblLayout2A = new System.Windows.Forms.TableLayoutPanel();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -131,11 +134,14 @@
             this.gBox1A.SuspendLayout();
             this.tblLayout1A.SuspendLayout();
             this.gBox2A.SuspendLayout();
-            this.tblLayout2A.SuspendLayout();
-            this.tblLayout3A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC)).BeginInit();
             this.splC.SuspendLayout();
             this.TSSI_ProcStBar.SuspendLayout();
+            this.matEP2.SuspendLayout();
+            this.tblLayout4A.SuspendLayout();
+            this.matEP1.SuspendLayout();
+            this.tblLayout3A.SuspendLayout();
+            this.tblLayout2A.SuspendLayout();
             this.SuspendLayout();
             // 
             // iconList1
@@ -834,23 +840,11 @@
             // gBox2A
             // 
             this.gBox2A.Controls.Add(this.tblLayout2A);
-            this.gBox2A.Controls.Add(this.tblLayout3A);
+            this.gBox2A.Controls.Add(this.matEP1);
+            this.gBox2A.Controls.Add(this.matEP2);
             resources.ApplyResources(this.gBox2A, "gBox2A");
             this.gBox2A.Name = "gBox2A";
             this.gBox2A.TabStop = false;
-            // 
-            // tblLayout2A
-            // 
-            resources.ApplyResources(this.tblLayout2A, "tblLayout2A");
-            this.tblLayout2A.Controls.Add(this.iconLblH3, 0, 2);
-            this.tblLayout2A.Controls.Add(this.iconLblH1, 0, 0);
-            this.tblLayout2A.Controls.Add(this.iconLblH2, 0, 1);
-            this.tblLayout2A.Controls.Add(this.matTB11, 1, 0);
-            this.tblLayout2A.Controls.Add(this.matCB1, 1, 1);
-            this.tblLayout2A.Controls.Add(this.matCB3, 1, 3);
-            this.tblLayout2A.Controls.Add(this.matCB2, 1, 2);
-            this.tblLayout2A.Controls.Add(this.matCB4, 1, 4);
-            this.tblLayout2A.Name = "tblLayout2A";
             // 
             // iconLblH3
             // 
@@ -871,12 +865,6 @@
             resources.ApplyResources(this.iconLblH1, "iconLblH1");
             this.iconLblH1.ImageList = this.iconList_LT42;
             this.iconLblH1.Name = "iconLblH1";
-            // 
-            // iconLblH2
-            // 
-            resources.ApplyResources(this.iconLblH2, "iconLblH2");
-            this.iconLblH2.ImageList = this.iconList_LT42;
-            this.iconLblH2.Name = "iconLblH2";
             // 
             // matTB11
             // 
@@ -899,35 +887,6 @@
             this.matTB11.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.matTB11.TrailingIcon = null;
             this.matTB11.UseSystemPasswordChar = false;
-            // 
-            // matCB1
-            // 
-            this.matCB1.AutoResize = false;
-            this.matCB1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.matCB1.Depth = 0;
-            resources.ApplyResources(this.matCB1, "matCB1");
-            this.matCB1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.matCB1.DropDownHeight = 174;
-            this.matCB1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.matCB1.DropDownWidth = 121;
-            this.matCB1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matCB1.FormattingEnabled = true;
-            this.matCB1.Items.AddRange(new object[] {
-            resources.GetString("matCB1.Items"),
-            resources.GetString("matCB1.Items1"),
-            resources.GetString("matCB1.Items2"),
-            resources.GetString("matCB1.Items3"),
-            resources.GetString("matCB1.Items4"),
-            resources.GetString("matCB1.Items5"),
-            resources.GetString("matCB1.Items6"),
-            resources.GetString("matCB1.Items7"),
-            resources.GetString("matCB1.Items8"),
-            resources.GetString("matCB1.Items9"),
-            resources.GetString("matCB1.Items10"),
-            resources.GetString("matCB1.Items11")});
-            this.matCB1.MouseState = MaterialSkin.MouseState.OUT;
-            this.matCB1.Name = "matCB1";
-            this.matCB1.StartIndex = 6;
             // 
             // matCB3
             // 
@@ -1010,18 +969,6 @@
             this.matCB4.MouseState = MaterialSkin.MouseState.OUT;
             this.matCB4.Name = "matCB4";
             this.matCB4.StartIndex = 2;
-            // 
-            // tblLayout3A
-            // 
-            resources.ApplyResources(this.tblLayout3A, "tblLayout3A");
-            this.tblLayout3A.Controls.Add(this.iconLbl11, 0, 0);
-            this.tblLayout3A.Name = "tblLayout3A";
-            // 
-            // iconLbl11
-            // 
-            resources.ApplyResources(this.iconLbl11, "iconLbl11");
-            this.iconLbl11.ImageList = this.iconList_LT24;
-            this.iconLbl11.Name = "iconLbl11";
             // 
             // lbl1
             // 
@@ -1116,6 +1063,105 @@
             this.TSSI_MemStBar.Name = "TSSI_MemStBar";
             resources.ApplyResources(this.TSSI_MemStBar, "TSSI_MemStBar");
             // 
+            // matEP2
+            // 
+            this.matEP2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matEP2.CancelButtonText = "RESET";
+            this.matEP2.Collapse = true;
+            this.matEP2.Controls.Add(this.tblLayout4A);
+            this.matEP2.Depth = 0;
+            this.matEP2.Description = "";
+            this.matEP2.ExpandHeight = 354;
+            resources.ApplyResources(this.matEP2, "matEP2");
+            this.matEP2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matEP2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matEP2.Name = "matEP2";
+            this.matEP2.Title = "Building Property";
+            this.matEP2.ValidationButtonEnable = true;
+            this.matEP2.ValidationButtonText = "SUBMIT";
+            // 
+            // tblLayout4A
+            // 
+            resources.ApplyResources(this.tblLayout4A, "tblLayout4A");
+            this.tblLayout4A.Controls.Add(this.iconLblH4, 0, 0);
+            this.tblLayout4A.Name = "tblLayout4A";
+            // 
+            // iconLblH4
+            // 
+            resources.ApplyResources(this.iconLblH4, "iconLblH4");
+            this.iconLblH4.ImageList = this.iconList_LT42;
+            this.iconLblH4.Name = "iconLblH4";
+            // 
+            // matEP1
+            // 
+            this.matEP1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matEP1.CancelButtonText = "RESET";
+            this.matEP1.Collapse = true;
+            this.matEP1.Controls.Add(this.tblLayout3A);
+            this.matEP1.Depth = 0;
+            this.matEP1.Description = "";
+            this.matEP1.ExpandHeight = 300;
+            resources.ApplyResources(this.matEP1, "matEP1");
+            this.matEP1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matEP1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.matEP1.Name = "matEP1";
+            this.matEP1.Title = "Vehicle Property";
+            this.matEP1.ValidationButtonEnable = true;
+            this.matEP1.ValidationButtonText = "SUBMIT";
+            // 
+            // tblLayout3A
+            // 
+            resources.ApplyResources(this.tblLayout3A, "tblLayout3A");
+            this.tblLayout3A.Controls.Add(this.iconLblH3, 0, 0);
+            this.tblLayout3A.Controls.Add(this.matCB2, 1, 0);
+            this.tblLayout3A.Controls.Add(this.matCB3, 1, 1);
+            this.tblLayout3A.Controls.Add(this.matCB4, 1, 2);
+            this.tblLayout3A.Name = "tblLayout3A";
+            // 
+            // matCB1
+            // 
+            this.matCB1.AutoResize = false;
+            this.matCB1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCB1.Depth = 0;
+            resources.ApplyResources(this.matCB1, "matCB1");
+            this.matCB1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.matCB1.DropDownHeight = 174;
+            this.matCB1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.matCB1.DropDownWidth = 121;
+            this.matCB1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCB1.FormattingEnabled = true;
+            this.matCB1.Items.AddRange(new object[] {
+            resources.GetString("matCB1.Items"),
+            resources.GetString("matCB1.Items1"),
+            resources.GetString("matCB1.Items2"),
+            resources.GetString("matCB1.Items3"),
+            resources.GetString("matCB1.Items4"),
+            resources.GetString("matCB1.Items5"),
+            resources.GetString("matCB1.Items6"),
+            resources.GetString("matCB1.Items7"),
+            resources.GetString("matCB1.Items8"),
+            resources.GetString("matCB1.Items9"),
+            resources.GetString("matCB1.Items10"),
+            resources.GetString("matCB1.Items11")});
+            this.matCB1.MouseState = MaterialSkin.MouseState.OUT;
+            this.matCB1.Name = "matCB1";
+            this.matCB1.StartIndex = 6;
+            // 
+            // iconLblH2
+            // 
+            resources.ApplyResources(this.iconLblH2, "iconLblH2");
+            this.iconLblH2.ImageList = this.iconList_LT42;
+            this.iconLblH2.Name = "iconLblH2";
+            // 
+            // tblLayout2A
+            // 
+            resources.ApplyResources(this.tblLayout2A, "tblLayout2A");
+            this.tblLayout2A.Controls.Add(this.iconLblH2, 0, 1);
+            this.tblLayout2A.Controls.Add(this.iconLblH1, 0, 0);
+            this.tblLayout2A.Controls.Add(this.matCB1, 1, 1);
+            this.tblLayout2A.Controls.Add(this.matTB11, 1, 0);
+            this.tblLayout2A.Name = "tblLayout2A";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -1143,13 +1189,20 @@
             this.gBox1A.ResumeLayout(false);
             this.tblLayout1A.ResumeLayout(false);
             this.gBox2A.ResumeLayout(false);
-            this.tblLayout2A.ResumeLayout(false);
-            this.tblLayout2A.PerformLayout();
-            this.tblLayout3A.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splC)).EndInit();
             this.splC.ResumeLayout(false);
             this.TSSI_ProcStBar.ResumeLayout(false);
             this.TSSI_ProcStBar.PerformLayout();
+            this.matEP2.ResumeLayout(false);
+            this.matEP2.PerformLayout();
+            this.tblLayout4A.ResumeLayout(false);
+            this.tblLayout4A.PerformLayout();
+            this.matEP1.ResumeLayout(false);
+            this.matEP1.PerformLayout();
+            this.tblLayout3A.ResumeLayout(false);
+            this.tblLayout3A.PerformLayout();
+            this.tblLayout2A.ResumeLayout(false);
+            this.tblLayout2A.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1206,11 +1259,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TableLayoutPanel tblLayout3A;
         private System.Windows.Forms.Label iconLbl9;
-        private System.Windows.Forms.Label iconLbl11;
         private System.Windows.Forms.Label iconLbl10;
-        private System.Windows.Forms.TableLayoutPanel tblLayout2A;
         private System.Windows.Forms.ImageList iconList_LT42;
         private System.Windows.Forms.ImageList iconList_DT42;
         private System.Windows.Forms.ToolStripStatusLabel TSSI_ProcSt;
@@ -1220,9 +1270,7 @@
         private System.Windows.Forms.ToolStripStatusLabel TSSI_MemSt;
         private System.Windows.Forms.ToolStripProgressBar TSSI_MemStBar;
         private System.Windows.Forms.Label iconLblH1;
-        private System.Windows.Forms.Label iconLblH2;
         private MaterialSkin.Controls.MaterialTextBox2 matTB11;
-        private MaterialSkin.Controls.MaterialComboBox matCB1;
         private System.Windows.Forms.Label iconLblH3;
         private MaterialSkin.Controls.MaterialComboBox matCB3;
         private MaterialSkin.Controls.MaterialComboBox matCB2;
@@ -1247,6 +1295,14 @@
         private MaterialSkin.Controls.MaterialTextBox2 matTB4;
         private MaterialSkin.Controls.MaterialTextBox2 matTB3;
         private MaterialSkin.Controls.MaterialTextBox2 matTB2;
+        private MaterialSkin.Controls.MaterialExpansionPanel matEP2;
+        private System.Windows.Forms.TableLayoutPanel tblLayout4A;
+        private System.Windows.Forms.Label iconLblH4;
+        private MaterialSkin.Controls.MaterialExpansionPanel matEP1;
+        private System.Windows.Forms.TableLayoutPanel tblLayout3A;
+        private System.Windows.Forms.TableLayoutPanel tblLayout2A;
+        private System.Windows.Forms.Label iconLblH2;
+        private MaterialSkin.Controls.MaterialComboBox matCB1;
     }
 }
 

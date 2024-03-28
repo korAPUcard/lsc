@@ -87,6 +87,7 @@ namespace LifeSupportCalculator
             iconLblH1.ImageList = iconList_LT42;
             iconLblH2.ImageList = iconList_LT42;
             iconLblH3.ImageList = iconList_LT42;
+            iconLblH4.ImageList = iconList_LT42;
         }
 
         private void IconTheme_Dark()
@@ -108,6 +109,7 @@ namespace LifeSupportCalculator
             iconLblH1.ImageList = iconList_DT42;
             iconLblH2.ImageList = iconList_DT42;
             iconLblH3.ImageList = iconList_DT42;
+            iconLblH4.ImageList = iconList_DT42;
         }
 
         private void TSMI_App_Diagnostics_Click(object sender, EventArgs e)
