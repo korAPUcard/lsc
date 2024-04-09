@@ -124,12 +124,12 @@
             this.tabP3 = new System.Windows.Forms.TabPage();
             this.iconList_DT24 = new System.Windows.Forms.ImageList(this.components);
             this.iconList_DT42 = new System.Windows.Forms.ImageList(this.components);
-            this.TSSI_ProcSt = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.TSSI_ProcLbl = new System.Windows.Forms.ToolStripStatusLabel();
+            this.TSSI_ProcSt = new System.Windows.Forms.ToolStripProgressBar();
             this.TSSI_ProcStBar = new System.Windows.Forms.StatusStrip();
             this.TSSI_Sp1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.TSSI_MemSt = new System.Windows.Forms.ToolStripStatusLabel();
-            this.TSSI_MemStBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.TSSI_MemLbl = new System.Windows.Forms.ToolStripStatusLabel();
+            this.TSSI_MemSt = new System.Windows.Forms.ToolStripProgressBar();
             this.matCkB1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.matCkB2 = new MaterialSkin.Controls.MaterialCheckbox();
             this.mnStrip.SuspendLayout();
@@ -1242,27 +1242,27 @@
             this.iconList_DT42.Images.SetKeyName(1, "icon_environment_property_W.ico");
             this.iconList_DT42.Images.SetKeyName(2, "icon_vehicle_property_W.ico");
             // 
+            // TSSI_ProcLbl
+            // 
+            this.TSSI_ProcLbl.Image = global::LifeSupportCalculator.Properties.Resources.icon_processor_LT;
+            this.TSSI_ProcLbl.Name = "TSSI_ProcLbl";
+            resources.ApplyResources(this.TSSI_ProcLbl, "TSSI_ProcLbl");
+            // 
             // TSSI_ProcSt
             // 
-            this.TSSI_ProcSt.Image = global::LifeSupportCalculator.Properties.Resources.icon_processor_LT;
             this.TSSI_ProcSt.Name = "TSSI_ProcSt";
             resources.ApplyResources(this.TSSI_ProcSt, "TSSI_ProcSt");
-            // 
-            // toolStripProgressBar1
-            // 
-            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            resources.ApplyResources(this.toolStripProgressBar1, "toolStripProgressBar1");
             // 
             // TSSI_ProcStBar
             // 
             resources.ApplyResources(this.TSSI_ProcStBar, "TSSI_ProcStBar");
             this.TSSI_ProcStBar.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.TSSI_ProcStBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TSSI_ProcLbl,
             this.TSSI_ProcSt,
-            this.toolStripProgressBar1,
             this.TSSI_Sp1,
-            this.TSSI_MemSt,
-            this.TSSI_MemStBar});
+            this.TSSI_MemLbl,
+            this.TSSI_MemSt});
             this.TSSI_ProcStBar.Name = "TSSI_ProcStBar";
             this.TSSI_ProcStBar.SizingGrip = false;
             // 
@@ -1271,16 +1271,16 @@
             this.TSSI_Sp1.Name = "TSSI_Sp1";
             resources.ApplyResources(this.TSSI_Sp1, "TSSI_Sp1");
             // 
+            // TSSI_MemLbl
+            // 
+            this.TSSI_MemLbl.Image = global::LifeSupportCalculator.Properties.Resources.icon_memory_LT;
+            this.TSSI_MemLbl.Name = "TSSI_MemLbl";
+            resources.ApplyResources(this.TSSI_MemLbl, "TSSI_MemLbl");
+            // 
             // TSSI_MemSt
             // 
-            this.TSSI_MemSt.Image = global::LifeSupportCalculator.Properties.Resources.icon_memory_LT;
             this.TSSI_MemSt.Name = "TSSI_MemSt";
             resources.ApplyResources(this.TSSI_MemSt, "TSSI_MemSt");
-            // 
-            // TSSI_MemStBar
-            // 
-            this.TSSI_MemStBar.Name = "TSSI_MemStBar";
-            resources.ApplyResources(this.TSSI_MemStBar, "TSSI_MemStBar");
             // 
             // matCkB1
             // 
@@ -1414,12 +1414,12 @@
         private System.Windows.Forms.Label iconLbl10;
         private System.Windows.Forms.ImageList iconList_LT42;
         private System.Windows.Forms.ImageList iconList_DT42;
-        private System.Windows.Forms.ToolStripStatusLabel TSSI_ProcSt;
-        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.Windows.Forms.ToolStripStatusLabel TSSI_ProcLbl;
+        private System.Windows.Forms.ToolStripProgressBar TSSI_ProcSt;
         private System.Windows.Forms.StatusStrip TSSI_ProcStBar;
         private System.Windows.Forms.ToolStripStatusLabel TSSI_Sp1;
-        private System.Windows.Forms.ToolStripStatusLabel TSSI_MemSt;
-        private System.Windows.Forms.ToolStripProgressBar TSSI_MemStBar;
+        private System.Windows.Forms.ToolStripStatusLabel TSSI_MemLbl;
+        private System.Windows.Forms.ToolStripProgressBar TSSI_MemSt;
         private System.Windows.Forms.Label iconLblH1;
         private MaterialSkin.Controls.MaterialTextBox2 matTB11;
         private System.Windows.Forms.Label iconLblH3;
