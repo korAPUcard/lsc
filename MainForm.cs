@@ -70,8 +70,8 @@ namespace LifeSupportCalculator
 
         private void IconTheme_Light()
         {
-            TSSI_ProcLbl.Image = Properties.Resources.icon_processor_LT;
-            TSSI_MemLbl.Image = Properties.Resources.icon_memory_LT;
+            TSSI_ProcSt.Image = Properties.Resources.icon_processor_LT;
+            TSSI_MemSt.Image = Properties.Resources.icon_memory_LT;
 
             iconLbl1.ImageList = iconList_LT24;
             iconLbl2.ImageList = iconList_LT24;
@@ -92,8 +92,8 @@ namespace LifeSupportCalculator
 
         private void IconTheme_Dark()
         {
-            TSSI_ProcLbl.Image = Properties.Resources.icon_processor_DT;
-            TSSI_MemLbl.Image = Properties.Resources.icon_memory_DT;
+            TSSI_ProcSt.Image = Properties.Resources.icon_processor_DT;
+            TSSI_MemSt.Image = Properties.Resources.icon_memory_DT;
 
             iconLbl1.ImageList = iconList_DT24;
             iconLbl2.ImageList = iconList_DT24;
