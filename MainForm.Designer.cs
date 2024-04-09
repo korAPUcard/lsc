@@ -108,10 +108,16 @@
             this.iconLblH3 = new System.Windows.Forms.Label();
             this.matCB2 = new MaterialSkin.Controls.MaterialComboBox();
             this.matCB3 = new MaterialSkin.Controls.MaterialComboBox();
+            this.splC2 = new System.Windows.Forms.SplitContainer();
+            this.matTB12 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.matTB13 = new MaterialSkin.Controls.MaterialTextBox2();
             this.matCB4 = new MaterialSkin.Controls.MaterialComboBox();
+            this.splC3 = new System.Windows.Forms.SplitContainer();
+            this.matTB14 = new MaterialSkin.Controls.MaterialTextBox2();
             this.matEP2 = new MaterialSkin.Controls.MaterialExpansionPanel();
             this.tblLayout4A = new System.Windows.Forms.TableLayoutPanel();
             this.iconLblH4 = new System.Windows.Forms.Label();
+            this.matCB6 = new MaterialSkin.Controls.MaterialComboBox();
             this.lbl1 = new System.Windows.Forms.Label();
             this.splC1 = new System.Windows.Forms.SplitContainer();
             this.tabP2 = new System.Windows.Forms.TabPage();
@@ -124,12 +130,8 @@
             this.TSSI_Sp1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.TSSI_MemSt = new System.Windows.Forms.ToolStripStatusLabel();
             this.TSSI_MemStBar = new System.Windows.Forms.ToolStripProgressBar();
-            this.matCB6 = new MaterialSkin.Controls.MaterialComboBox();
             this.matCkB1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.matCkB2 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.splC2 = new System.Windows.Forms.SplitContainer();
-            this.matTB12 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.matTB13 = new MaterialSkin.Controls.MaterialTextBox2();
             this.mnStrip.SuspendLayout();
             this.matTabC.SuspendLayout();
             this.tabP1.SuspendLayout();
@@ -143,15 +145,18 @@
             this.tblLayout2A.SuspendLayout();
             this.matEP1.SuspendLayout();
             this.tblLayout3A.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splC2)).BeginInit();
+            this.splC2.Panel1.SuspendLayout();
+            this.splC2.Panel2.SuspendLayout();
+            this.splC2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splC3)).BeginInit();
+            this.splC3.Panel1.SuspendLayout();
+            this.splC3.SuspendLayout();
             this.matEP2.SuspendLayout();
             this.tblLayout4A.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splC1)).BeginInit();
             this.splC1.SuspendLayout();
             this.TSSI_ProcStBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splC2)).BeginInit();
-            this.splC2.Panel1.SuspendLayout();
-            this.splC2.Panel2.SuspendLayout();
-            this.splC2.SuspendLayout();
             this.SuspendLayout();
             // 
             // iconList1
@@ -939,7 +944,6 @@
             // 
             this.matEP1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.matEP1.CancelButtonText = "RESET";
-            this.matEP1.Collapse = true;
             this.matEP1.Controls.Add(this.tblLayout3A);
             this.matEP1.Depth = 0;
             this.matEP1.Description = "";
@@ -958,8 +962,9 @@
             this.tblLayout3A.Controls.Add(this.iconLblH3, 0, 0);
             this.tblLayout3A.Controls.Add(this.matCB2, 1, 0);
             this.tblLayout3A.Controls.Add(this.matCB3, 1, 1);
-            this.tblLayout3A.Controls.Add(this.matCB4, 1, 3);
             this.tblLayout3A.Controls.Add(this.splC2, 1, 2);
+            this.tblLayout3A.Controls.Add(this.matCB4, 1, 4);
+            this.tblLayout3A.Controls.Add(this.splC3, 1, 3);
             this.tblLayout3A.Name = "tblLayout3A";
             // 
             // iconLblH3
@@ -1027,16 +1032,73 @@
             this.matCB3.Name = "matCB3";
             this.matCB3.StartIndex = 3;
             // 
+            // splC2
+            // 
+            resources.ApplyResources(this.splC2, "splC2");
+            this.splC2.Name = "splC2";
+            // 
+            // splC2.Panel1
+            // 
+            this.splC2.Panel1.Controls.Add(this.matTB12);
+            // 
+            // splC2.Panel2
+            // 
+            this.splC2.Panel2.Controls.Add(this.matTB13);
+            // 
+            // matTB12
+            // 
+            this.matTB12.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB12, "matTB12");
+            this.matTB12.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB12.Depth = 0;
+            this.matTB12.HideSelection = true;
+            this.matTB12.LeadingIcon = null;
+            this.matTB12.MaxLength = 32767;
+            this.matTB12.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB12.Name = "matTB12";
+            this.matTB12.PasswordChar = '\0';
+            this.matTB12.ReadOnly = false;
+            this.matTB12.SelectedText = "";
+            this.matTB12.SelectionLength = 0;
+            this.matTB12.SelectionStart = 0;
+            this.matTB12.ShortcutsEnabled = true;
+            this.matTB12.TabStop = false;
+            this.matTB12.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB12.TrailingIcon = null;
+            this.matTB12.UseSystemPasswordChar = false;
+            // 
+            // matTB13
+            // 
+            this.matTB13.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB13, "matTB13");
+            this.matTB13.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB13.Depth = 0;
+            this.matTB13.HideSelection = true;
+            this.matTB13.LeadingIcon = null;
+            this.matTB13.MaxLength = 32767;
+            this.matTB13.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB13.Name = "matTB13";
+            this.matTB13.PasswordChar = '\0';
+            this.matTB13.ReadOnly = false;
+            this.matTB13.SelectedText = "";
+            this.matTB13.SelectionLength = 0;
+            this.matTB13.SelectionStart = 0;
+            this.matTB13.ShortcutsEnabled = true;
+            this.matTB13.TabStop = false;
+            this.matTB13.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB13.TrailingIcon = null;
+            this.matTB13.UseSystemPasswordChar = false;
+            // 
             // matCB4
             // 
             this.matCB4.AutoResize = false;
             this.matCB4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.matCB4.Depth = 0;
-            resources.ApplyResources(this.matCB4, "matCB4");
             this.matCB4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.matCB4.DropDownHeight = 174;
             this.matCB4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.matCB4.DropDownWidth = 121;
+            resources.ApplyResources(this.matCB4, "matCB4");
             this.matCB4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.matCB4.FormattingEnabled = true;
             this.matCB4.Items.AddRange(new object[] {
@@ -1049,6 +1111,37 @@
             this.matCB4.MouseState = MaterialSkin.MouseState.OUT;
             this.matCB4.Name = "matCB4";
             this.matCB4.StartIndex = 2;
+            // 
+            // splC3
+            // 
+            resources.ApplyResources(this.splC3, "splC3");
+            this.splC3.Name = "splC3";
+            // 
+            // splC3.Panel1
+            // 
+            this.splC3.Panel1.Controls.Add(this.matTB14);
+            // 
+            // matTB14
+            // 
+            this.matTB14.AnimateReadOnly = false;
+            resources.ApplyResources(this.matTB14, "matTB14");
+            this.matTB14.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.matTB14.Depth = 0;
+            this.matTB14.HideSelection = true;
+            this.matTB14.LeadingIcon = null;
+            this.matTB14.MaxLength = 32767;
+            this.matTB14.MouseState = MaterialSkin.MouseState.OUT;
+            this.matTB14.Name = "matTB14";
+            this.matTB14.PasswordChar = '\0';
+            this.matTB14.ReadOnly = false;
+            this.matTB14.SelectedText = "";
+            this.matTB14.SelectionLength = 0;
+            this.matTB14.SelectionStart = 0;
+            this.matTB14.ShortcutsEnabled = true;
+            this.matTB14.TabStop = false;
+            this.matTB14.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.matTB14.TrailingIcon = null;
+            this.matTB14.UseSystemPasswordChar = false;
             // 
             // matEP2
             // 
@@ -1079,6 +1172,22 @@
             resources.ApplyResources(this.iconLblH4, "iconLblH4");
             this.iconLblH4.ImageList = this.iconList_LT42;
             this.iconLblH4.Name = "iconLblH4";
+            // 
+            // matCB6
+            // 
+            this.matCB6.AutoResize = false;
+            this.matCB6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.matCB6.Depth = 0;
+            this.matCB6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.matCB6.DropDownHeight = 174;
+            this.matCB6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.matCB6.DropDownWidth = 121;
+            resources.ApplyResources(this.matCB6, "matCB6");
+            this.matCB6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.matCB6.FormattingEnabled = true;
+            this.matCB6.MouseState = MaterialSkin.MouseState.OUT;
+            this.matCB6.Name = "matCB6";
+            this.matCB6.StartIndex = 0;
             // 
             // lbl1
             // 
@@ -1173,22 +1282,6 @@
             this.TSSI_MemStBar.Name = "TSSI_MemStBar";
             resources.ApplyResources(this.TSSI_MemStBar, "TSSI_MemStBar");
             // 
-            // matCB6
-            // 
-            this.matCB6.AutoResize = false;
-            this.matCB6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.matCB6.Depth = 0;
-            this.matCB6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.matCB6.DropDownHeight = 174;
-            this.matCB6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.matCB6.DropDownWidth = 121;
-            resources.ApplyResources(this.matCB6, "matCB6");
-            this.matCB6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.matCB6.FormattingEnabled = true;
-            this.matCB6.MouseState = MaterialSkin.MouseState.OUT;
-            this.matCB6.Name = "matCB6";
-            this.matCB6.StartIndex = 0;
-            // 
             // matCkB1
             // 
             this.matCkB1.Checked = true;
@@ -1212,63 +1305,6 @@
             this.matCkB2.ReadOnly = false;
             this.matCkB2.Ripple = true;
             this.matCkB2.UseVisualStyleBackColor = true;
-            // 
-            // splC2
-            // 
-            resources.ApplyResources(this.splC2, "splC2");
-            this.splC2.Name = "splC2";
-            // 
-            // splC2.Panel1
-            // 
-            this.splC2.Panel1.Controls.Add(this.matTB12);
-            // 
-            // splC2.Panel2
-            // 
-            this.splC2.Panel2.Controls.Add(this.matTB13);
-            // 
-            // matTB12
-            // 
-            this.matTB12.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB12, "matTB12");
-            this.matTB12.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB12.Depth = 0;
-            this.matTB12.HideSelection = true;
-            this.matTB12.LeadingIcon = null;
-            this.matTB12.MaxLength = 32767;
-            this.matTB12.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB12.Name = "matTB12";
-            this.matTB12.PasswordChar = '\0';
-            this.matTB12.ReadOnly = false;
-            this.matTB12.SelectedText = "";
-            this.matTB12.SelectionLength = 0;
-            this.matTB12.SelectionStart = 0;
-            this.matTB12.ShortcutsEnabled = true;
-            this.matTB12.TabStop = false;
-            this.matTB12.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB12.TrailingIcon = null;
-            this.matTB12.UseSystemPasswordChar = false;
-            // 
-            // matTB13
-            // 
-            this.matTB13.AnimateReadOnly = false;
-            resources.ApplyResources(this.matTB13, "matTB13");
-            this.matTB13.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.matTB13.Depth = 0;
-            this.matTB13.HideSelection = true;
-            this.matTB13.LeadingIcon = null;
-            this.matTB13.MaxLength = 32767;
-            this.matTB13.MouseState = MaterialSkin.MouseState.OUT;
-            this.matTB13.Name = "matTB13";
-            this.matTB13.PasswordChar = '\0';
-            this.matTB13.ReadOnly = false;
-            this.matTB13.SelectedText = "";
-            this.matTB13.SelectionLength = 0;
-            this.matTB13.SelectionStart = 0;
-            this.matTB13.ShortcutsEnabled = true;
-            this.matTB13.TabStop = false;
-            this.matTB13.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.matTB13.TrailingIcon = null;
-            this.matTB13.UseSystemPasswordChar = false;
             // 
             // MainForm
             // 
@@ -1303,6 +1339,13 @@
             this.matEP1.PerformLayout();
             this.tblLayout3A.ResumeLayout(false);
             this.tblLayout3A.PerformLayout();
+            this.splC2.Panel1.ResumeLayout(false);
+            this.splC2.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splC2)).EndInit();
+            this.splC2.ResumeLayout(false);
+            this.splC3.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splC3)).EndInit();
+            this.splC3.ResumeLayout(false);
             this.matEP2.ResumeLayout(false);
             this.matEP2.PerformLayout();
             this.tblLayout4A.ResumeLayout(false);
@@ -1311,10 +1354,6 @@
             this.splC1.ResumeLayout(false);
             this.TSSI_ProcStBar.ResumeLayout(false);
             this.TSSI_ProcStBar.PerformLayout();
-            this.splC2.Panel1.ResumeLayout(false);
-            this.splC2.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splC2)).EndInit();
-            this.splC2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1421,6 +1460,8 @@
         private System.Windows.Forms.SplitContainer splC2;
         private MaterialSkin.Controls.MaterialTextBox2 matTB12;
         private MaterialSkin.Controls.MaterialTextBox2 matTB13;
+        private System.Windows.Forms.SplitContainer splC3;
+        private MaterialSkin.Controls.MaterialTextBox2 matTB14;
     }
 }
 
