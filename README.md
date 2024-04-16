@@ -16,3 +16,22 @@ This calculator also includes some system monitoring functions such as performan
 | Windows 7 | x32, x64 | No | Canceled |
 | Windows 10 | x32, x64 | Yes | Will be support |
 | Windows 11 | x64 | Yes | Currently build environment |
+
+-----
+
+# Features
+
+- You can calculates values of life support supplies consumption, production, recycling and more.
+- You can apply this for real space program.
+- You can apply this for just playing Kerbal Space Program or other game seems like this game.
+- See how much system resources using when you are calculates anything you want.
+- Google-style, highly visible material theme UI design is provided.
+- And more...!
+
+-----
+
+# Release Date
+
+Soon™. Not a soon.
+
+To be announced if is possible.
